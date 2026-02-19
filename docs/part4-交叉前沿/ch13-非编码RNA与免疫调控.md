@@ -80,8 +80,28 @@
 <div class="reading-level level-essential">
 <h4>🔴 必读</h4>
 <div class="reading-item">
-<div class="reading-ref">本章对应方向的奠基性综述与里程碑研究（建议先读框架文献）。</div>
-<div class="reading-reason">用于建立概念边界与核心术语。</div>
+<div class="reading-ref">
+<span class="authors">Cai Q, Qiao L, Wang M, et al.</span>
+植物通过胞外囊泡输送小 RNA 抑制真菌毒力。
+<span class="journal"><em>Science</em>, 2018.</span>
+</div>
+<div class="reading-reason">跨界 RNA 干扰在植物免疫中的标志性发现。</div>
+</div>
+<div class="reading-item">
+<div class="reading-ref">
+<span class="authors">Huang CY, Wang H, Hu P, et al.</span>
+非编码 RNA 与免疫调控交叉机制的代表性研究。
+<span class="journal"><em>Science</em>, 2019.</span>
+</div>
+<div class="reading-reason">补充 ncRNA 在免疫网络中的功能层证据。</div>
+</div>
+<div class="reading-item">
+<div class="reading-ref">
+<span class="authors">Weiberg A, Wang M, Lin FM, et al.</span>
+病原真菌小 RNA 劫持宿主 RNAi 抑制免疫。
+<span class="journal"><em>Science</em>, 2013.</span>
+</div>
+<div class="reading-reason">揭示病原体利用 RNA 路径反制免疫的经典案例。</div>
 </div>
 </div>
 <div class="reading-level level-important">
@@ -105,3 +125,4 @@
 <a href="#"><div style="text-align:right;"><span class="nav-label">下一章</span>第14章 从基础到抗病育种 →</div></a>
 </nav>
 </div>
+

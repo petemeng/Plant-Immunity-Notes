@@ -80,8 +80,28 @@
 <div class="reading-level level-essential">
 <h4>🔴 必读</h4>
 <div class="reading-item">
-<div class="reading-ref">本章对应方向的奠基性综述与里程碑研究（建议先读框架文献）。</div>
-<div class="reading-reason">用于建立概念边界与核心术语。</div>
+<div class="reading-ref">
+<span class="authors">Wang J, Hu M, Wang J, et al.</span>
+首次重构并解析植物 NLR 抗病小体结构。
+<span class="journal"><em>Science</em>, 2019.</span>
+</div>
+<div class="reading-reason">确立 resistosome 概念，是本章最核心必读。</div>
+</div>
+<div class="reading-item">
+<div class="reading-ref">
+<span class="authors">Wang J, Wang J, Hu M, et al.</span>
+阐明配体触发 ADP 释放与 NLR 激活的别构机制。
+<span class="journal"><em>Science</em>, 2019.</span>
+</div>
+<div class="reading-reason">补全 NLR 从静息到激活的分子逻辑链。</div>
+</div>
+<div class="reading-item">
+<div class="reading-ref">
+<span class="authors">Horsefield S, Burdett H, Zhang X, et al.</span>
+发现植物/动物 TIR 结构域的 NADase 活性。
+<span class="journal"><em>Science</em>, 2019.</span>
+</div>
+<div class="reading-reason">是理解 TNL 下游信号转导的关键转折点。</div>
 </div>
 </div>
 <div class="reading-level level-important">
@@ -105,3 +125,4 @@
 <a href="#"><div style="text-align:right;"><span class="nav-label">下一章</span>第5章 激素信号网络 →</div></a>
 </nav>
 </div>
+

@@ -80,8 +80,28 @@
 <div class="reading-level level-essential">
 <h4>🔴 必读</h4>
 <div class="reading-item">
-<div class="reading-ref">本章对应方向的奠基性综述与里程碑研究（建议先读框架文献）。</div>
-<div class="reading-reason">用于建立概念边界与核心术语。</div>
+<div class="reading-ref">
+<span class="authors">Ngou BPM, Ahn HK, Ding P, Jones JDG.</span>
+证明细胞表面受体与胞内受体免疫存在互相增强。
+<span class="journal"><em>Nature</em>, 2021.</span>
+</div>
+<div class="reading-reason">是 PTI/ETI 从“分离”走向“协同”的关键证据。</div>
+</div>
+<div class="reading-item">
+<div class="reading-ref">
+<span class="authors">Yuan M, Jiang Z, Bi G, et al.</span>
+证明 PRR 信号对 NLR 介导免疫输出是必需条件之一。
+<span class="journal"><em>Science</em>, 2021.</span>
+</div>
+<div class="reading-reason">直接支撑“PTI 是 ETI 有效输出底盘”的新共识。</div>
+</div>
+<div class="reading-item">
+<div class="reading-ref">
+<span class="authors">Tsuda K, Katagiri F.</span>
+系统比较 PTI 与 ETI 的信号机制异同。
+<span class="journal"><em>Curr Opin Plant Biol</em>, 2010.</span>
+</div>
+<div class="reading-reason">适合建立“共同模块 + 特异模块”的分析框架。</div>
 </div>
 </div>
 <div class="reading-level level-important">
@@ -105,3 +125,4 @@
 <a href="#"><div style="text-align:right;"><span class="nav-label">下一章</span>第3章 受体与信号转导 →</div></a>
 </nav>
 </div>
+

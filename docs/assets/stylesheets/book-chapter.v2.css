@@ -566,3 +566,16 @@
   margin-top: 0.4rem;
   padding: 0.5rem 0 0;
 }
+
+/* Ensure chapter navigation sidebars remain visible on desktop widths */
+@media screen and (min-width: 60em) {
+  .md-sidebar--primary {
+    display: block !important;
+  }
+}
+
+@media screen and (min-width: 76.25em) {
+  .md-sidebar--secondary {
+    display: block !important;
+  }
+}

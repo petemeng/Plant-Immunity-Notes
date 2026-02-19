@@ -556,24 +556,22 @@
 }
 
 /* Force single-column reading flow like the standalone HTML sample */
-@media screen and (min-width: 76.25em) {
-  .md-sidebar--primary,
-  .md-sidebar--secondary {
-    display: none !important;
-  }
+.md-sidebar--primary,
+.md-sidebar--secondary {
+  display: none !important;
+}
 
-  .md-main__inner {
-    max-width: 100%;
-    margin: 0;
-  }
+.md-main__inner {
+  max-width: 100%;
+  margin: 0;
+}
 
-  .md-content {
-    margin: 0;
-  }
+.md-content {
+  margin: 0;
+}
 
-  .md-content__inner {
-    margin: 0;
-  }
+.md-content__inner {
+  margin: 0;
 }
 
 /* Keep reading entries stacked vertically to avoid unintended two-column feel */

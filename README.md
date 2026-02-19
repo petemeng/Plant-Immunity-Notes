@@ -16,7 +16,7 @@
 先安装依赖：
 
 ```powershell
-pip install mkdocs mkdocs-material
+pip install "mkdocs<2" "mkdocs-material>=9,<10"
 ```
 
 启动预览：

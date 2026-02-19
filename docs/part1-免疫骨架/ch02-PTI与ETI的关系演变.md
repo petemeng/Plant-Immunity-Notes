@@ -1,127 +1,168 @@
-﻿# ch02 PTI与ETI的关系演变
+﻿<div class="page-wrapper" markdown="1">
 
-## 1. 引言（这个领域在回答什么核心科学问题？）
+<div class="breadcrumb">
+  <a href="#">首页</a><span>›</span>
+  <a href="#">第一部分 · 免疫骨架</a><span>›</span>
+  第2章
+</div>
 
-这一章回答的是一个直接决定研究设计的问题：  
-**PTI 与 ETI 到底是两套并联系统，还是一张耦合网络的不同入口？**
+<header class="chapter-header">
+  <div class="chapter-header-inner">
+    <div class="chapter-number">02</div>
+    <div class="chapter-part">第一部分 · 免疫骨架</div>
+    <h1 class="chapter-title">PTI 与 ETI 的关系演变</h1>
+    <p class="chapter-subtitle">从“分层并列”到“互相增强”：关系模型的核心转折</p>
+  </div>
+</header>
 
-这个问题的重要性在于：
+<nav class="chapter-toc" markdown="1">
+### 本章目录
 
-- 它决定你如何解释“某个基因敲除后抗性下降”
-- 它决定你做实验时是否要同时控制 PRR 与 NLR 背景
-- 它决定你在作物改良中是“堆单点”还是“搭网络”
+1. 引言
+2. 认知演变
+3. 核心机制
+4. 里程碑研究思路拆解
+5. 当前争论与未解问题
+6. 关键实验方法
+7. 推荐阅读
+</nav>
 
-## 2. 认知演变（过去怎么认为 -> 关键突破 -> 现在怎么理解）
+## <span class="section-num">2.1</span>引言
 
-### 阶段 A：分层模型（非常有效，但偏静态）
+本章聚焦一个直接影响实验设计的问题：PTI 与 ETI 是两套独立通路，还是一张网络中的不同触发入口。
 
-- PTI：表面识别，广谱基础防线
-- ETI：胞内识别，强烈防御反应
+## <span class="section-num">2.2</span>认知演变
 
-这个模型在教学和问题拆分上非常有价值，但容易造成误读：
-“PTI 与 ETI 只在先后顺序上有关，机制上彼此独立”。
+早期二层模型在教学上极其成功，但“彼此独立”被后续数据不断修正。2021 年两篇里程碑论文把关系模型推进到“mutual potentiation”。
 
-### 阶段 B：共享节点被逐步看见
+<div class="box box-cognition" markdown="1">
+<div class="box-title">认知修正</div>
 
-随着 BAK1、BIK1、RBOHD、MAPK、转录重编程等研究推进，领域开始意识到：
+过去常把本章主题理解为单路径、线性过程；当前共识是多节点耦合网络，需要以因果链和边界条件共同定义机制。
+</div>
 
-- PTI 与 ETI 并不是各自拥有完全独立的下游执行模块
-- 两者存在大量共享的信号放大器
+## <span class="section-num">2.3</span>核心机制
 
-### 阶段 C：关系重塑（2021）
+关系演变的关键不是术语变化，而是对因果结构的重写：谁为谁提供放大背景，谁决定响应阈值。
 
-Ngou 与 Yuan 两项研究提出了更强证据：
+<ol class="mechanism-steps">
+      <li><strong>入口分离</strong>：PTI 由表面受体触发，ETI 由胞内受体触发。</li>
+      <li><strong>中层共享</strong>：BAK1/BIK1-RBOHD-MAPK 等模块被两条入口共同调用。</li>
+      <li><strong>互相增强</strong>：ETI 增强 PTI 组件积累，PTI 提升 ETI 输出效率。</li>
+      <li><strong>功能闭环</strong>：协同触发在病原限制上显著优于单一路径激活。</li>
+</ol>
 
-- PTI 增强 ETI 输出
-- ETI 反过来增强 PTI 相关组件与响应
+## <span class="section-num">2.4</span>里程碑研究思路拆解
 
-主流理解由“并列分层”转向“互相增强网络”。
+<div class="box box-experiment" markdown="1">
+<div class="box-title">思路拆解</div>
 
-## 3. 核心机制（分子层面的详细解析）
+<strong>代表工作：</strong>Ngou et al. / Yuan et al. (2021, Nature)
 
-### 3.1 触发入口不同
+<strong>面对的问题：</strong>如何证明 PTI 与 ETI 不是“线性叠加”，而是互相依赖。
 
-- PTI 入口：PRR 感知胞外保守模式
-- ETI 入口：NLR 感知效应子或其作用后果
+<strong>关键思路：</strong>通过可控触发体系做“解耦-重组-因果验证”。
 
-### 3.2 中间层共享
+<strong>关键证据链：</strong>在关键遗传背景中，一条通路缺失会显著削弱另一条通路的有效输出。
 
-两者都可进入以下共享模块：
+<strong>影响：</strong>研究设计从“单通路叙事”转向“网络协同验证”。
+</div>
 
-- 受体与激酶网络（如 BAK1/BIK1 相关轴）
-- ROS 生成系统（RBOHD 为关键节点）
-- MAPK 级联和防御基因表达
+## <span class="section-num">2.5</span>当前争论与未解问题
 
-### 3.3 输出层互相放大
+<ul class="questions-list">
+  <li>协同关系在真菌/卵菌体系中是否同样稳健？</li>
+  <li>是否存在真正可独立完成免疫输出的极端模块？</li>
+  <li>协同增强与生长代价如何定量解耦？</li>
+</ul>
 
-- ETI 常提升 PTI 组件积累或反应幅度
-- PTI 常为 ETI 提供更高效的执行背景
+## <span class="section-num">2.6</span>关键实验方法
 
-可以把它理解为：
-`不同报警器 -> 同一套应急系统 -> 相互增益的响应强度`。
+<table>
+  <thead>
+    <tr>
+      <th>实验方法</th>
+      <th>用途</th>
+      <th>经典文献</th>
+    </tr>
+  </thead>
+  <tbody>
+      <tr>
+        <td>四组对照设计（PTI/ETI/共触发/mock）</td>
+        <td>区分协同与线性叠加</td>
+        <td class="ref">Ngou et al., 2021, Nature</td>
+      </tr>
+      <tr>
+        <td>关键背景突变体复测</td>
+        <td>验证通路依赖性</td>
+        <td class="ref">Yuan et al., 2021, Nature</td>
+      </tr>
+      <tr>
+        <td>时间序列读数</td>
+        <td>比较早期与晚期协同窗口</td>
+        <td class="ref">标准免疫实验体系</td>
+      </tr>
+      <tr>
+        <td>病原挑战终点</td>
+        <td>把分子协同落到抗性结果</td>
+        <td class="ref">标准病理表型</td>
+      </tr>
+  </tbody>
+</table>
 
-## 4. 里程碑研究（思路拆解：作者怎么想到的？逻辑链怎么搭的？）
+<div class="reading-section">
+  <h2><span class="section-num">2.7</span>推荐阅读</h2>
 
-### 里程碑 1：概念提出（2006）
+  <div class="reading-level level-essential">
+    <h4>🔴 必读</h4>
+      <div class="reading-item">
+        <div class="reading-ref">N</div>
+        <div class="reading-reason">g</div>
+      </div>
+      <div class="reading-item">
+        <div class="reading-ref">提</div>
+        <div class="reading-reason">出</div>
+      </div>
+  </div>
 
-- 研究策略：先把海量分散现象纳入“二层逻辑”
-- 贡献：提供了后续可检验的框架，而不是终点答案
+  <div class="reading-level level-important">
+    <h4>🟡 重要</h4>
+      <div class="reading-item">
+        <div class="reading-ref">Y</div>
+        <div class="reading-reason">u</div>
+      </div>
+      <div class="reading-item">
+        <div class="reading-ref">证</div>
+        <div class="reading-reason">明</div>
+      </div>
+  </div>
 
-### 里程碑 2：关系重测（2021）
+  <div class="reading-level level-extended">
+    <h4>🟢 拓展</h4>
+      <div class="reading-item">
+        <div class="reading-ref">P</div>
+        <div class="reading-reason">r</div>
+      </div>
+      <div class="reading-item">
+        <div class="reading-ref">补</div>
+        <div class="reading-reason">充</div>
+      </div>
+  </div>
+</div>
 
-两篇 Nature 的方法学启示很关键：
+<nav class="chapter-nav">
+  <a href="#">
+    <div>
+      <span class="nav-label">上一章</span>
+      ← 第1章 植物免疫全景
+    </div>
+  </a>
+  <a href="#">
+    <div style="text-align:right;">
+      <span class="nav-label">下一章</span>
+      第3章 受体与信号转导 →
+    </div>
+  </a>
+</nav>
 
-1. **先解耦**：把 PTI 和 ETI 尽可能拆开，避免“看见的都是混合效应”
-2. **再重组**：在可控背景中组合触发，比较单触发与共触发输出
-3. **做因果验证**：在 PRR 或 ETI 关键遗传背景中验证依赖性
-
-这套“解耦 -> 重组 -> 因果检验”的策略，本身就是可迁移的研究思路。
-
-## 5. 当前争论与未解问题
-
-1. 互相增强是否是所有病原体系的统一规律？
-
-- 目前高质量证据集中在特定模式体系
-- 跨物种与田间环境下的一致性仍需大量数据
-
-2. “共享节点”到底是少数核心瓶颈，还是大规模分布式网络？
-
-- 如果是少数瓶颈，干预更容易
-- 如果是分布式网络，单点改造效应可能有限
-
-3. 如何把分子层协同转化为稳定农艺收益？
-
-- 强免疫往往伴随生长代价
-- 关键在于找到“条件触发、代价可控”的设计
-
-## 6. 关键实验方法 Box（研究这个方向的标准证据链）
-
-!!! tip "如何证明 PTI-ETI 协同，而不是简单叠加"
-    1. **设置四组比较**：PTI only、ETI only、PTI+ETI、mock。  
-    2. **做时间维度**：至少包含早期（分钟级）和中后期（小时级）读数。  
-    3. **做遗传约束**：在 PRR 缺失或 NLR 缺失背景重复关键读数。  
-    4. **落到功能终点**：病原增殖、病斑、宿主损伤要与分子读数一致。  
-    5. **报告边界条件**：病原类型、接种方式、温度、发育阶段。
-
-推荐读数组合：
-
-- 早期：ROS burst、MAPK 磷酸化
-- 中期：marker genes、蛋白积累
-- 终点：细菌生长曲线/病斑表型
-
-## 7. 思考题 & 延伸阅读
-
-### 思考题
-
-1. 为什么“把通路拆开研究”既必要又可能导致误解？
-2. 你如何设计一个实验区分“协同增强”与“线性叠加”？
-3. 在你的系统中，哪个节点最可能是 PTI/ETI 的桥接位点？
-
-### 延伸阅读（关系演变主线）
-
-- Jones JDG, Dangl JL. 2006. *Nature*. DOI: https://doi.org/10.1038/nature05286
-- Zhou JM, Zhang Y. 2020. *Cell*. DOI: https://doi.org/10.1016/j.cell.2020.04.028
-- Ngou BPM et al. 2021. *Nature*. DOI: https://doi.org/10.1038/s41586-021-03315-7
-- Yuan M et al. 2021. *Nature*. DOI: https://doi.org/10.1038/s41586-021-03316-6
-
-更多必读文献见：`part6-推荐阅读/ch16-经典必读文献.md`。
+</div>

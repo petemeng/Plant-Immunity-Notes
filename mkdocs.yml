@@ -1,0 +1,55 @@
+site_name: Plant Immunity Book
+site_description: 植物免疫学习与成书系统
+site_author: Peter
+site_url: https://petemeng.github.io/Plant-Immunity-Notes/
+repo_url: https://github.com/petemeng/Plant-Immunity-Notes
+repo_name: petemeng/Plant-Immunity-Notes
+
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+    - search.highlight
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - footnotes
+  - tables
+  - toc:
+      permalink: true
+
+nav:
+  - 前言: index.md
+  - Part 1 免疫骨架:
+      - ch01 植物免疫全景: part1-免疫骨架/ch01-植物免疫全景.md
+      - ch02 PTI与ETI的关系演变: part1-免疫骨架/ch02-PTI与ETI的关系演变.md
+  - Part 2 分子机制:
+      - ch03 受体与信号转导: part2-分子机制/ch03-受体与信号转导.md
+      - ch04 NLR与抗病小体: part2-分子机制/ch04-NLR与抗病小体.md
+      - ch05 激素信号网络: part2-分子机制/ch05-激素信号网络.md
+      - ch06 免疫的进化: part2-分子机制/ch06-免疫的进化.md
+  - Part 3 攻防博弈:
+      - ch07 效应子的攻击策略: part3-攻防博弈/ch07-效应子的攻击策略.md
+      - ch08 植物的识别智慧: part3-攻防博弈/ch08-植物的识别智慧.md
+      - ch09 病原体宿主协同进化: part3-攻防博弈/ch09-病原体宿主协同进化.md
+  - Part 4 交叉前沿:
+      - ch10 植物微生物组与免疫: part4-交叉前沿/ch10-植物微生物组与免疫.md
+      - ch11 免疫与发育的权衡: part4-交叉前沿/ch11-免疫与发育的权衡.md
+      - ch12 环境因子与免疫: part4-交叉前沿/ch12-环境因子与免疫.md
+      - ch13 非编码RNA与免疫调控: part4-交叉前沿/ch13-非编码RNA与免疫调控.md
+  - Part 5 转化与展望:
+      - ch14 从基础到抗病育种: part5-转化与展望/ch14-从基础到抗病育种.md
+      - ch15 未解问题与未来方向: part5-转化与展望/ch15-未解问题与未来方向.md
+  - Appendix:
+      - 关键实验室与学者: appendix/关键实验室与学者.md
+      - 免疫研究标准实验体系: appendix/免疫研究标准实验体系.md
+      - 推荐阅读清单: appendix/推荐阅读清单.md
+      - 术语表: appendix/术语表.md

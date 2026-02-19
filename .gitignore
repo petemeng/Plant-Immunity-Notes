@@ -13,3 +13,6 @@ Thumbs.db
 book/_book/
 book/.quarto/
 book/images/
+
+# MkDocs build output
+site/

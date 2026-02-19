@@ -1,10 +1,14 @@
-name: Deploy Book to GitHub Pages
+name: Deploy
 
 on:
   push:
     branches: ["main", "master"]
     paths:
-      - "book/**"
+      - "docs/**"
+      - "mkdocs.yml"
+      - "CLAUDE.md"
+      - "Templates/**"
+      - "素材库/**"
       - ".github/workflows/deploy.yml"
   workflow_dispatch:
 
@@ -24,13 +28,17 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Quarto
-        uses: quarto-dev/quarto-actions/setup@v2
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
 
-      - name: Render Book
+      - name: Install MkDocs
         run: |
-          cd book
-          quarto render
+          pip install "mkdocs<2" "mkdocs-material>=9,<10"
+
+      - name: Build site
+        run: mkdocs build --strict
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
@@ -38,14 +46,14 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: book/_book
+          path: site
 
   deploy:
-    needs: build
-    runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+    needs: build
+    runs-on: ubuntu-latest
     steps:
       - name: Deploy to GitHub Pages
         id: deployment

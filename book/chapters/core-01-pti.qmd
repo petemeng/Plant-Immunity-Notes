@@ -1,59 +1,140 @@
-﻿---
-title: "第一章 PTI：病原识别后的第一层免疫"
+---
+title: "第一章 PTI：模式触发免疫"
 ---
 
-## 学习目标
+## 1.1 引言
 
-- 本章必须掌握的核心概念：
-- 本章和全书主线的连接点：
+当病原体试图入侵植物时，它们首先需要突破植物表面的物理屏障（如角质层和细胞壁）。成功穿透后，病原体分泌的病原相关分子模式（Pathogen-Associated Molecular Patterns, PAMPs）被植物细胞表面的模式识别受体（Pattern Recognition Receptors, PRRs）识别，从而激活第一层免疫反应——**模式触发免疫**（Pattern-Triggered Immunity, PTI）。
 
-## 核心问题
+PTI 是植物先天免疫的第一道防线，其反应相对温和但广谱，包括 MAPK 级联激活、ROS 爆发、钙离子内流、胼胝质沉积以及防御基因表达等。PTI 足以抵御大多数非适应性病原体的入侵。
 
-1. 
-2. 
-3. 
+## 1.2 认知演变
 
-## 知识主线（先写机制，再写细节）
+### 过去的认知
 
-- 机制起点：
-- 关键中间环节：
-- 机制终点（表型/功能输出）：
+早期研究认为植物免疫是完全被动的，只是依赖物理屏障阻止病原体入侵。
 
-## 研究思路（你看论文时重点思考）
+### 关键转折
 
-- 作者真正要回答的科学问题是什么？
-- 这个问题为什么重要（理论价值/应用价值）？
-- 最关键的判别实验是哪一个？
+2006 年，Jones 和 Dangl 在 *Nature* 杂志发表了里程碑式的综述文章，提出了"Zig-Zag"模型，首次系统阐述了植物两层免疫系统（PTI 和 ETI）的基本框架。这一框架至今仍是理解植物免疫的核心理论。
 
-## 创新切入点（你后续可扩展）
+### 现在的共识
 
-- 目前主流解释的薄弱点：
-- 可以补强的实验设计：
-- 潜在可发表的小课题方向：
+PTI 和 ETI 并非完全独立的两个系统，而是存在密切的协同关系。2021 年发表的多项研究（如 Ngou et al., 2021; Yuan et al., 2021）揭示了 PTI 和 ETI 在信号层面的大量交叉，挑战了传统的"两套独立系统"观点。
 
-## 证据链模板
+## 1.3 PRR 蛋白的分类与结构
 
-- 结论：
-- 证据类型（遗传/生化/结构/组学）：
-- 关键对照：
-- 统计与复现要求：
-- 适用边界：
+植物 PRR 主要分为两类：
 
-## 本章任务清单（填充时勾选）
+| 类型 | 结构特征 | 代表成员 | 功能 |
+|------|----------|----------|------|
+| RLK | 受体样激酶，含跨膜区和细胞内激酶域 | FLS2, EFR, CERK1 | 直接识别 PAMPs |
+| RLP | 受体样蛋白，缺乏细胞内激酶域 | RLP23, RLP30 | 识别后需与共受体互作 |
 
-- [ ] 机制图已完成
-- [ ] 至少整理 5 篇关键文献
-- [ ] 完成 1 张证据链总表
-- [ ] 写出 3 条可验证的开放问题
+### FLS2——细菌鞭毛蛋白受体
 
-## 待补文献
+*FLS2*（FLAGELLIN SENSING 2）是最典型的 PRR，负责识别细菌鞭毛蛋白保守的 22 氨基酸肽段（flg22）。
 
-1. 经典综述：
-2. 近三年前沿论文：
-3. 方法学关键论文：
+::: {.box .box-cognition}
+::: {.box-title}
+◆ 认知修正
+:::
+FLS2 的发现（Chinchilla et al., 2006, *Nature*）首次证明了植物能够通过细胞表面受体识别病原体分子，颠覆了此前"植物缺乏先天免疫受体"的认识。
+:::
 
-## 本章小结（写作完成后填写）
+## 1.4 BAK1——共受体核心
 
-- 一句话结论：
-- 仍未解决的问题：
+BAK1（BRI1-ASSOCIATED RECEPTOR KINASE 1）是多个 PRR 的共同受体，参与配体诱导的受体-共受体复合物形成。
 
+**BAK1 的核心功能：**
+- 与 RLK 类 PRR（如 FLS2、EFR）形成配体诱导的复合物
+- 提供细胞内激酶活性，磷酸化下游信号元件
+- 参与 PRR 的内吞和信号终止
+
+::: {.box .box-experiment}
+::: {.box-title}
+⬡ 思路拆解
+:::
+**面对的问题**：flg22 能够激活 FLS2，但 FLS2 本身缺乏激酶活性，如何传递信号？
+
+**关键思路**：通过免疫共沉淀（Co-IP）筛选 FLS2 的互作蛋白，发现 BAK1 与 FLS2 组成型互作，且 flg22 处理后迅速磷酸化。
+
+**关键证据链**：
+① Co-IP 发现 FLS2-BAK1 互作 →
+② 激酶活性实验证明 flg22 诱导 BAK1 磷酸化 →
+③ bak1 突变体证明对 flg22 响应缺失 =>
+④ 揭示 BAK1 作为共受体的核心功能
+:::
+
+## 1.5 MAPK 级联反应
+
+PTI 激活后，MAPK（Mitogen-Activated Protein Kinase）级联是核心信号转导通路：
+
+**MAPK 级联：**
+```
+MAPKKK → MAPKK → MAPK
+  ↓        ↓       ↓
+MEKK1 → MKK4/5 → MPK3/6
+```
+
+MPK3 和 MPK6 是 PTI 中最重要的 MAPK，负责磷酸化多种下游底物，包括转录因子、ROS 爆发关键酶等。
+
+## 1.6 ROS 爆发
+
+ROS（Reactive Oxygen Species）爆发是 PTI 的标志性早期反应之一。
+
+**核心机制：**
+1. NADPH 氧化酶 RBOHD（RESPIRATORY BURST OXIDASE HOMOLOG D）被磷酸化激活
+2. RBOHD 催化产生超氧阴离子（O₂⁻）
+3. 超氧阴离子自发或经 SOD 转化为过氧化氢（H₂O₂）
+4. H₂O₂ 作为信号分子激活下游防御响应
+
+::: {.box .box-question}
+::: {.box-title}
+? 思考
+:::
+ROS 爆发是 PTI 的核心特征，但在 ETI 中 ROS 爆发更为强烈。两者的 ROS 机制有何异同？
+:::
+
+## 1.7 当前争论与未解问题
+
+- **PTI 和 ETI 的关系**：两者是平行独立还是层级整合？
+- **PRR 信号的时间动态**：信号如何实现精确的时间控制？
+- **PRR 复合物的组织形式**：静态复合物还是动态组装？
+- **PTI 的免疫输出多样性**：不同病原体如何差异化激活 PTI 响应？
+
+## 1.8 关键实验方法
+
+| 实验方法 | 用途 | 经典文献 |
+|----------|------|----------|
+| flg22 诱导实验 | 激活 FLS2 信号通路 | Chinchilla et al., 2006 |
+| Co-IP + 质谱 | 鉴定 PRR 复合物 | Chinchilla et al., 2007 |
+| ROS 爆发检测 | 定量早期免疫反应 | Torres et al., 2002 |
+| MAPK 磷酸化检测 | 追踪信号级联 | Pitzschke et al., 2009 |
+| 胼胝质沉积染色 | 检测细胞壁加固 | Luna et al., 2011 |
+
+## 1.9 推荐阅读
+
+### 🔴 必读
+
+- **Jones & Dangl (2006)**. The plant immune system. *Nature*, 444:323-329.
+  Zig-Zag 模型的奠基性综述，不读此文无法理解植物免疫的基本框架。
+
+- **Chinchilla et al. (2006)**. The Arabidopsis receptor kinase FLS2 binds flg22. *Nature*, 444:199-202.
+  首次证明植物 PRR 直接识别细菌 PAMPs。
+
+### 🟡 重要
+
+- **Zipfel (2014)**. Plant pattern-recognition receptor signaling. *Curr Opin Plant Biol*, 20:1-6.
+  PRR 信号通路的权威综述。
+
+- **Couto & Zipfel (2016)**. Regulation of pattern-recognition receptor signalling. *Nat Rev Immunol*, 16:537-552.
+  PRR 信号调控的系统梳理。
+
+### 🟢 拓展
+
+- **Ngou et al. (2021)**. Mutual potentiation between PTI and ETI. *Nature*, 594:544-549.
+  揭示 PTI 和 ETI 的协同机制。
+
+- **Yuan et al. (2021)**. Calcium influx and immune signaling. *Science*, 374:eabe2540.
+  钙信号在免疫中的核心作用。

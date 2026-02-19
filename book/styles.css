@@ -477,6 +477,52 @@ tbody tr:hover {
   color: var(--color-primary);
 }
 
+/* ===== QUARTO NAVIGATION ===== */
+.sidebar-nav {
+  background: #faf9f6;
+}
+
+.sidebar-menu {
+  padding: 1rem;
+}
+
+.sidebar-section {
+  margin-bottom: 1.5rem;
+}
+
+.sidebar-section-title {
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--color-primary);
+  margin-bottom: 0.5rem;
+  padding: 0 0.5rem;
+}
+
+.sidebar-item {
+  font-family: var(--font-sans);
+  font-size: 0.88rem;
+  color: var(--color-text);
+  padding: 0.4rem 0.5rem;
+  border-radius: 4px;
+  display: block;
+  text-decoration: none;
+}
+
+.sidebar-item:hover {
+  background: var(--color-accent-light);
+  color: var(--color-primary);
+}
+
+.sidebar-item.active {
+  background: var(--color-accent-light);
+  color: var(--color-accent);
+  font-weight: 600;
+  border-left: 3px solid var(--color-accent);
+}
+
 /* ===== QUARTO OVERRIDES ===== */
 #title-block-header {
   display: none;

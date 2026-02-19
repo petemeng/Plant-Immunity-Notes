@@ -1,128 +1,405 @@
 <div class="page-wrapper">
-<div class="breadcrumb">
-<a href="#">首页</a><span>›</span>
-<a href="#">第二部分 · 分子机制</a><span>›</span>
-第4章
-</div>
 
-<header class="chapter-header">
-<div class="chapter-header-inner">
-<div class="chapter-number">04</div>
-<div class="chapter-part">第二部分 · 分子机制</div>
-<h1 class="chapter-title">NLR 与抗病小体</h1>
-<p class="chapter-subtitle">从细胞内受体到钙离子通道：ETI 执行机制的结构突破</p>
-</div>
-</header>
+  <!-- Breadcrumb -->
+  <div class="breadcrumb">
+    <a href="#">首页</a><span>›</span>
+    <a href="#">第二部分 分子机制</a><span>›</span>
+    第四章
+  </div>
 
-<nav class="chapter-toc">
-<h3>本章目录</h3>
-<ol>
-<li>引言</li>
-<li>认知演变</li>
-<li>核心机制</li>
-<li>里程碑研究思路拆解</li>
-<li>当前争论与未解问题</li>
-<li>关键实验方法</li>
-<li>推荐阅读</li>
-</ol>
-</nav>
+  <!-- Chapter Header -->
+  <header class="chapter-header">
+    <div class="chapter-header-inner">
+      <div class="chapter-number">04</div>
+      <div class="chapter-part">第二部分 · 分子机制</div>
+      <h1 class="chapter-title">NLR 与抗病小体</h1>
+      <p class="chapter-subtitle">
+        从细胞内受体到钙离子通道——植物如何用"自杀式攻击"阻止病原体入侵
+      </p>
+    </div>
+  </header>
 
-<h2><span class="section-num">4.1</span>引言</h2>
-<p>本章聚焦“NLR 与抗病小体”这一核心主题，目标是把分散知识组织成可验证、可复用的科学逻辑链。</p>
+  <!-- Chapter TOC -->
+  <nav class="chapter-toc">
+    <h3>本章目录</h3>
+    <ol>
+      <li>引言</li>
+      <li>NLR 蛋白的分类与结构域组织</li>
+      <li>NLR 的激活机制：从自抑制到寡聚化</li>
+      <li>ZAR1 抗病小体——里程碑式的结构突破</li>
+      <li>TNL 的信号转导：NADase 活性与 EDS1 枢纽</li>
+      <li>NLR 网络：sensor 与 helper 的分工协作</li>
+      <li>过敏性坏死反应 (HR) 的分子基础</li>
+      <li>里程碑研究思路拆解</li>
+      <li>当前争论与未解问题</li>
+      <li>关键实验方法</li>
+      <li>推荐阅读</li>
+    </ol>
+  </nav>
 
-<h2><span class="section-num">4.2</span>认知演变</h2>
-<p>这一方向的认知经历了“早期模型 → 关键证据修正 → 当前网络化理解”的连续演化。学习重点不只是记结论，而是理解结论如何被建立与修正。</p>
+  <!-- 4.1 Introduction -->
+  <h2><span class="section-num">4.1</span>引言</h2>
 
-<div class="box box-cognition">
-<div class="box-title">认知修正</div>
-<p>过去常把该主题理解为单路径线性过程；当前共识是多模块耦合系统，必须结合因果证据与边界条件来解释。</p>
-</div>
+  <p>
+    当病原体成功突破植物表面的 <span class="keyword">PTI</span> <span class="english-term">(Pattern-Triggered Immunity)</span> 防线后，它们分泌的效应子 <span class="english-term">(effector)</span> 进入植物细胞内部，试图抑制免疫信号并劫持宿主代谢。面对这一威胁，植物演化出一类细胞内免疫受体——<span class="keyword">NLR 蛋白</span> <span class="english-term">(Nucleotide-binding Leucine-rich Repeat)</span>，它们能够直接或间接识别效应子的活动，并触发强烈的防御响应。
+  </p>
 
-<h2><span class="section-num">4.3</span>核心机制</h2>
-<p>围绕该主题，可用“触发、放大、执行、反馈”四步框架组织主要机制：</p>
-<ol class="mechanism-steps">
-<li><strong>触发识别</strong>：识别事件把外部扰动转为内部信号。</li>
-<li><strong>信号放大</strong>：关键中继节点提升响应强度与速度。</li>
-<li><strong>功能执行</strong>：防御相关分子与表型输出被激活。</li>
-<li><strong>反馈调控</strong>：系统在抗病收益与生长代价间动态平衡。</li>
-</ol>
+  <p>
+    NLR 介导的免疫通常伴随<span class="keyword">过敏性坏死反应</span> <span class="english-term">(Hypersensitive Response, HR)</span>——受感染细胞主动死亡，将病原体封锁在坏死区域内。长期以来，NLR 激活与 HR 执行之间的分子联系一直是植物免疫学的核心谜题。直到 2019 年，ZAR1 <span class="keyword">抗病小体</span> <span class="english-term">(resistosome)</span> 结构的解析，才从原子层面揭示了 NLR 蛋白从信号感知到细胞死亡执行的完整机制——NLR 本身即是执行细胞死亡的钙离子通道。这一发现从根本上改写了对 ETI 信号转导的理解。
+  </p>
 
-<h2><span class="section-num">4.4</span>里程碑研究思路拆解</h2>
-<div class="box box-experiment">
-<div class="box-title">思路拆解</div>
-<p><strong>面对的问题：</strong>如何把现象级观察提升为可验证的机制模型。</p>
-<p><strong>关键思路：</strong>采用“遗传证据 + 生化证据 + 功能终点”三层证据链。</p>
-<p><strong>关键证据链：</strong>通过对照设计与关键背景复测，证明因果关系而非相关关系。</p>
-<p><strong>影响：</strong>该思路成为后续研究与章节写作的标准模板。</p>
-</div>
+  <!-- 4.2 -->
+  <h2><span class="section-num">4.2</span>NLR 蛋白的分类与结构域组织</h2>
 
-<h2><span class="section-num">4.5</span>当前争论与未解问题</h2>
-<ul class="questions-list">
-<li><strong>问题一：</strong>该机制在不同病原和宿主背景下是否普适？</li>
-<li><strong>问题二：</strong>核心节点的定量阈值与调控层级如何定义？</li>
-<li><strong>问题三：</strong>如何把分子机制稳定转化为田间抗病收益？</li>
-</ul>
+  <p>
+    植物 NLR 蛋白属于 STAND 超家族 <span class="english-term">(Signal Transduction ATPases with Numerous Domains)</span>，与动物先天免疫中的 NLR 和 inflammasome 具有进化上的同源性。根据 N 端效应结构域的差异，植物 NLR 分为三大类：
+  </p>
 
-<h2><span class="section-num">4.6</span>关键实验方法</h2>
-<table>
-<thead>
-<tr><th>实验方法</th><th>用途</th><th>经典文献</th></tr>
-</thead>
-<tbody>
-<tr><td>遗传学互补/突变体分析</td><td>建立关键节点的因果关系</td><td class="ref">标准植物免疫遗传学策略</td></tr>
-<tr><td>生化互作与活性检测</td><td>确认分子层连接与状态变化</td><td class="ref">Co-IP / 活性 assay 体系</td></tr>
-<tr><td>病原挑战终点</td><td>验证机制是否转化为真实抗性</td><td class="ref">细菌生长曲线/病斑表型</td></tr>
-</tbody>
-</table>
+  <table>
+    <thead>
+      <tr>
+        <th>类型</th>
+        <th>N 端结构域</th>
+        <th>代表成员</th>
+        <th>功能特征</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>CNL</strong></td>
+        <td>CC <span class="english-term">(Coiled-Coil)</span></td>
+        <td><span class="gene">ZAR1</span>, <span class="gene">RPM1</span>, <span class="gene">Rx</span></td>
+        <td>激活后形成五聚体，CC 结构域直接插膜形成钙离子通道</td>
+      </tr>
+      <tr>
+        <td><strong>TNL</strong></td>
+        <td>TIR <span class="english-term">(Toll/Interleukin-1 Receptor)</span></td>
+        <td><span class="gene">RPP1</span>, <span class="gene">ROQ1</span>, <span class="gene">SNC1</span></td>
+        <td>激活后 TIR 结构域获得 NADase 酶活性，通过 EDS1 传递信号</td>
+      </tr>
+      <tr>
+        <td><strong>RNL</strong></td>
+        <td>RPW8 <span class="english-term">(CC<sub>R</sub>)</span></td>
+        <td><span class="gene">NRG1</span>, <span class="gene">ADR1</span></td>
+        <td>作为 helper NLR，在 TNL 下游执行细胞死亡</td>
+      </tr>
+    </tbody>
+  </table>
 
-<div class="reading-section">
-<h2><span class="section-num">4.7</span>推荐阅读</h2>
-<div class="reading-level level-essential">
-<h4>🔴 必读</h4>
-<div class="reading-item">
-<div class="reading-ref">
-<span class="authors">Wang J, Hu M, Wang J, et al.</span>
-<span class="title"><em>Reconstitution and structure of a plant NLR resistosome conferring immunity.</em></span>
-<span class="journal"><em>Science</em>, 2019.</span>
-</div>
-<div class="reading-reason">resistosome 概念确立。</div>
-</div>
-<div class="reading-item">
-<div class="reading-ref">
-<span class="authors">Wang J, Wang J, Hu M, et al.</span>
-<span class="title"><em>Ligand-triggered allosteric ADP release primes a plant NLR complex.</em></span>
-<span class="journal"><em>Science</em>, 2019.</span>
-</div>
-<div class="reading-reason">NLR 激活关键机制。</div>
-</div>
-<div class="reading-item">
-<div class="reading-ref">
-<span class="authors">Horsefield S, Burdett H, Zhang X, et al.</span>
-<span class="title"><em>NAD+ cleavage activity by animal and plant TIR domains in cell death pathways.</em></span>
-<span class="journal"><em>Science</em>, 2019.</span>
-</div>
-<div class="reading-reason">TIR NADase 关键发现。</div>
-</div>
-</div>
-<div class="reading-level level-important">
-<h4>🟡 重要</h4>
-<div class="reading-item">
-<div class="reading-ref">机制层论文（优先阅读证据链完整、可复现实验设计的工作）。</div>
-<div class="reading-reason">用于掌握“问题-方法-结论”逻辑闭环。</div>
-</div>
-</div>
-<div class="reading-level level-extended">
-<h4>🟢 拓展</h4>
-<div class="reading-item">
-<div class="reading-ref">前沿争议与转化方向论文（持续更新）。</div>
-<div class="reading-reason">用于跟踪未解问题和研究趋势。</div>
-</div>
-</div>
-</div>
+  <p>
+    三类 NLR 均共享保守的中央 <span class="keyword">NB-ARC 结构域</span> <span class="english-term">(Nucleotide-Binding domain shared with Apaf-1, R proteins, and CED-4)</span> 和 C 端 <span class="keyword">LRR 结构域</span> <span class="english-term">(Leucine-Rich Repeat)</span>。NB-ARC 结构域是分子开关的核心：静息状态下结合 ADP，维持蛋白的自抑制构象；激活后 ADP 被交换为 ATP，触发构象变化并驱动寡聚化。
+  </p>
 
-<nav class="chapter-nav">
-<a href="#"><div><span class="nav-label">上一章</span>← 第3章 受体与信号转导</div></a>
-<a href="#"><div style="text-align:right;"><span class="nav-label">下一章</span>第5章 激素信号网络 →</div></a>
-</nav>
-</div>
+  <!-- 4.3 -->
+  <h2><span class="section-num">4.3</span>NLR 的激活机制：从自抑制到寡聚化</h2>
 
+  <p>
+    NLR 在未被激活时以<span class="keyword">自抑制构象</span> <span class="english-term">(autoinhibited conformation)</span> 存在。LRR 结构域折叠回来包裹 NB-ARC 结构域，阻止其核苷酸交换和寡聚化。这种精密的自抑制机制确保 NLR 不会在没有病原体的情况下被意外激活——因为 NLR 的激活通常意味着细胞死亡，误激活将对植物自身造成严重损害。
+  </p>
+
+  <p>
+    当效应子被识别后（无论是直接结合还是通过感知宿主蛋白的修饰），LRR 结构域的构象发生改变，释放对 NB-ARC 的抑制。随后发生以下关键事件：
+  </p>
+
+  <ol class="mechanism-steps">
+    <li>
+      <strong>核苷酸交换</strong>：NB-ARC 结构域释放 ADP，结合 ATP。这是激活的关键分子开关。
+    </li>
+    <li>
+      <strong>构象开放</strong>：ATP 结合诱导 NB-ARC 结构域的大幅构象变化，暴露出此前被掩埋的寡聚化界面。
+    </li>
+    <li>
+      <strong>寡聚化组装</strong>：多个激活态 NLR 单体通过 NB-ARC 结构域的相互作用组装成轮状寡聚体。CNL 通常形成五聚体，TNL 形成四聚体。
+    </li>
+    <li>
+      <strong>N 端效应结构域暴露</strong>：寡聚化将 N 端 CC 或 TIR 结构域聚集在一起，执行下游功能——CNL 的 CC 结构域直接形成膜孔，TNL 的 TIR 结构域获得 NADase 活性。
+    </li>
+  </ol>
+
+  <!-- 4.4 ZAR1 -->
+  <h2><span class="section-num">4.4</span>ZAR1 抗病小体——里程碑式的结构突破</h2>
+
+  <p>
+    2019 年，柴继杰团队与周俭民团队合作，在 <em>Science</em> 杂志连发两篇论文，报道了拟南芥 <span class="gene">ZAR1</span> 蛋白在静息态、中间态和激活态三种构象下的冷冻电镜结构 (Wang <em>et al.</em>, 2019a, b)。这是首个完整的植物 NLR 激活态结构，也标志着<span class="keyword">抗病小体 (resistosome)</span> 概念的正式确立。
+  </p>
+
+  <div class="figure">
+    <div class="figure-placeholder">
+      图 4.1 &nbsp; ZAR1 抗病小体从静息态到激活态的结构转变示意图<br>
+      <span style="font-size:0.8rem;">（此处应插入 ZAR1 三态结构对比图）</span>
+    </div>
+    <p class="figure-caption">
+      <strong>图 4.1 ZAR1 抗病小体的组装过程。</strong>
+      (A) 静息态：ZAR1<sup>LRR</sup>-RKS1 二元复合体，NB-ARC 结合 ADP，蛋白处于自抑制构象。
+      (B) 中间态：效应子 AvrAC 修饰 PBL2 后，PBL2<sup>UMP</sup> 被 RKS1 捕获，触发 ZAR1 的 ADP→ATP 交换。
+      (C) 激活态：五个 ZAR1 单体组装为轮状五聚体，N 端 CC 结构域形成漏斗状结构，插入质膜形成钙离子通道。
+      改编自 Wang <em>et al.</em>, 2019, <em>Science</em>.
+    </p>
+  </div>
+
+  <p>ZAR1 的激活过程清晰地展示了从效应子识别到细胞死亡的完整分子逻辑：</p>
+
+  <ol class="mechanism-steps">
+    <li>
+      <strong>效应子活动的间接感知</strong>：丁香假单胞菌 <span class="english-term">(<em>Pseudomonas syringae</em>)</span> 的 III 型效应子 AvrAC 将 UMP 基团转移到宿主激酶 PBL2 上，干扰其在 PTI 中的信号功能。
+    </li>
+    <li>
+      <strong>诱饵蛋白的捕获</strong>：被修饰的 PBL2<sup>UMP</sup> 被 ZAR1 复合体中的假激酶 RKS1 识别和结合。PBL2 在此充当"诱饵" <span class="english-term">(decoy)</span>，其被效应子修饰本身就是危险信号。
+    </li>
+    <li>
+      <strong>核苷酸交换与寡聚化</strong>：PBL2<sup>UMP</sup> 的结合触发 ZAR1 的 ADP→dATP/ATP 交换，诱导构象开放，五个 ZAR1-RKS1-PBL2<sup>UMP</sup> 三元复合体组装为轮状五聚体。
+    </li>
+    <li>
+      <strong>膜孔形成</strong>：五聚体的 N 端 CC (α1 螺旋) 结构域聚集形成漏斗状结构，插入质膜，形成选择性钙离子通道。
+    </li>
+    <li>
+      <strong>钙内流与细胞死亡</strong>：胞外 Ca²⁺ 大量内流，触发下游 HR 相关的信号通路，最终导致细胞程序性死亡。
+    </li>
+  </ol>
+
+  <div class="box box-cognition">
+    <div class="box-title">认知修正</div>
+    <p>
+      在 ZAR1 抗病小体结构解析之前，领域对 NLR 激活后的信号传递机制存在长期争论。主流假设认为 NLR 激活后通过招募下游信号蛋白（类似动物 NLR 招募 caspase 的模式）间接启动防御。ZAR1 结构的揭示推翻了这一假设，证明<strong>植物 CNL 类 NLR 本身即是效应器 (executor)</strong>——它直接在质膜上打孔，而非通过中间信号分子传递信息。这一概念转变重新定义了植物 ETI 的信号转导范式，并将植物 NLR 与动物免疫中的 gasdermin 成孔蛋白进行了功能类比，揭示了跨界免疫的深层统一性。
+    </p>
+  </div>
+
+  <!-- 4.5 TNL -->
+  <h2><span class="section-num">4.5</span>TNL 的信号转导：NADase 活性与 EDS1 枢纽</h2>
+
+  <p>
+    与 CNL 直接成孔不同，TNL 类 NLR 的激活后信号传递依赖一条截然不同的通路。TNL 激活后组装为四聚体抗病小体，其 TIR 结构域在寡聚化后获得 <span class="keyword">NADase 酶活性</span>，将 NAD⁺ 水解为一系列小分子信号产物。
+  </p>
+
+  <p>
+    这些小分子信号（包括变体环化 ADP-核糖, v-cADPR 等）被脂酶蛋白 <span class="keyword">EDS1</span> <span class="english-term">(Enhanced Disease Susceptibility 1)</span> 感知。EDS1 与其异源二聚体伙伴 PAD4 或 SAG101 形成复合体后，分别激活下游的 helper NLR——<span class="gene">ADR1</span> 或 <span class="gene">NRG1</span>。最终，这些 RNL 类 helper NLR 执行细胞死亡和免疫信号输出。
+  </p>
+
+  <div class="box box-cognition">
+    <div class="box-title">认知修正</div>
+    <p>
+      TIR 结构域的 NADase 酶活性是 2019 年前后由多个团队独立发现的 (Horsefield <em>et al.</em>, 2019; Wan <em>et al.</em>, 2019)。此前，TIR 结构域被认为仅作为蛋白-蛋白互作的支架结构域发挥功能。酶活性的发现揭示了 TNL 信号转导的全新生化机制，也解释了为什么 TNL 和 CNL 的下游通路如此不同——CNL 自身成孔，而 TNL 需要通过酶产物传递信号给 helper NLR 来执行死亡。
+    </p>
+  </div>
+
+  <!-- 4.6 NLR Network -->
+  <h2><span class="section-num">4.6</span>NLR 网络：sensor 与 helper 的分工协作</h2>
+
+  <p>
+    随着越来越多 NLR 的功能被揭示，领域认识到植物体内的 NLR 并非各自为战，而是组成了一个<span class="keyword">功能网络</span>。根据功能分工，NLR 可分为：
+  </p>
+
+  <p>
+    <strong>Sensor NLR</strong>：负责识别特定的效应子或效应子活动。它们的 LRR 或整合结构域 <span class="english-term">(Integrated Domain, ID)</span> 提供识别特异性，但自身可能不直接执行免疫信号输出。
+  </p>
+
+  <p>
+    <strong>Helper NLR</strong>：接收 sensor NLR 的信号，执行下游功能（如成孔、激活防御基因）。典型的 helper NLR 包括 <span class="gene">NRG1</span>、<span class="gene">ADR1</span>（RNL 类）和 <span class="gene">NRC</span> 家族（CNL 类）。
+  </p>
+
+  <p>
+    这种 sensor-helper 的分工模式具有重要的进化意义：sensor NLR 可以快速多样化以应对不断变化的效应子，而 helper NLR 保持相对保守，维持可靠的信号输出。这类似于适应性免疫中"识别"与"效应"功能的分离，是进化效率的体现。
+  </p>
+
+  <!-- 4.7 HR -->
+  <h2><span class="section-num">4.7</span>过敏性坏死反应 (HR) 的分子基础</h2>
+
+  <p>
+    HR 是 ETI 最显著的表型输出——受感染的细胞及其周围少量细胞迅速死亡，在叶片上形成可见的坏死斑点，将病原体（尤其是活体营养型病原体）封锁在死亡组织中。HR 的核心分子执行者现在被认为是 NLR 抗病小体形成的膜孔本身，以及其导致的 Ca²⁺ 内流。
+  </p>
+
+  <p>
+    值得注意的是，细胞死亡与免疫信号是否可以解耦 <span class="english-term">(uncoupling)</span>，是领域内的重要争论之一。部分证据表明，NLR 可以在不引发明显 HR 的情况下激活免疫基因表达和抗病性，提示 NLR 的功能输出可能比"全有或全无"的细胞死亡更为精细。
+  </p>
+
+  <!-- 4.8 Milestone Paper -->
+  <h2><span class="section-num">4.8</span>里程碑研究思路拆解</h2>
+
+  <h3>Wang <em>et al.</em> (2019) — ZAR1 抗病小体的结构解析</h3>
+
+  <div class="box box-experiment">
+    <div class="box-title">思路拆解</div>
+    <p>
+      <strong>面对的问题：</strong>NLR 蛋白激活后如何触发细胞死亡？尽管遗传学证据已积累数十年，但缺乏直接的结构和生化证据解释 NLR 从"感知效应子"到"执行死亡"的跨越。
+    </p>
+    <p style="margin-top:0.8rem;">
+      <strong>关键思路：</strong>团队选择 ZAR1 作为研究对象，因为其生化性质较好且已有较完善的遗传背景。核心策略是<strong>在体外重建完整的激活复合体</strong>，然后用冷冻电镜逐步解析从静息态到激活态的构象变化。这一思路的关键创新在于：不是只解析一个终态结构，而是捕捉了<strong>三个连续状态</strong>（静息态、中间态、激活态），使得整个激活过程的动态机制一览无遗。
+    </p>
+    <p style="margin-top:0.8rem;">
+      <strong>关键证据链：</strong>
+    </p>
+    <p>
+      ① 冷冻电镜结构显示 ZAR1 激活后形成五聚体，CC 结构域组成漏斗状结构 →
+      ② 结构预测该漏斗可插入脂质膜 →
+      ③ 脂质体实验验证 ZAR1 五聚体确实在膜上成孔 →
+      ④ 电生理实验证明该孔道具有钙离子选择性 →
+      ⑤ 植物体内实验证实 Ca²⁺ 内流对于 HR 是必需的。
+    </p>
+    <p style="margin-top:0.8rem;">
+      <strong>影响：</strong>该工作将 NLR 从"信号感受器"重新定义为"信号执行器"，彻底改变了对植物 ETI 分子机制的理解，并被迅速写入教科书。
+    </p>
+  </div>
+
+  <!-- 4.9 Open Questions -->
+  <h2><span class="section-num">4.9</span>当前争论与未解问题</h2>
+
+  <ul class="questions-list">
+    <li>
+      <strong>抗病小体的通道选择性和调控机制尚不清楚。</strong>ZAR1 孔道对 Ca²⁺ 的选择性如何实现？是否存在内源性调控因子控制孔道的开闭？
+    </li>
+    <li>
+      <strong>NLR 是否存在非细胞死亡依赖的免疫输出？</strong>部分实验表明 NLR 可以在不引发 HR 的情况下激活转录重编程，但分子机制不明。如何解耦"死亡"与"免疫"？
+    </li>
+    <li>
+      <strong>不同 NLR 的寡聚化是否遵循统一机制？</strong>CNL 通常形成五聚体，TNL 形成四聚体，但是否存在其他化学计量比？寡聚数目是否影响功能输出的强度和类型？
+    </li>
+    <li>
+      <strong>NLR 的亚细胞定位如何影响其功能？</strong>部分 NLR 在激活前定位于细胞核，激活后是否需要重新定位到质膜才能成孔？核定位的 NLR 执行什么功能？
+    </li>
+    <li>
+      <strong>NLR 网络的涌现性质。</strong>多个 sensor NLR 是否可以同时激活同一个 helper NLR？信号如何整合？是否存在阈值效应？
+    </li>
+  </ul>
+
+  <!-- 4.10 Methods -->
+  <h2><span class="section-num">4.10</span>关键实验方法</h2>
+
+  <table>
+    <thead>
+      <tr>
+        <th>实验方法</th>
+        <th>用途</th>
+        <th>经典文献</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>冷冻电镜 <span class="english-term">(Cryo-EM)</span></td>
+        <td>解析 NLR/抗病小体的三维结构</td>
+        <td class="ref">Wang et al., 2019, Science</td>
+      </tr>
+      <tr>
+        <td>电解质渗漏 <span class="english-term">(Electrolyte Leakage)</span></td>
+        <td>定量检测 HR 细胞死亡程度</td>
+        <td class="ref">标准免疫表型方法</td>
+      </tr>
+      <tr>
+        <td>脂质体重建 <span class="english-term">(Liposome Reconstitution)</span></td>
+        <td>体外验证 NLR 的成孔活性和离子选择性</td>
+        <td class="ref">Bi et al., 2021, Nature</td>
+      </tr>
+      <tr>
+        <td>Co-IP / 免疫共沉淀</td>
+        <td>验证 NLR 复合体的蛋白互作</td>
+        <td class="ref">广泛使用</td>
+      </tr>
+      <tr>
+        <td>体外 NADase 活性测定</td>
+        <td>检测 TNL 的 TIR 结构域酶活性</td>
+        <td class="ref">Horsefield et al., 2019, Science</td>
+      </tr>
+      <tr>
+        <td>自激活突变体 <span class="english-term">(Autoactive mutant)</span></td>
+        <td>模拟 NLR 持续激活状态，验证功能</td>
+        <td class="ref">广泛使用</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- 4.11 Recommended Reading -->
+  <div class="reading-section">
+    <h2><span class="section-num">4.11</span>推荐阅读</h2>
+
+    <div class="reading-level level-essential">
+      <h4>🔴 必读</h4>
+
+      <div class="reading-item">
+        <div class="reading-ref">
+          <span class="authors">Wang J, Hu M, Wang J, <em>et al.</em></span>
+          Reconstitution and structure of a plant NLR resistosome conferring immunity.
+          <span class="journal"><em>Science</em>, 2019, 364(6435): eaav5870.</span>
+        </div>
+        <div class="reading-reason">首个完整的植物 NLR 激活态结构，确立了抗病小体概念，揭示 CNL 作为钙离子通道的机制。不读此文无法理解本章核心内容。</div>
+      </div>
+
+      <div class="reading-item">
+        <div class="reading-ref">
+          <span class="authors">Wang J, Wang J, Hu M, <em>et al.</em></span>
+          Ligand-triggered allosteric ADP release primes a plant NLR complex.
+          <span class="journal"><em>Science</em>, 2019, 364(6435): eaav5868.</span>
+        </div>
+        <div class="reading-reason">ZAR1 静息态和中间态结构，完整展示了 NLR 从自抑制到激活的构象变化全过程。与上文为姊妹篇。</div>
+      </div>
+
+      <div class="reading-item">
+        <div class="reading-ref">
+          <span class="authors">Dongus JA, Parker JE.</span>
+          EDS1 signalling: At the nexus of intracellular and surface receptor immunity.
+          <span class="journal"><em>Curr Opin Plant Biol</em>, 2021, 62: 102039.</span>
+        </div>
+        <div class="reading-reason">EDS1 枢纽与 TNL 信号通路的权威综述，系统梳理了 TNL-EDS1-helper NLR 轴的最新认知。</div>
+      </div>
+    </div>
+
+    <div class="reading-level level-important">
+      <h4>🟡 重要</h4>
+
+      <div class="reading-item">
+        <div class="reading-ref">
+          <span class="authors">Horsefield S, Burdett H, Zhang X, <em>et al.</em></span>
+          NAD⁺ cleavage activity by animal and plant TIR domains in cell death pathways.
+          <span class="journal"><em>Science</em>, 2019, 365(6455): 793-799.</span>
+        </div>
+        <div class="reading-reason">发现 TIR 结构域的 NADase 酶活性，改写了对 TNL 信号机制的理解。</div>
+      </div>
+
+      <div class="reading-item">
+        <div class="reading-ref">
+          <span class="authors">Adachi H, Derevnina L, Kamoun S.</span>
+          NLR singletons, pairs, and networks: evolution, assembly, and regulation of the intracellular immunoreceptor circuitry of plants.
+          <span class="journal"><em>Curr Opin Plant Biol</em>, 2019, 50: 121-131.</span>
+        </div>
+        <div class="reading-reason">NLR 网络概念的系统阐述，清晰梳理了 sensor-helper 分工与进化逻辑。</div>
+      </div>
+    </div>
+
+    <div class="reading-level level-extended">
+      <h4>🟢 拓展</h4>
+
+      <div class="reading-item">
+        <div class="reading-ref">
+          <span class="authors">Bi G, Su M, Li N, <em>et al.</em></span>
+          The ZAR1 resistosome is a calcium-permeable channel triggering plant immune signaling.
+          <span class="journal"><em>Cell</em>, 2021, 184(13): 3528-3541.</span>
+        </div>
+        <div class="reading-reason">直接证明 ZAR1 抗病小体是钙离子选择性通道，从电生理层面补全了机制拼图。</div>
+      </div>
+
+      <div class="reading-item">
+        <div class="reading-ref">
+          <span class="authors">Kourelis J, van der Hoorn RAL.</span>
+          Defended to the nines: 25 years of resistance gene cloning identifies nine mechanisms for R protein function.
+          <span class="journal"><em>Plant Cell</em>, 2018, 30(2): 285-299.</span>
+        </div>
+        <div class="reading-reason">从进化角度总结 R 蛋白的九种工作机制，有助于在更大的框架下理解 NLR 的多样化策略。</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Chapter Navigation -->
+  <nav class="chapter-nav">
+    <a href="#">
+      <div>
+        <span class="nav-label">上一章</span>
+        ← 第三章 受体与信号转导
+      </div>
+    </a>
+    <a href="#">
+      <div style="text-align:right;">
+        <span class="nav-label">下一章</span>
+        第五章 激素信号网络 →
+      </div>
+    </a>
+  </nav>
+
+</div>

@@ -29,10 +29,10 @@ markdown_extensions:
       permalink: true
 
 extra_css:
-  - assets/stylesheets/book-chapter.css
+  - assets/stylesheets/book-chapter.v2.css
 
 extra_javascript:
-  - assets/javascripts/chapter-toc.js
+  - assets/javascripts/chapter-toc.v2.js
 
 nav:
   - 前言: index.md

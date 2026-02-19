@@ -555,23 +555,9 @@
   }
 }
 
-/* Force single-column reading flow like the standalone HTML sample */
-.md-sidebar--primary,
-.md-sidebar--secondary {
-  display: none !important;
-}
-
+/* Keep content compact while sidebars are visible */
 .md-main__inner {
   max-width: 100%;
-  margin: 0;
-}
-
-.md-content {
-  margin: 0;
-}
-
-.md-content__inner {
-  margin: 0;
 }
 
 /* Keep reading entries stacked vertically to avoid unintended two-column feel */

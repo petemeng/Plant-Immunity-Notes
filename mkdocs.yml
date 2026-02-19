@@ -31,6 +31,9 @@ markdown_extensions:
 extra_css:
   - assets/stylesheets/book-chapter.css
 
+extra_javascript:
+  - assets/javascripts/chapter-toc.js
+
 nav:
   - 前言: index.md
   - Part 1 免疫骨架:

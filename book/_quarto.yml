@@ -1,0 +1,33 @@
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "植物免疫知识书"
+  subtitle: "从文献笔记到可演化知识体系"
+  author: "Peter"
+  date: today
+  chapters:
+    - index.qmd
+    - chapters/01-immune-overview.qmd
+    - chapters/02-eti-nlr.qmd
+    - chapters/03-avrptob-case.qmd
+    - chapters/04-experimental-design.qmd
+    - chapters/05-rboh-signaling.qmd
+    - knowledge/knowledge-points.qmd
+    - knowledge/literature-evidence-table.qmd
+    - chapters/06-maintenance-workflow.qmd
+
+bibliography: references.bib
+lang: zh
+
+format:
+  html:
+    theme: flatly
+    toc: true
+    number-sections: true
+    code-copy: true
+    css: styles.css
+
+execute:
+  freeze: auto

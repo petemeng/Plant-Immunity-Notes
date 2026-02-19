@@ -1,0 +1,11 @@
+:root {
+  --book-accent: #2f6b45;
+}
+
+h1, h2, h3 {
+  color: var(--book-accent);
+}
+
+.callout.callout-note {
+  border-left-color: var(--book-accent);
+}

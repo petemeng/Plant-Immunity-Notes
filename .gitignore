@@ -8,3 +8,7 @@ Thumbs.db
 
 # Temporary
 *.tmp
+
+# Quarto build output
+book/_book/
+book/.quarto/

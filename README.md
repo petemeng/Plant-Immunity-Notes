@@ -23,3 +23,29 @@
 ## 更新日志
 
 - 2025-02-19: 初始化仓库
+- 2026-02-19: 新增 Quarto Book 原型（`book/`）与 GitHub Pages 自动发布流程
+
+## Book 使用方式
+
+### 本地预览
+
+```powershell
+quarto preview book
+```
+
+### 构建静态网页
+
+```powershell
+quarto render book
+```
+
+构建结果在 `book/_book/`。
+
+### 自动发布到 GitHub Pages
+
+已配置工作流：`.github/workflows/publish-book.yml`
+
+首次启用建议：
+
+1. 在 GitHub 仓库 `Settings > Pages` 中将 Source 设置为 `GitHub Actions`
+2. 推送到 `main` 分支后自动发布

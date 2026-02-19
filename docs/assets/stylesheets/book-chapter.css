@@ -554,3 +554,36 @@
     gap: 1rem;
   }
 }
+
+/* Force single-column reading flow like the standalone HTML sample */
+@media screen and (min-width: 76.25em) {
+  .md-sidebar--primary,
+  .md-sidebar--secondary {
+    display: none !important;
+  }
+
+  .md-main__inner {
+    max-width: 100%;
+    margin: 0;
+  }
+
+  .md-content {
+    margin: 0;
+  }
+
+  .md-content__inner {
+    margin: 0;
+  }
+}
+
+/* Keep reading entries stacked vertically to avoid unintended two-column feel */
+.md-typeset .reading-item {
+  display: block;
+}
+
+.md-typeset .reading-reason {
+  border-left: 0;
+  border-top: 1px solid #eee;
+  margin-top: 0.4rem;
+  padding: 0.5rem 0 0;
+}

@@ -12,24 +12,28 @@ book:
     - part: "导读"
       chapters:
         - chapters/core-00-roadmap.qmd
-    - part: "第一篇 免疫核心机制"
+    - part: "第一阶段 建立骨架（1-2周）"
       chapters:
         - chapters/core-01-pti.qmd
         - chapters/core-02-eti.qmd
         - chapters/core-03-pti-eti-synergy.qmd
-    - part: "第二篇 分子模块与调控网络"
+    - part: "第二阶段 填充血肉：三大核心模块（1-2个月）"
       chapters:
-        - chapters/core-04-effector-biology.qmd
         - chapters/core-05-signal-transduction.qmd
         - chapters/core-06-hormone-network.qmd
-        - chapters/core-07-proteostasis-autophagy.qmd
         - chapters/core-08-spatiotemporal-regulation.qmd
         - chapters/core-09-systemic-immunity.qmd
+    - part: "第三阶段 掌握兵法：效应子生物学（持续学习）"
+      chapters:
+        - chapters/core-04-effector-biology.qmd
+        - chapters/core-07-proteostasis-autophagy.qmd
         - chapters/core-10-evolution-diversity.qmd
-    - part: "第三篇 方法、数据与应用"
+    - part: "第四阶段 实验技能：从理论到实操"
       chapters:
         - chapters/core-11-methodology.qmd
         - chapters/core-12-data-reproducibility.qmd
+    - part: "第五阶段 前沿与创新：从机制到转化"
+      chapters:
         - chapters/core-13-crop-translation.qmd
         - chapters/core-14-frontiers.qmd
     - part: "附录 现有沉淀"

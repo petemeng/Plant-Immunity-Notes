@@ -8,6 +8,7 @@ repo_name: petemeng/Plant-Immunity-Notes
 theme:
   name: material
   language: zh
+  font: false
   features:
     - navigation.tabs
     - navigation.sections
@@ -22,9 +23,13 @@ markdown_extensions:
   - admonition
   - attr_list
   - footnotes
+  - md_in_html
   - tables
   - toc:
       permalink: true
+
+extra_css:
+  - assets/stylesheets/book-chapter.css
 
 nav:
   - 前言: index.md

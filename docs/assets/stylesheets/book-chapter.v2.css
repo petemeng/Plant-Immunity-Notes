@@ -19,12 +19,12 @@
   padding: 0 2.5rem 6rem;
   font-family: var(--font-serif);
   color: var(--color-text);
-  line-height: 1.9;
-  font-size: 1rem;
+  line-height: 1.78;
+  font-size: 0.92rem;
 }
 
 .md-typeset .page-wrapper p {
-  margin: 0 0 1.1rem;
+  margin: 0 0 0.95rem;
   text-align: justify;
 }
 
@@ -42,9 +42,9 @@
 
 .md-typeset .breadcrumb {
   font-family: var(--font-sans);
-  font-size: 0.82rem;
+  font-size: 0.76rem;
   color: var(--color-text-light);
-  padding: 1rem 0;
+  padding: 0.8rem 0;
   border-bottom: 1px solid var(--color-border);
   letter-spacing: 0.02em;
 }
@@ -63,9 +63,9 @@
 }
 
 .md-typeset .chapter-header {
-  padding: 4rem 0 3rem;
+  padding: 3rem 0 2.2rem;
   border-bottom: 3px solid var(--color-primary);
-  margin-bottom: 3rem;
+  margin-bottom: 2.2rem;
 }
 
 .md-typeset .chapter-header-inner {
@@ -74,17 +74,17 @@
 
 .md-typeset .chapter-part {
   font-family: var(--font-sans);
-  font-size: 0.85rem;
+  font-size: 0.76rem;
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.15em;
   color: var(--color-accent);
-  margin-bottom: 0.8rem;
+  margin-bottom: 0.6rem;
 }
 
 .md-typeset .chapter-number {
   font-family: var(--font-serif);
-  font-size: 5.5rem;
+  font-size: 4.2rem;
   font-weight: 900;
   color: var(--color-primary);
   line-height: 1;
@@ -92,44 +92,44 @@
   opacity: 0.12;
   position: absolute;
   right: 0;
-  top: 1.5rem;
+  top: 1.1rem;
 }
 
 .md-typeset .chapter-title {
   font-family: var(--font-serif);
-  font-size: 2.4rem;
+  font-size: 2rem;
   font-weight: 700;
   color: var(--color-primary);
   line-height: 1.3;
-  margin: 0 0 1.2rem;
+  margin: 0 0 0.9rem;
 }
 
 .md-typeset .chapter-subtitle {
   font-family: var(--font-sans);
-  font-size: 1.05rem;
+  font-size: 0.92rem;
   color: var(--color-text-light);
   font-weight: 300;
-  line-height: 1.7;
-  max-width: 600px;
+  line-height: 1.58;
+  max-width: 640px;
   margin: 0;
 }
 
 .md-typeset .chapter-toc {
   background: #f5f3ee;
   border-left: 4px solid var(--color-primary);
-  padding: 1.8rem 2rem;
-  margin-bottom: 3rem;
+  padding: 1.3rem 1.5rem;
+  margin-bottom: 2.2rem;
   border-radius: 0 4px 4px 0;
 }
 
 .md-typeset .chapter-toc h3 {
   font-family: var(--font-sans);
-  font-size: 0.85rem;
+  font-size: 0.76rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   color: var(--color-primary);
-  margin: 0 0 1rem;
+  margin: 0 0 0.7rem;
 }
 
 .md-typeset .chapter-toc ol {
@@ -142,9 +142,9 @@
 .md-typeset .chapter-toc li {
   counter-increment: toc;
   font-family: var(--font-sans);
-  font-size: 0.92rem;
-  line-height: 1.6;
-  padding: 0.25rem 0;
+  font-size: 0.84rem;
+  line-height: 1.45;
+  padding: 0.18rem 0;
   color: var(--color-text);
   margin: 0;
 }
@@ -159,13 +159,13 @@
 
 .md-typeset .page-wrapper h2 {
   font-family: var(--font-serif);
-  font-size: 1.55rem;
+  font-size: 1.34rem;
   font-weight: 700;
   color: var(--color-primary);
-  margin: 3.5rem 0 1.2rem;
-  padding-bottom: 0.5rem;
+  margin: 2.5rem 0 0.9rem;
+  padding-bottom: 0.42rem;
   border-bottom: 1px solid var(--color-border);
-  line-height: 1.4;
+  line-height: 1.35;
 }
 
 .md-typeset .page-wrapper h2 .section-num {
@@ -177,10 +177,10 @@
 
 .md-typeset .page-wrapper h3 {
   font-family: var(--font-serif);
-  font-size: 1.2rem;
+  font-size: 1.05rem;
   font-weight: 600;
   color: var(--color-text);
-  margin: 2.2rem 0 0.8rem;
+  margin: 1.7rem 0 0.55rem;
   line-height: 1.4;
 }
 
@@ -192,13 +192,13 @@
 .md-typeset .gene {
   font-family: var(--font-mono);
   font-style: italic;
-  font-size: 0.93em;
+  font-size: 0.9em;
   color: #333;
 }
 
 .md-typeset .english-term {
   font-family: var(--font-sans);
-  font-size: 0.88em;
+  font-size: 0.84em;
   color: var(--color-text-light);
 }
 
@@ -211,24 +211,24 @@
 
 .md-typeset .mechanism-steps li {
   counter-increment: step;
-  padding: 0.5rem 0 0.5rem 3rem;
+  padding: 0.35rem 0 0.35rem 2.5rem;
   position: relative;
   border-left: 2px solid var(--color-accent-light);
-  margin: 0 0 0 1rem;
+  margin: 0 0 0 0.8rem;
 }
 
 .md-typeset .mechanism-steps li::before {
   content: counter(step);
   position: absolute;
-  left: -0.85rem;
-  top: 0.45rem;
-  width: 1.7rem;
-  height: 1.7rem;
+  left: -0.76rem;
+  top: 0.35rem;
+  width: 1.5rem;
+  height: 1.5rem;
   background: var(--color-accent);
   color: #fff;
   border-radius: 50%;
   font-family: var(--font-sans);
-  font-size: 0.8rem;
+  font-size: 0.74rem;
   font-weight: 700;
   display: flex;
   align-items: center;
@@ -241,20 +241,20 @@
 }
 
 .md-typeset .box {
-  margin: 2rem 0;
-  padding: 1.5rem 1.8rem;
+  margin: 1.4rem 0;
+  padding: 1.1rem 1.2rem;
   border-radius: 4px;
-  font-size: 0.95rem;
-  line-height: 1.8;
+  font-size: 0.88rem;
+  line-height: 1.65;
 }
 
 .md-typeset .box-title {
   font-family: var(--font-sans);
   font-weight: 700;
-  font-size: 0.85rem;
+  font-size: 0.76rem;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  margin-bottom: 0.7rem;
+  margin-bottom: 0.5rem;
   display: flex;
   align-items: center;
   gap: 0.5em;
@@ -303,10 +303,10 @@
 .md-typeset .page-wrapper table {
   width: 100%;
   border-collapse: collapse;
-  margin: 1.5rem 0 2rem;
+  margin: 1.2rem 0 1.5rem;
   font-family: var(--font-sans);
-  font-size: 0.9rem;
-  line-height: 1.6;
+  font-size: 0.84rem;
+  line-height: 1.5;
 }
 
 .md-typeset .page-wrapper thead {
@@ -315,16 +315,16 @@
 }
 
 .md-typeset .page-wrapper th {
-  padding: 0.8rem 1rem;
+  padding: 0.55rem 0.7rem;
   text-align: left;
   font-weight: 600;
-  font-size: 0.82rem;
+  font-size: 0.74rem;
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
 
 .md-typeset .page-wrapper td {
-  padding: 0.7rem 1rem;
+  padding: 0.5rem 0.7rem;
   border-bottom: 1px solid #e0ddd4;
   vertical-align: top;
 }
@@ -336,12 +336,12 @@
 .md-typeset .ref {
   font-style: italic;
   color: var(--color-text-light);
-  font-size: 0.88em;
+  font-size: 0.84em;
 }
 
 .md-typeset .figure {
-  margin: 2rem 0;
-  padding: 1.5rem;
+  margin: 1.5rem 0;
+  padding: 1.1rem;
   background: #f9f8f5;
   border: 1px solid #e8e5dc;
   border-radius: 4px;
@@ -349,7 +349,7 @@
 }
 
 .md-typeset .figure-placeholder {
-  height: 220px;
+  height: 170px;
   background: linear-gradient(135deg, #e8f5e9 0%, #f1f8e9 50%, #fff8e1 100%);
   border: 2px dashed var(--color-border);
   border-radius: 4px;
@@ -358,14 +358,14 @@
   justify-content: center;
   color: var(--color-text-light);
   font-family: var(--font-sans);
-  font-size: 0.9rem;
-  margin-bottom: 1rem;
+  font-size: 0.82rem;
+  margin-bottom: 0.7rem;
 }
 
 .md-typeset .figure-caption {
   font-family: var(--font-sans);
-  font-size: 0.85rem;
-  line-height: 1.6;
+  font-size: 0.77rem;
+  line-height: 1.45;
   color: var(--color-text-light);
   text-align: left;
 }
@@ -381,10 +381,10 @@
 }
 
 .md-typeset .questions-list li {
-  padding: 0.8rem 0 0.8rem 2rem;
+  padding: 0.6rem 0 0.6rem 1.6rem;
   position: relative;
   border-bottom: 1px dotted var(--color-border);
-  font-size: 0.97rem;
+  font-size: 0.89rem;
   margin: 0;
 }
 
@@ -392,14 +392,14 @@
   content: "?";
   position: absolute;
   left: 0;
-  top: 0.75rem;
-  width: 1.4rem;
-  height: 1.4rem;
+  top: 0.55rem;
+  width: 1.2rem;
+  height: 1.2rem;
   background: #f3e5f5;
   color: #7b1fa2;
   border-radius: 50%;
   font-family: var(--font-sans);
-  font-size: 0.75rem;
+  font-size: 0.68rem;
   font-weight: 900;
   display: flex;
   align-items: center;
@@ -411,20 +411,20 @@
 }
 
 .md-typeset .reading-section {
-  margin-top: 3rem;
-  padding-top: 2rem;
+  margin-top: 2.2rem;
+  padding-top: 1.4rem;
   border-top: 2px solid var(--color-primary);
 }
 
 .md-typeset .reading-level {
-  margin-bottom: 1.8rem;
+  margin-bottom: 1.1rem;
 }
 
 .md-typeset .reading-level h4 {
   font-family: var(--font-sans);
-  font-size: 0.9rem;
+  font-size: 0.82rem;
   font-weight: 700;
-  margin: 0 0 0.8rem;
+  margin: 0 0 0.55rem;
   display: flex;
   align-items: center;
   gap: 0.4em;
@@ -444,8 +444,8 @@
 
 .md-typeset .reading-item {
   display: flex;
-  gap: 1rem;
-  padding: 0.8rem 0;
+  gap: 0.7rem;
+  padding: 0.55rem 0;
   border-bottom: 1px dotted var(--color-border);
   align-items: flex-start;
 }
@@ -456,7 +456,7 @@
 
 .md-typeset .reading-ref {
   flex: 1;
-  font-size: 0.92rem;
+  font-size: 0.84rem;
 }
 
 .md-typeset .reading-ref .authors {
@@ -470,16 +470,16 @@
 
 .md-typeset .reading-ref .journal {
   font-family: var(--font-sans);
-  font-size: 0.85rem;
+  font-size: 0.77rem;
   color: var(--color-text-light);
 }
 
 .md-typeset .reading-reason {
-  flex: 0 0 280px;
+  flex: 0 0 250px;
   font-family: var(--font-sans);
-  font-size: 0.83rem;
+  font-size: 0.76rem;
   color: var(--color-text-light);
-  line-height: 1.5;
+  line-height: 1.4;
   padding-left: 1rem;
   border-left: 2px solid #eee;
 }
@@ -487,11 +487,11 @@
 .md-typeset .chapter-nav {
   display: flex;
   justify-content: space-between;
-  margin-top: 4rem;
-  padding-top: 1.5rem;
+  margin-top: 2.5rem;
+  padding-top: 1rem;
   border-top: 1px solid var(--color-border);
   font-family: var(--font-sans);
-  font-size: 0.9rem;
+  font-size: 0.82rem;
 }
 
 .md-typeset .chapter-nav a {
@@ -507,7 +507,7 @@
 }
 
 .md-typeset .nav-label {
-  font-size: 0.75rem;
+  font-size: 0.68rem;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   color: var(--color-text-light);
@@ -521,7 +521,7 @@
   }
 
   .md-typeset .chapter-number {
-    font-size: 4rem;
+    font-size: 3.2rem;
   }
 }
 
@@ -531,11 +531,11 @@
   }
 
   .md-typeset .chapter-title {
-    font-size: 1.8rem;
+    font-size: 1.45rem;
   }
 
   .md-typeset .chapter-number {
-    font-size: 3.5rem;
+    font-size: 2.7rem;
   }
 
   .md-typeset .reading-item {

@@ -12,3 +12,4 @@ Thumbs.db
 # Quarto build output
 book/_book/
 book/.quarto/
+book/images/

@@ -16,6 +16,7 @@ book:
     - chapters/05-rboh-signaling.qmd
     - knowledge/knowledge-points.qmd
     - knowledge/literature-evidence-table.qmd
+    - knowledge/raw-notes.qmd
     - chapters/06-maintenance-workflow.qmd
 
 bibliography: references.bib

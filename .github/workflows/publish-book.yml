@@ -5,6 +5,13 @@ on:
     branches: ["main", "master"]
     paths:
       - "book/**"
+      - "01-基础知识/**"
+      - "02-实验技术/**"
+      - "03-文献笔记/**"
+      - "04-学习规划/**"
+      - "05-小知识点/**"
+      - "images/**"
+      - "scripts/sync-notes-to-book.ps1"
       - ".github/workflows/publish-book.yml"
   workflow_dispatch:
 
@@ -26,6 +33,10 @@ jobs:
 
       - name: Setup Quarto
         uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Sync Obsidian notes into book
+        shell: pwsh
+        run: ./scripts/sync-notes-to-book.ps1
 
       - name: Render book
         run: quarto render book

@@ -27,6 +27,14 @@
 
 ## Book 使用方式
 
+### 同步 Obsidian 笔记到 Book（推荐先做）
+
+```powershell
+./scripts/sync-notes-to-book.ps1
+```
+
+这一步会自动生成 `book/knowledge/raw-notes.qmd`，并把 `images/` 同步到 `book/images/` 供网页展示。
+
 ### 本地预览
 
 ```powershell
@@ -48,4 +56,11 @@ quarto render book
 首次启用建议：
 
 1. 在 GitHub 仓库 `Settings > Pages` 中将 Source 设置为 `GitHub Actions`
-2. 推送到 `main` 分支后自动发布
+2. 推送到 `main` 或 `master` 分支后自动发布
+
+自动发布工作流会在以下内容变更时触发：
+
+- `book/**`
+- `01-基础知识/**` 到 `05-小知识点/**`
+- `images/**`
+- `scripts/sync-notes-to-book.ps1`

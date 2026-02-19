@@ -20,7 +20,7 @@
   font-family: var(--font-serif);
   color: var(--color-text);
   line-height: 1.78;
-  font-size: 0.92rem;
+  font-size: 0.782rem;
 }
 
 .md-typeset .page-wrapper p {
@@ -42,7 +42,7 @@
 
 .md-typeset .breadcrumb {
   font-family: var(--font-sans);
-  font-size: 0.76rem;
+  font-size: 0.646rem;
   color: var(--color-text-light);
   padding: 0.8rem 0;
   border-bottom: 1px solid var(--color-border);
@@ -74,7 +74,7 @@
 
 .md-typeset .chapter-part {
   font-family: var(--font-sans);
-  font-size: 0.76rem;
+  font-size: 0.646rem;
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.15em;
@@ -84,7 +84,7 @@
 
 .md-typeset .chapter-number {
   font-family: var(--font-serif);
-  font-size: 4.2rem;
+  font-size: 3.57rem;
   font-weight: 900;
   color: var(--color-primary);
   line-height: 1;
@@ -97,7 +97,7 @@
 
 .md-typeset .chapter-title {
   font-family: var(--font-serif);
-  font-size: 2rem;
+  font-size: 1.7rem;
   font-weight: 700;
   color: var(--color-primary);
   line-height: 1.3;
@@ -106,7 +106,7 @@
 
 .md-typeset .chapter-subtitle {
   font-family: var(--font-sans);
-  font-size: 0.92rem;
+  font-size: 0.782rem;
   color: var(--color-text-light);
   font-weight: 300;
   line-height: 1.58;
@@ -124,7 +124,7 @@
 
 .md-typeset .chapter-toc h3 {
   font-family: var(--font-sans);
-  font-size: 0.76rem;
+  font-size: 0.646rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.1em;
@@ -142,7 +142,7 @@
 .md-typeset .chapter-toc li {
   counter-increment: toc;
   font-family: var(--font-sans);
-  font-size: 0.84rem;
+  font-size: 0.714rem;
   line-height: 1.45;
   padding: 0.18rem 0;
   color: var(--color-text);
@@ -159,7 +159,7 @@
 
 .md-typeset .page-wrapper h2 {
   font-family: var(--font-serif);
-  font-size: 1.34rem;
+  font-size: 1.139rem;
   font-weight: 700;
   color: var(--color-primary);
   margin: 2.5rem 0 0.9rem;
@@ -177,7 +177,7 @@
 
 .md-typeset .page-wrapper h3 {
   font-family: var(--font-serif);
-  font-size: 1.05rem;
+  font-size: 0.893rem;
   font-weight: 600;
   color: var(--color-text);
   margin: 1.7rem 0 0.55rem;
@@ -192,13 +192,13 @@
 .md-typeset .gene {
   font-family: var(--font-mono);
   font-style: italic;
-  font-size: 0.9em;
+  font-size: 0.765em;
   color: #333;
 }
 
 .md-typeset .english-term {
   font-family: var(--font-sans);
-  font-size: 0.84em;
+  font-size: 0.714em;
   color: var(--color-text-light);
 }
 
@@ -228,7 +228,7 @@
   color: #fff;
   border-radius: 50%;
   font-family: var(--font-sans);
-  font-size: 0.74rem;
+  font-size: 0.629rem;
   font-weight: 700;
   display: flex;
   align-items: center;
@@ -244,14 +244,14 @@
   margin: 1.4rem 0;
   padding: 1.1rem 1.2rem;
   border-radius: 4px;
-  font-size: 0.88rem;
+  font-size: 0.748rem;
   line-height: 1.65;
 }
 
 .md-typeset .box-title {
   font-family: var(--font-sans);
   font-weight: 700;
-  font-size: 0.76rem;
+  font-size: 0.646rem;
   text-transform: uppercase;
   letter-spacing: 0.08em;
   margin-bottom: 0.5rem;
@@ -305,7 +305,7 @@
   border-collapse: collapse;
   margin: 1.2rem 0 1.5rem;
   font-family: var(--font-sans);
-  font-size: 0.84rem;
+  font-size: 0.714rem;
   line-height: 1.5;
 }
 
@@ -318,7 +318,7 @@
   padding: 0.55rem 0.7rem;
   text-align: left;
   font-weight: 600;
-  font-size: 0.74rem;
+  font-size: 0.629rem;
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
@@ -336,7 +336,7 @@
 .md-typeset .ref {
   font-style: italic;
   color: var(--color-text-light);
-  font-size: 0.84em;
+  font-size: 0.714em;
 }
 
 .md-typeset .figure {
@@ -358,13 +358,13 @@
   justify-content: center;
   color: var(--color-text-light);
   font-family: var(--font-sans);
-  font-size: 0.82rem;
+  font-size: 0.697rem;
   margin-bottom: 0.7rem;
 }
 
 .md-typeset .figure-caption {
   font-family: var(--font-sans);
-  font-size: 0.77rem;
+  font-size: 0.655rem;
   line-height: 1.45;
   color: var(--color-text-light);
   text-align: left;
@@ -384,7 +384,7 @@
   padding: 0.6rem 0 0.6rem 1.6rem;
   position: relative;
   border-bottom: 1px dotted var(--color-border);
-  font-size: 0.89rem;
+  font-size: 0.757rem;
   margin: 0;
 }
 
@@ -399,7 +399,7 @@
   color: #7b1fa2;
   border-radius: 50%;
   font-family: var(--font-sans);
-  font-size: 0.68rem;
+  font-size: 0.578rem;
   font-weight: 900;
   display: flex;
   align-items: center;
@@ -422,7 +422,7 @@
 
 .md-typeset .reading-level h4 {
   font-family: var(--font-sans);
-  font-size: 0.82rem;
+  font-size: 0.697rem;
   font-weight: 700;
   margin: 0 0 0.55rem;
   display: flex;
@@ -456,7 +456,7 @@
 
 .md-typeset .reading-ref {
   flex: 1;
-  font-size: 0.84rem;
+  font-size: 0.714rem;
 }
 
 .md-typeset .reading-ref .authors {
@@ -470,14 +470,14 @@
 
 .md-typeset .reading-ref .journal {
   font-family: var(--font-sans);
-  font-size: 0.77rem;
+  font-size: 0.655rem;
   color: var(--color-text-light);
 }
 
 .md-typeset .reading-reason {
   flex: 0 0 250px;
   font-family: var(--font-sans);
-  font-size: 0.76rem;
+  font-size: 0.646rem;
   color: var(--color-text-light);
   line-height: 1.4;
   padding-left: 1rem;
@@ -491,7 +491,7 @@
   padding-top: 1rem;
   border-top: 1px solid var(--color-border);
   font-family: var(--font-sans);
-  font-size: 0.82rem;
+  font-size: 0.697rem;
 }
 
 .md-typeset .chapter-nav a {
@@ -507,7 +507,7 @@
 }
 
 .md-typeset .nav-label {
-  font-size: 0.68rem;
+  font-size: 0.578rem;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   color: var(--color-text-light);
@@ -521,7 +521,7 @@
   }
 
   .md-typeset .chapter-number {
-    font-size: 3.2rem;
+    font-size: 2.72rem;
   }
 }
 
@@ -531,11 +531,11 @@
   }
 
   .md-typeset .chapter-title {
-    font-size: 1.45rem;
+    font-size: 1.233rem;
   }
 
   .md-typeset .chapter-number {
-    font-size: 2.7rem;
+    font-size: 2.295rem;
   }
 
   .md-typeset .reading-item {
@@ -579,3 +579,4 @@
     display: block !important;
   }
 }
+

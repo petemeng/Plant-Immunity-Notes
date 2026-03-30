@@ -1,5 +1,5 @@
 site_name: Plant Immunity Book
-site_description: 植物免疫学习与成书系统
+site_description: 植物免疫与微生物互作
 site_author: Peter
 site_url: https://petemeng.github.io/Plant-Immunity-Notes/
 repo_url: https://github.com/petemeng/Plant-Immunity-Notes
@@ -55,12 +55,9 @@ nav:
       - ch13 非编码RNA与免疫调控: part4-交叉前沿/ch13-非编码RNA与免疫调控.md
   - Part 5 转化与展望:
       - ch14 从基础到抗病育种: part5-转化与展望/ch14-从基础到抗病育种.md
-      - ch15 未解问题与未来方向: part5-转化与展望/ch15-未解问题与未来方向.md
-  - Part 6 推荐阅读:
-      - ch16 经典必读文献: part6-推荐阅读/ch16-经典必读文献.md
-      - ch17 分阶段阅读路径: part6-推荐阅读/ch17-分阶段阅读路径.md
+      - ch15 微生物组工程与生物防治: part5-转化与展望/ch15-微生物组工程与生物防治.md
+      - ch16 未解决的问题与未来方向: part5-转化与展望/ch16-未解决的问题与未来方向.md
   - Appendix:
-      - 关键实验室与学者: appendix/关键实验室与学者.md
-      - 免疫研究标准实验体系: appendix/免疫研究标准实验体系.md
-      - 推荐阅读清单: appendix/推荐阅读清单.md
       - 术语表: appendix/术语表.md
+      - 模式植物与模式病原体索引: appendix/模式植物与模式病原体索引.md
+      - 推荐阅读与经典文献指引: appendix/推荐阅读与经典文献指引.md

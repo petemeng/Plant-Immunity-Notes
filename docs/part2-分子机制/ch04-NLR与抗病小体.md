@@ -24,10 +24,11 @@
     <h3>本章目录</h3>
     <ol>
       <li>引言</li>
-      <li>NLR 蛋白的分类与结构域组织</li>
-      <li>NLR 的激活机制：从自抑制到寡聚化</li>
-      <li>ZAR1 抗病小体——里程碑式的结构突破</li>
-      <li>TNL 的信号转导：NADase 活性与 EDS1 枢纽</li>
+      <li>NLR 的分类与域架构</li>
+      <li>Resistosome 的发现与结构革命</li>
+      <li>Helper NLR 网络与信号汇聚</li>
+      <li>细胞死亡与免疫的解耦</li>
+      <li>Integrated decoy 与感知多样性的扩展</li>
       <li>NLR 网络：sensor 与 helper 的分工协作</li>
       <li>过敏性坏死反应 (HR) 的分子基础</li>
       <li>里程碑研究思路拆解</li>

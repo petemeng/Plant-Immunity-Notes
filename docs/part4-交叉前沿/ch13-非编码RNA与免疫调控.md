@@ -6,12 +6,15 @@
       <div class="chapter-number">13</div>
       <div class="chapter-part">第四部分 · 交叉前沿</div>
       <h1 class="chapter-title">非编码 RNA 与免疫调控</h1>
-      <p class="chapter-subtitle">从内源调控到跨界 RNA 干扰</p>
+      <p class="chapter-subtitle">超越经典的"基因→蛋白"框架，非编码 RNA 是免疫调控中日益重要的一层</p>
     </div></header>
 
   <nav class="chapter-toc"><h3>本章目录</h3><ol>
-      <li>引言</li><li>认知演变</li>
-      <li>内源 miRNA/siRNA 的网络增益控制</li><li>跨界 RNA 干扰与双向信息战</li><li>lncRNA 与长期免疫状态调节</li>
+      <li>RNA 沉默作为抗病毒免疫的核心机制</li>
+      <li>miRNA 在免疫调控中的角色</li>
+      <li>lncRNA 与免疫的新关联</li>
+      <li>跨界 RNA 转移（cross-kingdom RNAi）</li>
+      <li>表观遗传学与免疫记忆</li>
       <li>里程碑研究思路拆解</li><li>当前争论与未解问题</li><li>关键实验方法</li><li>推荐阅读</li>
     </ol></nav>
 

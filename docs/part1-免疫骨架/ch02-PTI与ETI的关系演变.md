@@ -6,43 +6,40 @@
       <div class="chapter-number">02</div>
       <div class="chapter-part">第一部分 · 免疫骨架</div>
       <h1 class="chapter-title">PTI 与 ETI 的关系演变</h1>
-      <p class="chapter-subtitle">从“两套系统”到“互相增效”的范式迁移</p>
+      <p class=”chapter-subtitle”>从泰然二分到深度交织，这对概念的演变史折射了整个领域的思想变迁</p>
     </div></header>
 
-  <nav class="chapter-toc"><h3>本章目录</h3><ol>
-      <li>引言</li><li>认知演变</li>
-      <li>共享节点解释了不可分割性</li><li>ETI 的“强”来自放大共享回路</li><li>对研究与育种策略的直接影响</li>
+  <nav class=”chapter-toc”><h3>本章目录</h3><ol>
+      <li>Flor 的基因对基因假说：一切的起点</li>
+      <li>Zigzag 模型：将免疫分成两个层级</li>
+      <li>PTI-ETI 协同放大：二元边界的崩塌</li>
+      <li>Invasion Model 与免疫识别的统一视角</li>
+      <li>当下的开放讨论：我们还需要 PTI/ETI 这对术语吗？</li>
       <li>里程碑研究思路拆解</li><li>当前争论与未解问题</li><li>关键实验方法</li><li>推荐阅读</li>
     </ol></nav>
 
-  <h2><span class="section-num">2.1</span>引言</h2>
-  <p>PTI 与 ETI 的关系决定了我们如何理解植物免疫整体架构。</p>
-  <p>本章聚焦协同机制的证据链与方法学启示。</p>
+  <h2><span class=”section-num”>2.1</span>Flor 的基因对基因假说：一切的起点</h2>
+  <p><!-- 待更新 --></p>
 
-  <h2><span class="section-num">2.2</span>认知演变</h2>
-  <p>经典二分法将 PTI 与 ETI 视为独立通路。</p>
-  <p>2021 年后关键证据显示两者在执行层深度耦合。</p>
-  <p>当前主流模型是“互相增效”而非“并联独立”。</p>
-  <div class="box box-cognition"><div class="box-title">认知修正</div>
-  <p><strong>过去：</strong>经典二分法将 PTI 与 ETI 视为独立通路。<br><strong>转折：</strong>2021 年后关键证据显示两者在执行层深度耦合。<br><strong>现在：</strong>当前主流模型是“互相增效”而非“并联独立”。</p></div>
-
-  <h2><span class="section-num">2.3</span>共享节点解释了不可分割性</h2>
-  <p>PTI 与 ETI 都调用 Ca²⁺、ROS、MAPK 与防御转录模块。</p>
-  <p>这决定了任何一路的缺陷都可能削弱整体输出。</p>
-  <ol class="mechanism-steps">
+  <h2><span class=”section-num”>2.2</span>Zigzag 模型：将免疫分成两个层级</h2>
+  <p>Jones & Dangl (2006) 模型的影响力与局限性。</p>
+  <ol class=”mechanism-steps”>
     <li><strong>识别触发：</strong>病原相关信号被感知并转为细胞内事件。</li>
     <li><strong>信号放大：</strong>核心中继模块把弱信号转成可执行输出。</li>
     <li><strong>执行防御：</strong>转录、代谢与细胞层响应协同启动。</li>
     <li><strong>反馈平衡：</strong>系统在抗病收益与生长代价间重新定标。</li>
   </ol>
 
-  <h2><span class="section-num">2.4</span>ETI 的“强”来自放大共享回路</h2>
-  <p>ETI 常表现为更高幅度与更长时程，本质是共享回路被推到高增益状态。</p>
-  <p>因此 ETI 的有效性依赖于 PTI 底盘完整性。</p>
+  <h2><span class=”section-num”>2.3</span>PTI-ETI 协同放大：二元边界的崩塌</h2>
+  <p>Ngou et al. (2021) 与 Yuan et al. (2021) 如何改变了这一认识。</p>
 
-  <h2><span class="section-num">2.5</span>对研究与育种策略的直接影响</h2>
-  <p>实验设计应采用多层 readout；育种策略应关注模块协同而非单基因堆叠。</p>
-  <p>“底盘 + 放大 + 代价控制”是更稳健的部署思路。</p>
+  <h2><span class=”section-num”>2.4</span>Invasion Model 与免疫识别的统一视角</h2>
+  <p>从”PAMP vs effector”到”invasion pattern”：识别的本质是什么？</p>
+
+  <h2><span class=”section-num”>2.5</span>当下的开放讨论：我们还需要 PTI/ETI 这对术语吗？</h2>
+  <p><!-- 待更新 --></p>
+
+  <p><strong>Key Question</strong>  如果放弃 PTI/ETI 二分法，什么框架能更好地描述植物免疫识别的全貌？</p>
 
   <h2><span class="section-num">2.6</span>里程碑研究思路拆解</h2>
   <h3>Ngou et al. (2021) — 互相增效模型关键证据</h3>

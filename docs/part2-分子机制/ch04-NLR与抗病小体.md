@@ -183,8 +183,35 @@
     </p>
   </div>
 
-  <!-- 4.6 NLR Network -->
-  <h2><span class="section-num">4.6</span>NLR 网络：sensor 与 helper 的分工协作</h2>
+  <!-- 4.6 Integrated Decoy -->
+  <h2><span class="section-num">4.6</span>Integrated Decoy 与感知多样性的扩展</h2>
+
+  <p>NLR 如何识别效应蛋白？最初的"基因对基因"假说暗示直接的受体-配体结合，但保卫假说已经表明间接识别可能更为普遍 <span class="cross-ref">→ 第1章 1.3节</span>。"整合诱饵"（Integrated Decoy / Integrated Domain, ID）模型将这一概念推向了新的高度。</p>
+
+  <h3>从保卫到整合：概念的进化</h3>
+  <p>保卫假说（Guard Model）认为 NLR 监测效应蛋白的靶标蛋白——当靶标被修饰时，NLR 被激活。但如果被监测的蛋白逐渐丧失其原始功能，专门演化为"诱饵"（Decoy），我们就得到了诱饵模型 (van der Hoorn &amp; Kamoun, 2008)。整合诱饵模型更进一步：<strong>将诱饵结构域直接整合到 NLR 蛋白自身中</strong>，形成一个"受体-诱饵"的融合蛋白 (Cesari et al., 2014)。</p>
+
+  <p>具体而言，许多 NLR 蛋白在经典的 NB-ARC-LRR 结构之外，还包含一个"非典型"结构域——即整合域（ID）。这些 ID 往往是效应蛋白在宿主中的真实靶标的同源序列。例如：</p>
+  <ul>
+    <li><strong>水稻 RGA5：</strong>其 C 端整合了一个重金属相关域（HMA），是<em>M. oryzae</em>效应蛋白 AVR-Pia 的直接结合靶标。AVR-Pia 结合 HMA 域后，RGA5 与其配对 NLR RGA4 协同激活免疫 (Cesari et al., 2013)。</li>
+    <li><strong>拟南芥 RRS1：</strong>整合了一个 WRKY 转录因子域。<em>Ralstonia solanacearum</em>的效应蛋白 PopP2 是一种乙酰转移酶，靶向 WRKY 蛋白进行乙酰化修饰以抑制免疫。当 PopP2 修饰 RRS1 中的 WRKY 域时，RRS1 与配对 NLR RPS4 协同激活 ETI (Le Roux et al., 2015; Sarris et al., 2015)。</li>
+    <li><strong>水稻 Pik-1：</strong>整合了一个 HMA 域，直接结合<em>M. oryzae</em>效应蛋白 AVR-PikD，与配对 NLR Pik-2 协同工作 (Maqbool et al., 2015)。</li>
+  </ul>
+
+  [图 4.2 整合诱饵模型：NLR 通过整合域捕获效应蛋白]
+
+  <h3>NLR 配对：sensor-executor 的最小单元</h3>
+  <p>一个引人注目的规律是：携带 ID 的 NLR 几乎总是成对出现——一个 sensor NLR（携带 ID，负责识别）和一个 executor/helper NLR（负责信号输出），两者基因在基因组上通常头对头或尾对尾排列 (Cesari et al., 2014)。这种配对架构赋予了极大的进化灵活性：sensor NLR 的 ID 可以快速变异以追踪效应蛋白的进化，而 executor NLR 保持保守以维持可靠的信号输出。</p>
+
+  <p>生物信息学分析显示，植物 NLR 组中整合的域类型极为多样——包括激酶域、WRKY 域、HMA 域、BED 锌指域等，总计超过50种不同的整合域类型 (Kroj et al., 2016; Sarris et al., 2016)。这些整合域的多样性可能反映了效应蛋白靶标的多样性，暗示 ID-NLR 是植物应对效应蛋白多样化的一种高效进化策略。</p>
+
+  <div class="box box-cognition">
+    <div class="box-title">认知升级</div>
+    <p>整合诱饵模型揭示了植物免疫的一个深刻的进化智慧：<strong>把效应蛋白的攻击靶标变成识别陷阱</strong>。效应蛋白进化来修饰宿主蛋白 X → 植物把 X 的结构域整合进 NLR → 效应蛋白"上钩"修饰整合域 → NLR 激活。这种策略的精妙之处在于，效应蛋白越是精准地攻击其靶标，就越容易被"整合了靶标的 NLR"所识别。这为合理设计新型抗病 NLR 提供了明确的工程思路 <span class="cross-ref">→ 第14章</span>。</p>
+  </div>
+
+  <!-- 4.7 NLR Network -->
+  <h2><span class="section-num">4.7</span>NLR 网络：sensor 与 helper 的分工协作</h2>
 
   <p>
     随着越来越多 NLR 的功能被揭示，领域认识到植物体内的 NLR 并非各自为战，而是组成了一个<span class="keyword">功能网络</span>。根据功能分工，NLR 可分为：
@@ -203,7 +230,7 @@
   </p>
 
   <!-- 4.7 HR -->
-  <h2><span class="section-num">4.7</span>过敏性坏死反应 (HR) 的分子基础</h2>
+  <h2><span class="section-num">4.8</span>过敏性坏死反应 (HR) 的分子基础</h2>
 
   <p>
     HR 是 ETI 最显著的表型输出——受感染的细胞及其周围少量细胞迅速死亡，在叶片上形成可见的坏死斑点，将病原体（尤其是活体营养型病原体）封锁在死亡组织中。HR 的核心分子执行者现在被认为是 NLR 抗病小体形成的膜孔本身，以及其导致的 Ca²⁺ 内流。
@@ -213,10 +240,16 @@
     值得注意的是，细胞死亡与免疫信号是否可以解耦 <span class="english-term">(uncoupling)</span>，是领域内的重要争论之一。部分证据表明，NLR 可以在不引发明显 HR 的情况下激活免疫基因表达和抗病性，提示 NLR 的功能输出可能比"全有或全无"的细胞死亡更为精细。
   </p>
 
-  <!-- 4.8 Milestone Paper -->
-  <h2><span class="section-num">4.8</span>里程碑研究思路拆解</h2>
+  <!-- ======== Key Question ======== -->
+  <div class="box box-cognition"><div class="box-title">Key Question</div>
+  <p><strong>NLR 介导的细胞死亡与免疫信号输出能否被彻底解耦？</strong></p>
+  <p>如果可以解耦——即保留 NLR 的免疫信号输出（防御基因激活、SA 积累等）同时消除细胞死亡——那将在育种上具有巨大价值：抗性增强但没有 HR 带来的组织损伤代价。初步证据暗示 CNL 的成孔和信号输出可能有部分独立性（低水平的 Ca²⁺ 内流足以激活信号，但不足以杀死细胞），但这一假说的普遍适用性尚待验证。对 TNL 来说，由于信号通过酶产物传递给 helper NLR，理论上可以通过工程化 helper NLR 的活性来调控输出水平 <span class="cross-ref">→ 第14章</span>。</p>
+  </div>
 
-  <h3>Wang <em>et al.</em> (2019) — ZAR1 抗病小体的结构解析</h3>
+  <!-- ======== 里程碑研究 ======== -->
+  <h2><span class="section-num">4.9</span>里程碑研究思路拆解</h2>
+
+  <h3>里程碑 1：Wang et al. (2019a, 2019b) — ZAR1 抗病小体的结构解析</h3>
 
   <div class="box box-experiment">
     <div class="box-title">思路拆解</div>
@@ -241,8 +274,22 @@
     </p>
   </div>
 
-  <!-- 4.9 Open Questions -->
-  <h2><span class="section-num">4.9</span>当前争论与未解问题</h2>
+  <h3>里程碑 2：Horsefield et al. (2019) & Wan et al. (2019) — TIR 域的 NADase 活性</h3>
+  <div class="box box-experiment"><div class="box-title">思路拆解</div>
+  <p><strong>面对的问题：</strong>TNL 类 NLR 的 TIR 结构域如何传递信号？此前认为 TIR 仅作蛋白互作支架，但遗传证据表明其自身的某种酶活性对信号传递是必需的。</p>
+  <p><strong>关键思路：</strong>两个独立团队通过结构和生化分析发现，TIR 域在寡聚化后获得 NAD⁺ 水解酶（NADase）活性，将 NAD⁺ 切割为烟酰胺和变体环化 ADP-核糖（v-cADPR）等产物。</p>
+  <p><strong>关键证据链：</strong>（1）纯化 TIR 域体外水解 NAD⁺；（2）催化位点关键残基突变（如 E/A 突变）消除酶活和体内免疫功能；（3）产物 v-cADPR 被 EDS1 复合体感知。</p>
+  <p><strong>影响：</strong>揭示了 TNL 信号转导的全新生化机制，解释了 TNL 和 CNL 下游通路分歧的分子基础。也建立了植物 TIR 与动物 SARM1（一种同样具有 NADase 活性的 TIR 域蛋白）之间的功能平行关系。</p></div>
+
+  <h3>里程碑 3：Cesari et al. (2014) & Le Roux et al. (2015) — 整合诱饵模型</h3>
+  <div class="box box-experiment"><div class="box-title">思路拆解</div>
+  <p><strong>面对的问题：</strong>NLR 如何应对效应蛋白靶标的多样性？如果效应蛋白靶向不同的宿主蛋白，植物是否需要为每个靶标单独演化一个 NLR？</p>
+  <p><strong>关键思路：</strong>通过比较基因组学分析发现，许多 NLR 在经典结构域之外整合了额外的"非典型域"（ID），这些 ID 的序列与已知效应蛋白靶标同源。由此提出：NLR 通过将效应蛋白靶标整合为自身的一部分，以"钓鱼"方式捕获效应蛋白。</p>
+  <p><strong>关键证据链：</strong>（1）水稻 RGA5 的 HMA 域直接结合 AVR-Pia；（2）拟南芥 RRS1 的 WRKY 域被 PopP2 乙酰化后触发 RPS4 激活；（3）全基因组分析揭示超过50种不同的 ID 类型。</p>
+  <p><strong>影响：</strong>为合理设计新型 NLR 提供了清晰的策略框架：鉴定效应蛋白靶标 → 将靶标域工程整合进 NLR sensor → 配对 executor NLR。这一策略已在水稻抗稻瘟病中初步验证。</p></div>
+
+  <!-- 4.10 Open Questions -->
+  <h2><span class="section-num">4.10</span>当前争论与未解问题</h2>
 
   <ul class="questions-list">
     <li>
@@ -263,7 +310,7 @@
   </ul>
 
   <!-- 4.10 Methods -->
-  <h2><span class="section-num">4.10</span>关键实验方法</h2>
+  <h2><span class="section-num">4.11</span>关键实验方法</h2>
 
   <table>
     <thead>
@@ -309,7 +356,7 @@
 
   <!-- 4.11 Recommended Reading -->
   <div class="reading-section">
-    <h2><span class="section-num">4.11</span>推荐阅读</h2>
+    <h2><span class="section-num">4.12</span>推荐阅读</h2>
 
     <div class="reading-level level-essential">
       <h4>🔴 必读</h4>
@@ -387,20 +434,31 @@
     </div>
   </div>
 
+  <!-- ======== 参考文献 ======== -->
+  <h2><span class="section-num">4.13</span>参考文献</h2>
+  <ol class="references">
+    <li>Adachi H, Derevnina L, Kamoun S. NLR singletons, pairs, and networks: evolution, assembly, and regulation of the intracellular immunoreceptor circuitry of plants. <em>Curr Opin Plant Biol</em>, 2019, 50: 121–131.</li>
+    <li>Bi G, Su M, Li N, et al. The ZAR1 resistosome is a calcium-permeable channel triggering plant immune signaling. <em>Cell</em>, 2021, 184: 3528–3541.</li>
+    <li>Cesari S, Thouri M, Broz P, et al. The rice resistance protein pair RGA4/RGA5 recognizes the <em>Magnaporthe oryzae</em> effectors AVR-Pia and AVR1-CO39 by direct binding. <em>Plant Cell</em>, 2013, 25: 1463–1481.</li>
+    <li>Cesari S, Bernoux M, Moncuquet P, et al. A novel conserved mechanism for plant NLR protein pairs: the "integrated decoy" hypothesis. <em>Front Plant Sci</em>, 2014, 5: 606.</li>
+    <li>Dongus JA, Parker JE. EDS1 signalling: at the nexus of intracellular and surface receptor immunity. <em>Curr Opin Plant Biol</em>, 2021, 62: 102039.</li>
+    <li>Horsefield S, Burdett H, Zhang X, et al. NAD⁺ cleavage activity by animal and plant TIR domains in cell death pathways. <em>Science</em>, 2019, 365: 793–799.</li>
+    <li>Kourelis J, van der Hoorn RAL. Defended to the nines: 25 years of resistance gene cloning identifies nine mechanisms for R protein function. <em>Plant Cell</em>, 2018, 30: 285–299.</li>
+    <li>Kroj T, Chanclud E, Michel-Romiti C, et al. Integration of decoy domains derived from protein targets of pathogen effectors into plant immune receptors is widespread. <em>New Phytol</em>, 2016, 210: 618–626.</li>
+    <li>Lapin D, Bhandari DD, Parker JE. Origins and immunity networking functions of EDS1 family proteins. <em>Annu Rev Phytopathol</em>, 2022, 60: 253–276.</li>
+    <li>Le Roux C, Huet G, Jauneau A, et al. A receptor pair with an integrated decoy converts pathogen disabling of transcription factors to immunity. <em>Cell</em>, 2015, 161: 1074–1088.</li>
+    <li>Maqbool A, Saitoh H, Franceschetti M, et al. Structural basis of pathogen recognition by an integrated HMA domain in a plant NLR immune receptor. <em>eLife</em>, 2015, 4: e08709.</li>
+    <li>Sarris PF, Duxbury Z, Huh SU, et al. A plant immune receptor detects pathogen effectors that target WRKY transcription factors. <em>Cell</em>, 2015, 161: 1089–1100.</li>
+    <li>Sarris PF, Cevik V, Dagdas G, et al. Comparative analysis of plant immune receptor architectures uncovers host proteins likely targeted by pathogens. <em>BMC Biol</em>, 2016, 14: 8.</li>
+    <li>van der Hoorn RAL, Kamoun S. From guard to decoy: a new model for perception of plant pathogen effectors. <em>Plant Cell</em>, 2008, 20: 2009–2017.</li>
+    <li>Wan L, Essuman K, Anderson RG, et al. TIR domains of plant immune receptors are NAD⁺-cleaving enzymes that promote cell death. <em>Science</em>, 2019, 365: 799–803.</li>
+    <li>Wang J, Hu M, Wang J, et al. Reconstitution and structure of a plant NLR resistosome conferring immunity. <em>Science</em>, 2019a, 364: eaav5870.</li>
+    <li>Wang J, Wang J, Hu M, et al. Ligand-triggered allosteric ADP release primes a plant NLR complex. <em>Science</em>, 2019b, 364: eaav5868.</li>
+  </ol>
+
   <!-- Chapter Navigation -->
   <nav class="chapter-nav">
-    <a href="#">
-      <div>
-        <span class="nav-label">上一章</span>
-        ← 第三章 受体与信号转导
-      </div>
-    </a>
-    <a href="#">
-      <div style="text-align:right;">
-        <span class="nav-label">下一章</span>
-        第五章 激素信号网络 →
-      </div>
-    </a>
+    <a href="#"><div><span class="nav-label">上一章</span>← 第3章 受体与信号转导</div></a>
+    <a href="#"><div style="text-align:right;"><span class="nav-label">下一章</span>第5章 激素信号网络 →</div></a>
   </nav>
-
 </div>

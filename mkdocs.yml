@@ -27,12 +27,18 @@ markdown_extensions:
   - tables
   - toc:
       permalink: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
 
 extra_css:
   - assets/stylesheets/book-chapter.v2.css
 
 extra_javascript:
   - assets/javascripts/chapter-toc.v2.js
+  - https://unpkg.com/mermaid@10/dist/mermaid.min.js
 
 nav:
   - 前言: index.md

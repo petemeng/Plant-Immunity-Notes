@@ -309,6 +309,8 @@
     </li>
   </ul>
 
+  <p>2025 年的可激活 NLR 工程研究进一步把这个问题推向应用层面。Wang et al. (2025) 将天然自激活 NLR 改造成“病原蛋白酶激活”的免疫开关：只有当目标病原的特异性蛋白酶切割设计好的连接肽时，NLR 才解除抑制并触发广谱免疫。这一策略的重要性不只在于获得抗性，而在于它提供了一个新的设计原则——不是直接改变 NLR 的效应子识别界面，而是把病原体的保守酶活转化为免疫触发信号。它也为“如何解耦自身免疫与有效防御”提供了一个可实验化的答案：通过外源病原活动作为开关，把 NLR 的高风险激活限制在感染发生时。</p>
+
   <!-- 4.10 Methods -->
   <h2><span class="section-num">4.11</span>关键实验方法</h2>
 
@@ -403,6 +405,15 @@
 
       <div class="reading-item">
         <div class="reading-ref">
+          <span class="authors">Wang X, et al.</span>
+          Remodelling autoactive NLRs for broad-spectrum immunity in plants.
+          <span class="journal"><em>Nature</em>, 2025.</span>
+        </div>
+        <div class="reading-reason">把 NLR 的高风险自激活特性改造成病原蛋白酶依赖的可控免疫开关，是 NLR 工程从“改识别”走向“改激活逻辑”的代表。</div>
+      </div>
+
+      <div class="reading-item">
+        <div class="reading-ref">
           <span class="authors">Adachi H, Derevnina L, Kamoun S.</span>
           NLR singletons, pairs, and networks: evolution, assembly, and regulation of the intracellular immunoreceptor circuitry of plants.
           <span class="journal"><em>Curr Opin Plant Biol</em>, 2019, 50: 121-131.</span>
@@ -452,6 +463,7 @@
     <li>Sarris PF, Cevik V, Dagdas G, et al. Comparative analysis of plant immune receptor architectures uncovers host proteins likely targeted by pathogens. <em>BMC Biol</em>, 2016, 14: 8.</li>
     <li>van der Hoorn RAL, Kamoun S. From guard to decoy: a new model for perception of plant pathogen effectors. <em>Plant Cell</em>, 2008, 20: 2009–2017.</li>
     <li>Wan L, Essuman K, Anderson RG, et al. TIR domains of plant immune receptors are NAD⁺-cleaving enzymes that promote cell death. <em>Science</em>, 2019, 365: 799–803.</li>
+    <li>Wang X, et al. Remodelling autoactive NLRs for broad-spectrum immunity in plants. <em>Nature</em>, 2025, 642: 737–746. DOI: 10.1038/s41586-025-09252-z.</li>
     <li>Wang J, Hu M, Wang J, et al. Reconstitution and structure of a plant NLR resistosome conferring immunity. <em>Science</em>, 2019a, 364: eaav5870.</li>
     <li>Wang J, Wang J, Hu M, et al. Ligand-triggered allosteric ADP release primes a plant NLR complex. <em>Science</em>, 2019b, 364: eaav5868.</li>
   </ol>

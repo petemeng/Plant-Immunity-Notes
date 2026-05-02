@@ -49,7 +49,46 @@
 
   <p>VSR 的存在创造了一种持续的分子军备竞赛——与效应子-NLR 的博弈遥相呼应 <span class="cross-ref">→ 第7章</span>。值得注意的是，一些 NLR 蛋白已被证明能直接识别 VSR（如烟草的 N 蛋白识别 TMV 的解旋酶/VSR 功能域），将 RNA 沉默防线与 ETI 防线在分子层面连接起来 <span class="cross-ref">→ 第4章</span>。</p>
 
-  [图 13.1 抗病毒 RNA 沉默通路与 VSR 靶点示意图]
+  <div class="figure">
+    <svg viewBox="0 0 760 240" role="img" aria-label="抗病毒 RNA 沉默通路与 VSR 靶点">
+      <defs>
+        <marker id="arrow-ch13-1" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+          <path d="M0,0 L8,3 L0,6 Z" fill="#6b7f8f"></path>
+        </marker>
+      </defs>
+      <rect x="32" y="72" width="116" height="48" rx="4" fill="#fff0e3" stroke="#b18056"></rect>
+      <text x="90" y="93" text-anchor="middle" font-size="13" fill="#5a3b25">病毒复制</text>
+      <text x="90" y="112" text-anchor="middle" font-size="12" fill="#5a3b25">dsRNA</text>
+
+      <rect x="188" y="72" width="116" height="48" rx="4" fill="#eef5ee" stroke="#78917d"></rect>
+      <text x="246" y="101" text-anchor="middle" font-size="14" fill="#2f4636">DCL 切割</text>
+
+      <rect x="344" y="72" width="116" height="48" rx="4" fill="#edf4fb" stroke="#7b95b2"></rect>
+      <text x="402" y="93" text-anchor="middle" font-size="13" fill="#30475f">vsiRNA</text>
+      <text x="402" y="112" text-anchor="middle" font-size="12" fill="#30475f">装载引导链</text>
+
+      <rect x="500" y="72" width="116" height="48" rx="4" fill="#eef5ee" stroke="#78917d"></rect>
+      <text x="558" y="93" text-anchor="middle" font-size="13" fill="#2f4636">AGO/RISC</text>
+      <text x="558" y="112" text-anchor="middle" font-size="12" fill="#2f4636">识别病毒 RNA</text>
+
+      <rect x="646" y="72" width="82" height="48" rx="4" fill="#f7efe2" stroke="#aa8d66"></rect>
+      <text x="687" y="93" text-anchor="middle" font-size="13" fill="#4d3928">降解</text>
+      <text x="687" y="112" text-anchor="middle" font-size="12" fill="#4d3928">病毒 RNA</text>
+
+      <path d="M148 96 L188 96" stroke="#6b7f8f" stroke-width="2.5" marker-end="url(#arrow-ch13-1)"></path>
+      <path d="M304 96 L344 96" stroke="#6b7f8f" stroke-width="2.5" marker-end="url(#arrow-ch13-1)"></path>
+      <path d="M460 96 L500 96" stroke="#6b7f8f" stroke-width="2.5" marker-end="url(#arrow-ch13-1)"></path>
+      <path d="M616 96 L646 96" stroke="#6b7f8f" stroke-width="2.5" marker-end="url(#arrow-ch13-1)"></path>
+
+      <rect x="182" y="158" width="430" height="44" rx="4" fill="#fff6f3" stroke="#c98975" stroke-dasharray="5 4"></rect>
+      <text x="397" y="176" text-anchor="middle" font-size="13" fill="#8a3d2d">VSR 的常见靶点</text>
+      <text x="397" y="195" text-anchor="middle" font-size="12" fill="#8a3d2d">阻断 DCL 加工、结合 siRNA、干扰 AGO 装载或切割活性</text>
+      <path d="M246 158 L246 124" stroke="#c98975" stroke-width="2" stroke-dasharray="4 4"></path>
+      <path d="M402 158 L402 124" stroke="#c98975" stroke-width="2" stroke-dasharray="4 4"></path>
+      <path d="M558 158 L558 124" stroke="#c98975" stroke-width="2" stroke-dasharray="4 4"></path>
+    </svg>
+    <p class="figure-caption"><strong>图 13.1 抗病毒 RNA 沉默通路与 VSR 靶点。</strong>病毒复制产生的 dsRNA 被 DCL 加工为 vsiRNA，随后装载 AGO/RISC 并引导病毒 RNA 降解；病毒 RNA 沉默抑制子可在多个步骤阻断这一防线。</p>
+  </div>
 
   <!-- ======== 13.2 miRNA 与免疫 ======== -->
   <h2><span class="section-num">13.2</span>miRNA 在免疫调控中的角色</h2>
@@ -153,6 +192,16 @@
       <text x="380" y="109" text-anchor="middle" font-size="13" fill="#30475f">跨界 RNAi 平衡</text>
     </svg>
     <p class="figure-caption"><strong>图 13.2 跨界 RNA 转移的双向机制。</strong>病原小 RNA 可以进入植物细胞并劫持宿主 AGO，植物也可通过胞外囊泡、根系分泌 miRNA 或 ceRNA 模块反制病原 RNA 攻击，并可能重塑有益根际微生物。</p>
+  </div>
+
+  <div class="figure">
+    <img src="../../assets/images/papers/liu-2025-microbiome-fig7.png" alt="Liu et al. 2025 图7：有机肥促进番茄根系 miRNA 分泌并影响根际有益菌和青枯菌">
+    <p class="figure-caption"><strong>图 13.3 论文原图：根系 miRNA 连接有机肥、根际微生物与青枯病抑制。</strong>原图为 Liu et al. (2025) <em>Microbiome</em> Fig. 7，DOI: 10.1186/s40168-025-02137-3。依据 CC BY-NC-ND 4.0 原样复用；图片未作裁剪、改色或内容改动。</p>
+  </div>
+
+  <div class="figure">
+    <img src="../../assets/images/papers/ni-2026-natcomm-fig1.png" alt="Ni et al. 2026 图1：水稻 AGO 相关材料接种纹枯病菌后的病斑和病原生物量表型">
+    <p class="figure-caption"><strong>图 13.4 论文原图：跨界 RNAi 相关 AGO 节点的遗传证据。</strong>原图为 Ni et al. (2026) <em>Nature Communications</em> Fig. 1，DOI: 10.1038/s41467-026-72158-5。依据 CC BY-NC-ND 4.0 原样复用；图片未作裁剪、改色或内容改动。</p>
   </div>
 
   <!-- ======== 13.5 表观遗传学 ======== -->

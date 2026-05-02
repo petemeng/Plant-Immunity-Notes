@@ -1,0 +1,34 @@
+Paper figure sources
+
+This directory contains unmodified paper figures used in the book. These files
+are included only where the article page lists a reuse license that permits
+non-commercial redistribution without derivatives.
+
+All three figures below are reused unchanged under Creative Commons
+Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0):
+https://creativecommons.org/licenses/by-nc-nd/4.0/
+
+File: wu-2025-microbiome-fig7.png
+Source: Fig. 7
+Article: Wu J, Hu S, Chen J, et al. Soil microbial legacy mediated by buckwheat
+flavonoids enhances cabbage resistance to clubroot disease. Microbiome, 2025,
+13: 176.
+DOI: 10.1186/s40168-025-02166-y
+
+File: liu-2025-microbiome-fig7.png
+Source: Fig. 7
+Article: Liu S, Li HY, Zhang T, et al. Organic fertilizer enhances the secretion
+of microRNAs from tomato roots to facilitate beneficial rhizosphere microorganism
+expansion and suppress Ralstonia solanacearum proliferation. Microbiome, 2025,
+13: 159.
+DOI: 10.1186/s40168-025-02137-3
+
+File: ni-2026-natcomm-fig1.png
+Source: Fig. 1
+Article: Ni J, Mao W, Shi T, et al. A rice ceRNA module suppresses Rhizoctonia
+solani-induced cross-kingdom RNAi to reduce fungal pathogenicity. Nature
+Communications, 2026.
+DOI: 10.1038/s41467-026-72158-5
+
+Do not crop, recolor, annotate, or otherwise adapt these images unless a new
+license check supports that use.

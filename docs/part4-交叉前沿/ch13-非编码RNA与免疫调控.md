@@ -121,7 +121,39 @@
 
   <p>这些发现开辟了一个全新的应用方向：<strong>宿主诱导基因沉默（Host-Induced Gene Silencing, HIGS）</strong>——在转基因植物中表达靶向病原关键基因的 dsRNA/miRNA，使植物成为持续的 RNA "武器工厂"。HIGS 已在多种病理系统中展示了原理验证，包括抗真菌、抗卵菌和抗线虫 <span class="cross-ref">→ 第14章</span>。</p>
 
-  [图 13.2 跨界 RNA 转移的双向机制——病原 RNA 劫持 vs 宿主 RNA 反击]
+  <p>2025–2026 年的研究把 RNA 防御从“病原-宿主”扩展到“宿主-微生物组-病原”的三方系统。Liu et al. (2025) 发现有机肥可促进番茄根系分泌 miR159 和 miR319c-3p 等 miRNA，这些 RNA 信号既有助于扩增有益根际微生物，又抑制 <em>Ralstonia solanacearum</em> 的增殖。Ni et al. (2026) 则在水稻中揭示一个 ceRNA 模块可削弱 <em>Rhizoctonia solani</em> 诱导的跨界 RNAi，从而降低纹枯病菌致病性。也就是说，RNA 不只是“沉默工具”，还可能是宿主管理微生物组与反制病原 RNA 攻击的调节货币。</p>
+
+  <div class="figure">
+    <svg viewBox="0 0 760 230" role="img" aria-label="跨界 RNA 转移的双向机制">
+      <defs>
+        <marker id="arrow-ch13" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+          <path d="M0,0 L8,3 L0,6 Z" fill="#6b7f8f"></path>
+        </marker>
+      </defs>
+      <rect x="54" y="46" width="190" height="104" rx="8" fill="#eef5ee" stroke="#78917d"></rect>
+      <text x="149" y="72" text-anchor="middle" font-size="15" fill="#2f4636">植物细胞</text>
+      <circle cx="112" cy="112" r="20" fill="#d8eadf" stroke="#78917d"></circle>
+      <text x="112" y="116" text-anchor="middle" font-size="11" fill="#2f4636">AGO</text>
+      <circle cx="186" cy="112" r="18" fill="#f1f7f2" stroke="#78917d"></circle>
+      <text x="186" y="116" text-anchor="middle" font-size="11" fill="#2f4636">EV</text>
+
+      <rect x="516" y="46" width="190" height="104" rx="8" fill="#fff0e3" stroke="#b18056"></rect>
+      <text x="611" y="72" text-anchor="middle" font-size="15" fill="#5a3b25">病原/根际微生物</text>
+      <circle cx="574" cy="112" r="20" fill="#f8dfc8" stroke="#b18056"></circle>
+      <text x="574" y="116" text-anchor="middle" font-size="11" fill="#5a3b25">sRNA</text>
+      <circle cx="650" cy="112" r="18" fill="#fff8ef" stroke="#b18056"></circle>
+      <text x="650" y="116" text-anchor="middle" font-size="11" fill="#5a3b25">mRNA</text>
+
+      <path d="M516 92 C430 58 332 58 244 92" fill="none" stroke="#b18056" stroke-width="3" marker-end="url(#arrow-ch13)"></path>
+      <text x="380" y="54" text-anchor="middle" font-size="13" fill="#7a4c2b">病原 sRNA 劫持 AGO</text>
+      <path d="M244 126 C338 168 426 168 516 126" fill="none" stroke="#78917d" stroke-width="3" marker-end="url(#arrow-ch13)"></path>
+      <text x="380" y="184" text-anchor="middle" font-size="13" fill="#3e6448">植物 EV / 根系 miRNA 反击或招募有益菌</text>
+
+      <rect x="286" y="84" width="188" height="44" rx="5" fill="#edf4fb" stroke="#7b95b2"></rect>
+      <text x="380" y="109" text-anchor="middle" font-size="13" fill="#30475f">跨界 RNAi 平衡</text>
+    </svg>
+    <p class="figure-caption"><strong>图 13.2 跨界 RNA 转移的双向机制。</strong>病原小 RNA 可以进入植物细胞并劫持宿主 AGO，植物也可通过胞外囊泡、根系分泌 miRNA 或 ceRNA 模块反制病原 RNA 攻击，并可能重塑有益根际微生物。</p>
+  </div>
 
   <!-- ======== 13.5 表观遗传学 ======== -->
   <h2><span class="section-num">13.5</span>表观遗传学与免疫记忆</h2>
@@ -201,10 +233,12 @@
 <div class="reading-item"><div class="reading-ref"><span class="authors">Borges F, Martienssen RA.</span><span class="title"><em>The expanding world of small RNAs in plants.</em></span><span class="journal"><em>Nat Rev Mol Cell Biol</em>, 2015.</span></div><div class="reading-reason">小 RNA 机制的全面综述。</div></div>
 <div class="reading-item"><div class="reading-ref"><span class="authors">Huang CY, Wang H, Hu P, et al.</span><span class="title"><em>Long noncoding RNAs and their roles in plant immune responses.</em></span><span class="journal"><em>Plant Commun</em>, 2021.</span></div><div class="reading-reason">lncRNA 免疫综述，定义了当前知识边界。</div></div>
 <div class="reading-item"><div class="reading-ref"><span class="authors">Shivaprasad PV, Chen HM, Patel K, et al.</span><span class="title"><em>A microRNA superfamily regulates nucleotide binding site–leucine-rich repeats and other mRNAs.</em></span><span class="journal"><em>Plant Cell</em>, 2012.</span></div><div class="reading-reason">miRNA-NLR 调控轴的系统解析。</div></div>
+<div class="reading-item"><div class="reading-ref"><span class="authors">Liu S, Li HY, Zhang T, et al.</span><span class="title"><em>Organic fertilizer enhances the secretion of microRNAs from tomato roots to facilitate beneficial rhizosphere microorganism expansion and suppress Ralstonia solanacearum proliferation.</em></span><span class="journal"><em>Microbiome</em>, 2025, 13: 159.</span></div><div class="reading-reason">把根系 miRNA、微生物组扩增和土传病害抑制连接起来的最新案例。</div></div>
     </div>
     <div class="reading-level level-extended"><h4>🟢 拓展</h4>
 <div class="reading-item"><div class="reading-ref"><span class="authors">Wang M, Weiberg A, Dellota E Jr, Yamane D, Jin H.</span><span class="title"><em>Botrytis small RNA Bc-siR37 suppresses plant defense genes by cross-kingdom RNAi.</em></span><span class="journal"><em>Nat Plants</em>, 2017.</span></div><div class="reading-reason">跨界 RNA 的具体分子个案。</div></div>
 <div class="reading-item"><div class="reading-ref"><span class="authors">Gaffar FY, Koch A.</span><span class="title"><em>Catch me if you can! RNA silencing-based improvement of antiviral plant immunity.</em></span><span class="journal"><em>Viruses</em>, 2019.</span></div><div class="reading-reason">RNA 沉默的应用前景。</div></div>
+<div class="reading-item"><div class="reading-ref"><span class="authors">Ni J, Mao W, Shi T, et al.</span><span class="title"><em>A rice ceRNA module suppresses Rhizoctonia solani-induced cross-kingdom RNAi to reduce fungal pathogenicity.</em></span><span class="journal"><em>Nat Commun</em>, 2026.</span></div><div class="reading-reason">ceRNA 作为宿主反制病原跨界 RNAi 的新型防御层。</div></div>
 <div class="reading-item"><div class="reading-ref"><span class="authors">Zhang T, Zhao YL, Zhao JH, et al.</span><span class="title"><em>Cotton plants export microRNAs to inhibit virulence gene expression in a fungal pathogen.</em></span><span class="journal"><em>Nat Plants</em>, 2016.</span></div><div class="reading-reason">跨界 RNA 功能扩展实证。</div></div>
     </div>
   </div>
@@ -219,9 +253,11 @@
     <li>Dowen RH, Pelizzola M, Schmitz RJ, et al. Widespread dynamic DNA methylation in response to biotic stress. <em>Proc Natl Acad Sci USA</em>, 2012, 109: E2183–E2191.</li>
     <li>Huang CY, Wang H, Hu P, et al. Long noncoding RNAs and their roles in plant immune responses. <em>Plant Commun</em>, 2021, 2: 100228.</li>
     <li>Jaskiewicz M, Conrath U, Peterhänsel C. Chromatin modification acts as a memory for systemic acquired resistance in the plant stress response. <em>EMBO Rep</em>, 2011, 12: 50–55.</li>
+    <li>Liu S, Li HY, Zhang T, et al. Organic fertilizer enhances the secretion of microRNAs from tomato roots to facilitate beneficial rhizosphere microorganism expansion and suppress <em>Ralstonia solanacearum</em> proliferation. <em>Microbiome</em>, 2025, 13: 159. DOI: 10.1186/s40168-025-02137-3.</li>
     <li>Luna E, Bruce TJA, Roberts MR, et al. Next-generation systemic acquired resistance. <em>Plant Physiol</em>, 2012, 158: 844–853.</li>
     <li>Melnyk CW, Molnar A, Baulcombe DC. Intercellular and systemic movement of RNA silencing signals. <em>EMBO J</em>, 2011, 30: 3553–3563.</li>
     <li>Navarro L, Dunoyer P, Jay F, et al. A plant miRNA contributes to antibacterial resistance by repressing auxin signaling. <em>Science</em>, 2006, 312: 436–439.</li>
+    <li>Ni J, Mao W, Shi T, et al. A rice ceRNA module suppresses <em>Rhizoctonia solani</em>-induced cross-kingdom RNAi to reduce fungal pathogenicity. <em>Nat Commun</em>, 2026. DOI: 10.1038/s41467-026-72158-5.</li>
     <li>Seo JS, Sun HX, Park BS, et al. ELF18-INDUCED LONG-NONCODING RNA associates with Mediator to enhance expression of innate immune response genes in <em>Arabidopsis</em>. <em>Plant Cell</em>, 2017, 29: 1024–1038.</li>
     <li>Shivaprasad PV, Chen HM, Patel K, et al. A microRNA superfamily regulates nucleotide binding site–leucine-rich repeats and other mRNAs. <em>Plant Cell</em>, 2012, 24: 859–874.</li>
     <li>Vargason JM, Szittya G, Burgyán J, Hall TMT. Size selective recognition of siRNA by an RNA silencing suppressor. <em>Cell</em>, 2003, 115: 799–811.</li>

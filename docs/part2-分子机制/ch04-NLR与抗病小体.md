@@ -125,10 +125,39 @@
   </p>
 
   <div class="figure">
-    <div class="figure-placeholder">
-      图 4.1 &nbsp; ZAR1 抗病小体从静息态到激活态的结构转变示意图<br>
-      <span style="font-size:0.8rem;">（此处应插入 ZAR1 三态结构对比图）</span>
-    </div>
+    <svg viewBox="0 0 760 210" role="img" aria-label="ZAR1 抗病小体三态转换示意图">
+      <defs>
+        <marker id="arrow-ch4a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+          <path d="M0,0 L8,3 L0,6 Z" fill="#6b7f8f"></path>
+        </marker>
+      </defs>
+      <rect x="30" y="38" width="170" height="96" rx="6" fill="#eef5ee" stroke="#78917d"></rect>
+      <text x="115" y="62" text-anchor="middle" font-size="15" fill="#233426">静息态</text>
+      <circle cx="92" cy="94" r="24" fill="#d6e8db" stroke="#64826d"></circle>
+      <rect x="116" y="78" width="50" height="32" rx="4" fill="#fff6dd" stroke="#a68b53"></rect>
+      <text x="115" y="144" text-anchor="middle" font-size="12" fill="#4b5a50">ZAR1-RKS1 + ADP</text>
+
+      <rect x="294" y="38" width="170" height="96" rx="6" fill="#f6f0e6" stroke="#aa8d66"></rect>
+      <text x="379" y="62" text-anchor="middle" font-size="15" fill="#4b3523">中间态</text>
+      <circle cx="346" cy="94" r="24" fill="#e8dcc6" stroke="#a68b53"></circle>
+      <rect x="370" y="78" width="58" height="32" rx="4" fill="#f0e2cc" stroke="#a06c45"></rect>
+      <text x="379" y="144" text-anchor="middle" font-size="12" fill="#6b563f">PBL2-UMP 捕获</text>
+
+      <rect x="558" y="38" width="170" height="96" rx="6" fill="#eef1fb" stroke="#7789af"></rect>
+      <text x="643" y="62" text-anchor="middle" font-size="15" fill="#263451">激活态</text>
+      <circle cx="623" cy="96" r="16" fill="#d7dff4" stroke="#667aa5"></circle>
+      <circle cx="663" cy="96" r="16" fill="#d7dff4" stroke="#667aa5"></circle>
+      <circle cx="643" cy="76" r="16" fill="#d7dff4" stroke="#667aa5"></circle>
+      <circle cx="625" cy="116" r="16" fill="#d7dff4" stroke="#667aa5"></circle>
+      <circle cx="661" cy="116" r="16" fill="#d7dff4" stroke="#667aa5"></circle>
+      <path d="M615 152 Q643 176 671 152" fill="none" stroke="#53698f" stroke-width="5"></path>
+      <text x="643" y="144" text-anchor="middle" font-size="12" fill="#3f4d68">五聚体孔道</text>
+
+      <path d="M200 86 L294 86" stroke="#6b7f8f" stroke-width="2.5" marker-end="url(#arrow-ch4a)"></path>
+      <path d="M464 86 L558 86" stroke="#6b7f8f" stroke-width="2.5" marker-end="url(#arrow-ch4a)"></path>
+      <text x="247" y="75" text-anchor="middle" font-size="12" fill="#667280">AvrAC 修饰</text>
+      <text x="511" y="75" text-anchor="middle" font-size="12" fill="#667280">ADP→ATP / 寡聚化</text>
+    </svg>
     <p class="figure-caption">
       <strong>图 4.1 ZAR1 抗病小体的组装过程。</strong>
       (A) 静息态：ZAR1<sup>LRR</sup>-RKS1 二元复合体，NB-ARC 结合 ADP，蛋白处于自抑制构象。
@@ -198,7 +227,38 @@
     <li><strong>水稻 Pik-1：</strong>整合了一个 HMA 域，直接结合<em>M. oryzae</em>效应蛋白 AVR-PikD，与配对 NLR Pik-2 协同工作 (Maqbool et al., 2015)。</li>
   </ul>
 
-  [图 4.2 整合诱饵模型：NLR 通过整合域捕获效应蛋白]
+  <div class="figure">
+    <svg viewBox="0 0 760 220" role="img" aria-label="整合诱饵模型与 helper NLR 信号汇聚">
+      <defs>
+        <marker id="arrow-ch4b" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+          <path d="M0,0 L8,3 L0,6 Z" fill="#6b7f8f"></path>
+        </marker>
+      </defs>
+      <rect x="28" y="42" width="132" height="48" rx="4" fill="#fff0e3" stroke="#b18056"></rect>
+      <text x="94" y="70" text-anchor="middle" font-size="14" fill="#5a3b25">效应蛋白</text>
+      <rect x="212" y="34" width="162" height="64" rx="5" fill="#eef5ee" stroke="#74907b"></rect>
+      <text x="293" y="58" text-anchor="middle" font-size="14" fill="#24382b">sensor NLR</text>
+      <rect x="248" y="68" width="90" height="20" rx="3" fill="#d9eadf" stroke="#74907b"></rect>
+      <text x="293" y="82" text-anchor="middle" font-size="11" fill="#395645">integrated domain</text>
+      <rect x="426" y="42" width="132" height="48" rx="4" fill="#eef1fb" stroke="#7789af"></rect>
+      <text x="492" y="70" text-anchor="middle" font-size="14" fill="#263451">helper NLR</text>
+      <rect x="610" y="32" width="118" height="68" rx="5" fill="#f6f0e6" stroke="#aa8d66"></rect>
+      <text x="669" y="58" text-anchor="middle" font-size="14" fill="#4d3928">输出</text>
+      <text x="669" y="78" text-anchor="middle" font-size="12" fill="#6b563f">Ca²⁺ / HR / 防御基因</text>
+
+      <path d="M160 66 L212 66" stroke="#6b7f8f" stroke-width="2.5" marker-end="url(#arrow-ch4b)"></path>
+      <path d="M374 66 L426 66" stroke="#6b7f8f" stroke-width="2.5" marker-end="url(#arrow-ch4b)"></path>
+      <path d="M558 66 L610 66" stroke="#6b7f8f" stroke-width="2.5" marker-end="url(#arrow-ch4b)"></path>
+
+      <rect x="190" y="142" width="130" height="40" rx="4" fill="#f7faf7" stroke="#8aa28e"></rect>
+      <text x="255" y="166" text-anchor="middle" font-size="13" fill="#2f4636">识别可快速变异</text>
+      <rect x="430" y="142" width="130" height="40" rx="4" fill="#f7faf7" stroke="#8aa28e"></rect>
+      <text x="495" y="166" text-anchor="middle" font-size="13" fill="#2f4636">输出保持保守</text>
+      <path d="M293 98 L255 142" stroke="#8aa28e" stroke-width="2" marker-end="url(#arrow-ch4b)"></path>
+      <path d="M492 90 L495 142" stroke="#8aa28e" stroke-width="2" marker-end="url(#arrow-ch4b)"></path>
+    </svg>
+    <p class="figure-caption"><strong>图 4.2 整合诱饵与 sensor-helper 分工。</strong>携带整合域的 sensor NLR 负责捕获效应蛋白活动，helper NLR 负责稳定输出。识别端可以快速进化，输出端保持保守，这使 NLR 网络既能追踪病原变化，又能维持可靠的信号执行。</p>
+  </div>
 
   <h3>NLR 配对：sensor-executor 的最小单元</h3>
   <p>一个引人注目的规律是：携带 ID 的 NLR 几乎总是成对出现——一个 sensor NLR（携带 ID，负责识别）和一个 executor/helper NLR（负责信号输出），两者基因在基因组上通常头对头或尾对尾排列 (Cesari et al., 2014)。这种配对架构赋予了极大的进化灵活性：sensor NLR 的 ID 可以快速变异以追踪效应蛋白的进化，而 executor NLR 保持保守以维持可靠的信号输出。</p>
@@ -227,6 +287,10 @@
 
   <p>
     这种 sensor-helper 的分工模式具有重要的进化意义：sensor NLR 可以快速多样化以应对不断变化的效应子，而 helper NLR 保持相对保守，维持可靠的信号输出。这类似于适应性免疫中"识别"与"效应"功能的分离，是进化效率的体现。
+  </p>
+
+  <p>
+    2026 年的结构研究进一步把 helper NLR 从“下游执行器”推进到“可聚合的信号平台”。Ge et al. (2026) 发现，CNL 型 sensor NLR SUMM2 激活后，可以诱导 EDS1-PAD4 与 ADR1-L1 组装成 helper NLR 抗病小体簇，而不是一条简单的线性通路。这个结果提示：helper NLR 的寡聚状态可能决定输出阈值、细胞死亡强度和防御基因激活比例，是未来解耦“有效防御”与“组织损伤”的关键调控层。
   </p>
 
   <!-- 4.7 HR -->
@@ -309,7 +373,7 @@
     </li>
   </ul>
 
-  <p>2025 年的可激活 NLR 工程研究进一步把这个问题推向应用层面。Wang et al. (2025) 将天然自激活 NLR 改造成“病原蛋白酶激活”的免疫开关：只有当目标病原的特异性蛋白酶切割设计好的连接肽时，NLR 才解除抑制并触发广谱免疫。这一策略的重要性不只在于获得抗性，而在于它提供了一个新的设计原则——不是直接改变 NLR 的效应子识别界面，而是把病原体的保守酶活转化为免疫触发信号。它也为“如何解耦自身免疫与有效防御”提供了一个可实验化的答案：通过外源病原活动作为开关，把 NLR 的高风险激活限制在感染发生时。</p>
+  <p>2025 年的可激活 NLR 工程研究进一步把这个问题推向应用层面。Wang et al. (2025) 将天然自激活 NLR 改造成“病原蛋白酶激活”的免疫开关：只有当目标病原的特异性蛋白酶切割设计好的连接肽时，NLR 才解除抑制并触发广谱免疫。这一策略的重要性不只在于获得抗性，而在于它提供了一个新的设计原则——不是直接改变 NLR 的效应子识别界面，而是把病原体的保守酶活转化为免疫触发信号。结合 Ge et al. (2026) 对 helper NLR 抗病小体簇的解析，未来工程化的关键不只是“让 NLR 开启”，而是控制它开启后的聚合状态和输出强度。</p>
 
   <!-- 4.10 Methods -->
   <h2><span class="section-num">4.11</span>关键实验方法</h2>
@@ -407,9 +471,18 @@
         <div class="reading-ref">
           <span class="authors">Wang X, et al.</span>
           Remodelling autoactive NLRs for broad-spectrum immunity in plants.
-          <span class="journal"><em>Nature</em>, 2025.</span>
+          <span class="journal"><em>Nature</em>, 2025, 645: 737–745.</span>
         </div>
         <div class="reading-reason">把 NLR 的高风险自激活特性改造成病原蛋白酶依赖的可控免疫开关，是 NLR 工程从“改识别”走向“改激活逻辑”的代表。</div>
+      </div>
+
+      <div class="reading-item">
+        <div class="reading-ref">
+          <span class="authors">Ge D, Ortiz-Morea FA, Xie Y, et al.</span>
+          Assembly of helper NLR resistosome clusters upon activation of a coiled-coil NLR.
+          <span class="journal"><em>Nature</em>, 2026, 652: 251–258.</span>
+        </div>
+        <div class="reading-reason">把 helper NLR 从线性下游执行器推进为可聚合的抗病小体簇。</div>
       </div>
 
       <div class="reading-item">
@@ -453,6 +526,7 @@
     <li>Cesari S, Thouri M, Broz P, et al. The rice resistance protein pair RGA4/RGA5 recognizes the <em>Magnaporthe oryzae</em> effectors AVR-Pia and AVR1-CO39 by direct binding. <em>Plant Cell</em>, 2013, 25: 1463–1481.</li>
     <li>Cesari S, Bernoux M, Moncuquet P, et al. A novel conserved mechanism for plant NLR protein pairs: the "integrated decoy" hypothesis. <em>Front Plant Sci</em>, 2014, 5: 606.</li>
     <li>Dongus JA, Parker JE. EDS1 signalling: at the nexus of intracellular and surface receptor immunity. <em>Curr Opin Plant Biol</em>, 2021, 62: 102039.</li>
+    <li>Ge D, Ortiz-Morea FA, Xie Y, et al. Assembly of helper NLR resistosome clusters upon activation of a coiled-coil NLR. <em>Nature</em>, 2026, 652: 251–258. DOI: 10.1038/s41586-026-08785-9.</li>
     <li>Horsefield S, Burdett H, Zhang X, et al. NAD⁺ cleavage activity by animal and plant TIR domains in cell death pathways. <em>Science</em>, 2019, 365: 793–799.</li>
     <li>Kourelis J, van der Hoorn RAL. Defended to the nines: 25 years of resistance gene cloning identifies nine mechanisms for R protein function. <em>Plant Cell</em>, 2018, 30: 285–299.</li>
     <li>Kroj T, Chanclud E, Michel-Romiti C, et al. Integration of decoy domains derived from protein targets of pathogen effectors into plant immune receptors is widespread. <em>New Phytol</em>, 2016, 210: 618–626.</li>
@@ -463,7 +537,7 @@
     <li>Sarris PF, Cevik V, Dagdas G, et al. Comparative analysis of plant immune receptor architectures uncovers host proteins likely targeted by pathogens. <em>BMC Biol</em>, 2016, 14: 8.</li>
     <li>van der Hoorn RAL, Kamoun S. From guard to decoy: a new model for perception of plant pathogen effectors. <em>Plant Cell</em>, 2008, 20: 2009–2017.</li>
     <li>Wan L, Essuman K, Anderson RG, et al. TIR domains of plant immune receptors are NAD⁺-cleaving enzymes that promote cell death. <em>Science</em>, 2019, 365: 799–803.</li>
-    <li>Wang X, et al. Remodelling autoactive NLRs for broad-spectrum immunity in plants. <em>Nature</em>, 2025, 642: 737–746. DOI: 10.1038/s41586-025-09252-z.</li>
+    <li>Wang X, Ji C, Wang L, et al. Remodelling autoactive NLRs for broad-spectrum immunity in plants. <em>Nature</em>, 2025, 645: 737–745. DOI: 10.1038/s41586-025-09252-z.</li>
     <li>Wang J, Hu M, Wang J, et al. Reconstitution and structure of a plant NLR resistosome conferring immunity. <em>Science</em>, 2019a, 364: eaav5870.</li>
     <li>Wang J, Wang J, Hu M, et al. Ligand-triggered allosteric ADP release primes a plant NLR complex. <em>Science</em>, 2019b, 364: eaav5868.</li>
   </ol>

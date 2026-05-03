@@ -265,6 +265,11 @@
 
   <p>生物信息学分析显示，植物 NLR 组中整合的域类型极为多样——包括激酶域、WRKY 域、HMA 域、BED 锌指域等，总计超过50种不同的整合域类型 (Kroj et al., 2016; Sarris et al., 2016)。这些整合域的多样性可能反映了效应蛋白靶标的多样性，暗示 ID-NLR 是植物应对效应蛋白多样化的一种高效进化策略。</p>
 
+  <div class="figure">
+    <img src="../../assets/images/papers/frontiers-2023-nlr-recognition-fig1.jpg" alt="Anbu et al. 2023 图1：NLR 介导的直接和间接效应子识别模型">
+    <p class="figure-caption"><strong>图 4.P1 论文原图：NLR 对效应蛋白的直接与间接识别模型。</strong>原图为 Anbu et al. (2023) <em>Frontiers in Plant Science</em> Fig. 1，DOI: 10.3389/fpls.2023.1307294。该图把直接结合、guard/decoy 监测和整合域识别放在同一框架中，可作为 NLR 架构和激活机制的文献图示。依据 CC BY 4.0 原样复用；图片未作裁剪、改色或内容改动。</p>
+  </div>
+
   <div class="box box-cognition">
     <div class="box-title">认知升级</div>
     <p>整合诱饵模型揭示了植物免疫的一个深刻的进化智慧：<strong>把效应蛋白的攻击靶标变成识别陷阱</strong>。效应蛋白进化来修饰宿主蛋白 X → 植物把 X 的结构域整合进 NLR → 效应蛋白"上钩"修饰整合域 → NLR 激活。这种策略的精妙之处在于，效应蛋白越是精准地攻击其靶标，就越容易被"整合了靶标的 NLR"所识别。这为合理设计新型抗病 NLR 提供了明确的工程思路 <span class="cross-ref">→ 第14章</span>。</p>
@@ -522,6 +527,7 @@
   <h2><span class="section-num">4.13</span>参考文献</h2>
   <ol class="references">
     <li>Adachi H, Derevnina L, Kamoun S. NLR singletons, pairs, and networks: evolution, assembly, and regulation of the intracellular immunoreceptor circuitry of plants. <em>Curr Opin Plant Biol</em>, 2019, 50: 121–131.</li>
+    <li>Anbu S, Swart V, van den Berg N. Unmasking the invaders: NLR-mal function in plant defense. <em>Front Plant Sci</em>, 2023, 14: 1307294. DOI: 10.3389/fpls.2023.1307294.</li>
     <li>Bi G, Su M, Li N, et al. The ZAR1 resistosome is a calcium-permeable channel triggering plant immune signaling. <em>Cell</em>, 2021, 184: 3528–3541.</li>
     <li>Cesari S, Thouri M, Broz P, et al. The rice resistance protein pair RGA4/RGA5 recognizes the <em>Magnaporthe oryzae</em> effectors AVR-Pia and AVR1-CO39 by direct binding. <em>Plant Cell</em>, 2013, 25: 1463–1481.</li>
     <li>Cesari S, Bernoux M, Moncuquet P, et al. A novel conserved mechanism for plant NLR protein pairs: the "integrated decoy" hypothesis. <em>Front Plant Sci</em>, 2014, 5: 606.</li>

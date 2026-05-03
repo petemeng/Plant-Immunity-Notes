@@ -1,11 +1,105 @@
 Paper figure sources
 
-This directory contains unmodified paper figures used in the book. These files
-are included only where the article page lists a reuse license that permits
-non-commercial redistribution without derivatives.
+This directory contains unmodified paper figures used in the book. Files are
+included only where the article page lists a reuse license that permits local
+redistribution. Unless a later license check says otherwise, do not crop,
+recolor, annotate, or otherwise adapt these images.
 
-All three figures below are reused unchanged under Creative Commons
-Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0):
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+https://creativecommons.org/licenses/by/4.0/
+
+File: frontiers-2013-no-sa-ja-et-fig1.jpg
+Source: Fig. 1
+Article: Integrating nitric oxide into salicylic acid and jasmonic
+acid/ethylene plant defense pathways. Frontiers in Plant Science, 2013.
+DOI: 10.3389/fpls.2013.00215
+
+File: frontiers-2020-defense-modulation-fig1.jpg
+Source: Fig. 1
+Article: Nishad R, Ahmed T, Rahman VJ, et al. Modulation of Plant Defense
+System in Response to Microbial Interactions. Frontiers in Microbiology, 2020.
+DOI: 10.3389/fmicb.2020.01298
+
+File: frontiers-2020-pti-eti-continuum-fig1.jpg
+Source: Fig. 1
+Article: Naveed ZA, Wei X, Chen J, et al. The PTI to ETI Continuum in
+Phytophthora-Plant Interactions. Frontiers in Plant Science, 2020.
+DOI: 10.3389/fpls.2020.593905
+
+File: frontiers-2022-transcriptional-coactivators-fig1.jpg
+Source: Fig. 1
+Article: Khan MSS, Islam F, Chen H, et al. Transcriptional Coactivators:
+Driving Force of Plant Immunity. Frontiers in Plant Science, 2022.
+DOI: 10.3389/fpls.2022.823937
+
+File: frontiers-2023-nlr-recognition-fig1.jpg
+Source: Fig. 1
+Article: Anbu S, Swart V, van den Berg N. Unmasking the invaders: NLR-mal
+function in plant defense. Frontiers in Plant Science, 2023.
+DOI: 10.3389/fpls.2023.1307294
+
+File: frontiers-2025-crispr-wheat-fig1.jpg
+Source: Fig. 1
+Article: Waites J, Achary VMM, Syombua ED, et al. CRISPR-mediated genome
+editing of wheat for enhancing disease resistance. Frontiers in Genome
+Editing, 2025.
+DOI: 10.3389/fgeed.2025.1542487
+
+File: frontiers-2025-fungal-effectors-fig1.jpg
+Source: Fig. 1
+Article: Kainat, Mujtaba M, Wang Y, et al. Effectors of plants pathogenic
+fungi and fungal like microbes: a comprehensive review on mechanisms, roles,
+and host interactions. Frontiers in Plant Science, 2025.
+DOI: 10.3389/fpls.2025.1626960
+
+File: frontiers-2025-fungal-effectors-fig3.jpg
+Source: Fig. 3
+Article: Kainat, Mujtaba M, Wang Y, et al. Effectors of plants pathogenic
+fungi and fungal like microbes: a comprehensive review on mechanisms, roles,
+and host interactions. Frontiers in Plant Science, 2025.
+DOI: 10.3389/fpls.2025.1626960
+
+File: frontiers-2026-cpk-immunity-fig1.jpg
+Source: Fig. 1
+Article: Deng L, Ji S, Wang G, et al. Calcium-dependent protein kinases in
+plant immunity: from calcium signaling to network integration. Frontiers in
+Plant Science, 2026.
+DOI: 10.3389/fpls.2025.1704615
+
+File: plos-2025-defense-budget-fig1.png
+Source: Fig. 1
+Article: Bass E. Cutting the defense budget: How allocation costs shape
+induced resistance in plants. PLOS Biology, 2025.
+DOI: 10.1371/journal.pbio.3003317
+
+File: commbio-2025-abiotic-stress-integration-fig1.png
+Source: Fig. 1
+Article: Jiang Z, van Zanten M, Sasidharan R. Mechanisms of plant acclimation
+to multiple abiotic stresses. Communications Biology, 2025.
+DOI: 10.1038/s42003-025-08077-w
+
+File: natplants-2026-ja-systemic-fig1.png
+Source: Fig. 1
+Article: Rapid local and systemic jasmonate signalling drives the initiation
+and establishment of plant systemic immunity. Nature Plants, 2026.
+DOI: 10.1038/s41477-025-02178-4
+
+File: natplants-2026-bik1-substrate-map-fig1.png
+Source: Fig. 1
+Article: Motif-based substrate mapping of the receptor-like cytoplasmic kinase
+BIK1 reveals novel components and regulatory nodes of plant immunity. Nature
+Plants, 2026.
+DOI: 10.1038/s41477-025-02218-z
+
+File: phytopathres-2025-nlr-deployment-fig1.png
+Source: Fig. 1
+Article: Peng YL. Engineering plant immunity: from nucleotide-binding
+leucine-rich repeat receptor functional mechanisms to practical applications.
+Phytopathology Research, 2025.
+DOI: 10.1186/s42483-025-00387-5
+
+Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International
+(CC BY-NC-ND 4.0)
 https://creativecommons.org/licenses/by-nc-nd/4.0/
 
 File: wu-2025-microbiome-fig7.png
@@ -29,6 +123,3 @@ Article: Ni J, Mao W, Shi T, et al. A rice ceRNA module suppresses Rhizoctonia
 solani-induced cross-kingdom RNAi to reduce fungal pathogenicity. Nature
 Communications, 2026.
 DOI: 10.1038/s41467-026-72158-5
-
-Do not crop, recolor, annotate, or otherwise adapt these images unless a new
-license check supports that use.

@@ -1,4 +1,4 @@
-<div class="page-wrapper">
+﻿<div class="page-wrapper">
 
   <div class="breadcrumb"><a href="#">首页</a><span>›</span><a href="#">第一部分 · 免疫骨架</a><span>›</span>第2章</div>
 
@@ -6,10 +6,10 @@
       <div class="chapter-number">02</div>
       <div class="chapter-part">第一部分 · 免疫骨架</div>
       <h1 class="chapter-title">PTI 与 ETI 的关系演变</h1>
-      <p class=”chapter-subtitle”>从泰然二分到深度交织，这对概念的演变史折射了整个领域的思想变迁</p>
+      <p class="chapter-subtitle">从泰然二分到深度交织，这对概念的演变史折射了整个领域的思想变迁</p>
     </div></header>
 
-  <nav class=”chapter-toc”><h3>本章目录</h3><ol>
+  <nav class="chapter-toc"><h3>本章目录</h3><ol>
       <li>Flor 的基因对基因假说：一切的起点</li>
       <li>Zigzag 模型：将免疫分成两个层级</li>
       <li>PTI-ETI 协同放大：二元边界的崩塌</li>
@@ -19,7 +19,7 @@
     </ol></nav>
 
   <!-- ======== 引言 ======== -->
-  <div class=”chapter-intro”>
+  <div class="chapter-intro">
   <p>科学概念的命运往往比发明它们的人更跌宕。PTI（Pattern-Triggered Immunity）和 ETI（Effector-Triggered Immunity）这对术语自2006年被正式提出以来，经历了从被奉为金科玉律到被质疑是否仍有存在必要的完整生命周期——而这一切仅仅发生在不到二十年间。</p>
 
   <p>理解这对概念的演变史，不仅是理解植物免疫研究的必经之路，更是观察科学范式如何诞生、成熟、遭遇挑战并被修正的一个绝佳窗口。我们将看到，最具影响力的模型往往不是因为”正确”才成功，而是因为它在正确的时间提供了一个足够好的思考框架——直到新的证据迫使我们重新审视那些曾经被默认接受的假设。</p>
@@ -28,13 +28,13 @@
   </div>
 
   <!-- ======== 2.1 ======== -->
-  <h2><span class=”section-num”>2.1</span>Flor 的基因对基因假说：一切的起点</h2>
+  <h2><span class="section-num">2.1</span>Flor 的基因对基因假说：一切的起点</h2>
 
   <p>PTI 与 ETI 的故事，必须从一个更古老的概念讲起。</p>
 
   <p>1940年代至1970年代，美国农业部的 Harold H. Flor 在北达科他州的亚麻锈病系统（<em>Linum usitatissimum</em>–<em>Melampsora lini</em>）中进行了长达三十年的遗传分析。他的核心发现可以用一句话概括：<strong>宿主中每一个决定抗性的基因（R 基因），在病原中都有一个对应的决定无毒性的基因（Avr 基因）</strong> (Flor, 1971)。只有当 R 基因与对应的 Avr 基因同时存在时，才会触发抗性反应；任何一方缺失，互作结果就是感病。</p>
 
-  <p>这一”基因对基因假说”（gene-for-gene hypothesis）具有惊人的预测力和简洁性。在分子生物学工具尚未成熟的年代，它仅凭遗传学数据就准确地预言了植物抗病性的基本逻辑——一种高度特异性的分子识别关系。但这个假说也埋下了一个深远的概念陷阱：它天然地暗示 R-Avr 互作是一种”直接的、受体-配体式的识别”。正如我们在第1章讨论的，后来的保卫假说和诱饵模型表明，间接识别可能才是更普遍的机制 <span class=”cross-ref”>→ 第1章 1.3节</span>。</p>
+  <p>这一”基因对基因假说”（gene-for-gene hypothesis）具有惊人的预测力和简洁性。在分子生物学工具尚未成熟的年代，它仅凭遗传学数据就准确地预言了植物抗病性的基本逻辑——一种高度特异性的分子识别关系。但这个假说也埋下了一个深远的概念陷阱：它天然地暗示 R-Avr 互作是一种”直接的、受体-配体式的识别”。正如我们在第1章讨论的，后来的保卫假说和诱饵模型表明，间接识别可能才是更普遍的机制 <span class="cross-ref">→ 第1章 1.3节</span>。</p>
 
   <h3>从”特异性抗性”到”基础抗性”：被忽视的另一半</h3>
   <p>Flor 的体系完美地解释了品种间的特异性抗性差异，但它没有回答另一个同样重要的问题：<strong>当 R-Avr 识别不发生时，植物就完全没有防御了吗？</strong></p>
@@ -45,13 +45,13 @@
 
   <p>至此，两条研究线索——Flor 体系的特异性 R 基因抗性和 PRR 介导的非特异性基础抗性——像两条独立的河流，各自流淌了数十年后即将汇合。2006年的 Zigzag 模型，正是这次汇合的产物。</p>
 
-  <h2><span class=”section-num”>2.2</span>Zigzag 模型：将免疫分成两个层级</h2>
+  <h2><span class="section-num">2.2</span>Zigzag 模型：将免疫分成两个层级</h2>
 
   <p>2006年，Jonathan Jones 和 Jeffery Dangl 在<em>Nature</em>上发表了题为”The plant immune system”的综述，提出了日后被称为”Zigzag 模型”的概念框架 (Jones &amp; Dangl, 2006)。这篇论文迄今已被引用超过一万次，是植物免疫领域——或许也是整个植物科学领域——被引用最多的单篇文献之一。</p>
 
   <h3>模型的核心逻辑</h3>
   <p>Zigzag 模型将植物与病原的互作描述为一场持续升级的分子军备竞赛，分为四个阶段：</p>
-  <ol class=”mechanism-steps”>
+  <ol class="mechanism-steps">
     <li><strong>PTI 建立：</strong>植物表面 PRR 识别病原保守的分子模式（PAMP/MAMP），激活基础免疫反应（PTI）。此时免疫”幅度”（amplitude）升高，大多数非适应性病原被阻止。</li>
     <li><strong>效应子抑制（ETS）：</strong>成功的病原通过分泌效应蛋白抑制 PTI 信号通路的关键节点，将免疫幅度压低到病原可以增殖的水平——即效应子触发的易感性（Effector-Triggered Susceptibility, ETS）。</li>
     <li><strong>ETI 反击：</strong>植物的 NLR 受体通过直接或间接方式识别效应蛋白，重新激活强烈的免疫反应（ETI），通常伴随超敏细胞死亡（HR）。免疫幅度跃升至更高水平。</li>
@@ -107,11 +107,11 @@
 
   <p><strong>假设三：所有 PAMP 识别都是”模式触发”的，所有效应蛋白识别都是”效应子触发”的。</strong>但某些效应蛋白在质外体活动并被表面受体识别（如<em>Cladosporium fulvum</em>的 Avr 蛋白被 Cf 受体蛋白识别），而某些 PAMP 的识别方式与效应蛋白的间接识别高度相似。PTI/ETI 的划分标准——是按识别的<em>位置</em>（细胞表面 vs 细胞内）、识别的<em>对象</em>（保守模式 vs 效应蛋白）、还是反应的<em>强度</em>？——从未被明确统一 (Thomma et al., 2011)。</p>
 
-  <div class=”box box-cognition”><div class=”box-title”>认知升级</div>
+  <div class="box box-cognition"><div class="box-title">认知升级</div>
   <p>Zigzag 模型是一个<strong>优秀的教学工具，但不完美的科学模型</strong>。它的价值在于为整个领域提供了共同语言和思考框架，使得不同实验室的发现可以被放入统一的叙事中讨论。但正是这种统一性，也可能限制了我们看到不符合框架之证据的能力。理解一个模型的假设与局限，与理解它的贡献同样重要。</p>
   </div>
 
-  <h2><span class=”section-num”>2.3</span>PTI-ETI 协同放大：二元边界的崩塌</h2>
+  <h2><span class="section-num">2.3</span>PTI-ETI 协同放大：二元边界的崩塌</h2>
 
   <p>如果说 Zigzag 模型是植物免疫领域的”标准模型”，那么2021年初同时发表在<em>Nature</em>和<em>Science</em>上的两篇论文，就是对这个标准模型最有力的修正——甚至可以说是一次概念地震。</p>
 
@@ -177,9 +177,14 @@
     <p class="figure-caption"><strong>图 2.2 PTI-ETI 协同放大的分子机制模型。</strong>PTI 提供可快速启动的信号底盘，ETI 通过转录和蛋白水平增强 PRR、共受体、RBOHD 与激素模块，两者形成正反馈，从而产生强于单独激活的防御输出。</p>
   </div>
 
+  <div class="figure">
+    <img src="../../assets/images/papers/frontiers-2020-pti-eti-continuum-fig1.jpg" alt="Naveed et al. 2020 图1：Phytophthora-植物互作中的 PTI 到 ETI 连续体">
+    <p class="figure-caption"><strong>图 2.P1 论文原图：PTI 到 ETI 的连续体视角。</strong>原图为 Naveed et al. (2020) <em>Frontiers in Plant Science</em> Fig. 1，DOI: 10.3389/fpls.2020.593905。该图用卵菌-植物互作为例，把 PTI、ETS、ETI 和免疫输出连接为连续过程，适合对照本章关于二元边界崩塌的讨论。依据 CC BY 4.0 原样复用；图片未作裁剪、改色或内容改动。</p>
+  </div>
+
   <h3>协同模型的核心逻辑</h3>
   <p>综合两项研究，PTI-ETI 协同放大模型可以概括为：</p>
-  <ol class=”mechanism-steps”>
+  <ol class="mechanism-steps">
     <li><strong>PTI 提供信号基础设施：</strong>PRR 信号通路的组分（RBOHD、MAPK 级联、转录因子等）是 ETI 输出执行的必要平台。没有这个平台，ETI 的信号”有指令但缺工具”。</li>
     <li><strong>ETI 提供信号放大引擎：</strong>NLR 激活后，通过转录上调 PRR 和共受体的表达，增强 PTI 通路的感知灵敏度和效应输出能力。ETI 像一个”增益放大器”，把 PTI 的音量旋钮从”低”拧到”高”。</li>
     <li><strong>正反馈环路形成协同效应：</strong>两个层次形成相互增强的正反馈环，产生远超单独之和的防御输出。这解释了为什么完整的抗性反应需要两个系统的协同运作。</li>
@@ -191,15 +196,15 @@
 
   <p><strong>物种普遍性：</strong>两篇论文的核心实验均在拟南芥中完成。在作物系统中，PTI-ETI 协同的定量程度可能不同。例如，水稻的 NLR 蛋白 Pigm 直接在细胞核中调控免疫基因转录，其 ETI 对 PTI 基础设施的依赖程度可能低于拟南芥系统 (Deng et al., 2017)。</p>
 
-  <p><strong>NLR 类型依赖性：</strong>不同类型的 NLR（TNL vs CNL vs RNL）激活后的下游机制不同。TIR 域 NLR（TNL）通过产生小分子信号激活 EDS1-PAD4-ADR1 辅助 NLR 通路 (Lapin et al., 2022)，而 CC 域 NLR（CNL）如 ZAR1 直接形成质膜孔道 (Wang et al., 2019)。这两类 NLR 对 PTI 底盘的依赖是否一致？初步证据提示可能存在差异 <span class=”cross-ref”>→ 第4章</span>。</p>
+  <p><strong>NLR 类型依赖性：</strong>不同类型的 NLR（TNL vs CNL vs RNL）激活后的下游机制不同。TIR 域 NLR（TNL）通过产生小分子信号激活 EDS1-PAD4-ADR1 辅助 NLR 通路 (Lapin et al., 2022)，而 CC 域 NLR（CNL）如 ZAR1 直接形成质膜孔道 (Wang et al., 2019)。这两类 NLR 对 PTI 底盘的依赖是否一致？初步证据提示可能存在差异 <span class="cross-ref">→ 第4章</span>。</p>
 
   <p><strong>生态学真实性：</strong>实验室中通常使用单一 PAMP 和单一效应蛋白研究协同效应。但在自然感染中，植物同时面对多种 PAMP 和多种效应蛋白的复杂组合，协同效应的实际表现可能更为复杂。</p>
 
-  <div class=”box box-cognition”><div class=”box-title”>认知升级</div>
-  <p>协同模型的根本意义不仅在于”PTI 和 ETI 会互相帮忙”，更在于它<strong>打破了层级思维</strong>：PTI 不再是”被动的第一层”，ETI 也不再是”独立的终极武器”。两者更像是同一个防御网络的两种激活入口，共享同一套执行机器。这一认识对育种策略有深远影响——仅仅堆叠 R 基因而忽视 PRR 系统的健全性，可能无法获得预期的抗性增益 <span class=”cross-ref”>→ 第14章</span>。</p>
+  <div class="box box-cognition"><div class="box-title">认知升级</div>
+  <p>协同模型的根本意义不仅在于”PTI 和 ETI 会互相帮忙”，更在于它<strong>打破了层级思维</strong>：PTI 不再是”被动的第一层”，ETI 也不再是”独立的终极武器”。两者更像是同一个防御网络的两种激活入口，共享同一套执行机器。这一认识对育种策略有深远影响——仅仅堆叠 R 基因而忽视 PRR 系统的健全性，可能无法获得预期的抗性增益 <span class="cross-ref">→ 第14章</span>。</p>
   </div>
 
-  <h2><span class=”section-num”>2.4</span>Invasion Model 与免疫识别的统一视角</h2>
+  <h2><span class="section-num">2.4</span>Invasion Model 与免疫识别的统一视角</h2>
 
   <p>如果 PTI 和 ETI 并非泾渭分明的两层，那么植物免疫识别的本质究竟是什么？早在协同模型被实验验证之前，就有研究者试图从更根本的层面重新审视这个问题。</p>
 
@@ -269,7 +274,7 @@
 
   <p>Pruitt、Gust 和 Nürnberger (2021) 在<em>Nature Plants</em>上发表的评论文章”Plant immunity unified”试图进一步发展 Invasion Model，整合2021年的协同证据。他们提出，免疫识别应该按<strong>受体位置</strong>（细胞表面 vs 细胞内）来分类，而非按配体类型。这一分类标准至少是明确的、可操作的，并且与信号转导机制的差异有更好的对应关系 (Pruitt et al., 2021)。</p>
 
-  <h2><span class=”section-num”>2.5</span>当下的开放讨论：我们还需要 PTI/ETI 这对术语吗？</h2>
+  <h2><span class="section-num">2.5</span>当下的开放讨论：我们还需要 PTI/ETI 这对术语吗？</h2>
 
   <p>经过上述概念演变，一个实际问题浮出水面：在2020年代的语境下，PTI 和 ETI 这对术语还应该继续使用吗？</p>
 
@@ -284,14 +289,14 @@
   <h3>立场三：这根本不是最重要的问题</h3>
   <p>也有研究者认为，术语之争在很大程度上是一种”语义学陷阱”。真正重要的不是如何命名，而是<strong>如何建模</strong>——理解每一种具体的受体-配体对在特定病理系统中的定量贡献和互作关系。在实际研究中，研究者关心的是”FLS2 和 ZAR1 如何协同工作”，而不是”这算 PTI 还是 ETI”(DeFalco &amp; Zipfel, 2021)。</p>
 
-  <div class=”box box-cognition”><div class=”box-title”>认知升级</div>
+  <div class="box box-cognition"><div class="box-title">认知升级</div>
   <p>术语之争的实质不是”谁起的名字好听”，而是<strong>不同的命名方案隐含了不同的思维框架</strong>。使用 PTI/ETI 术语时，我们不自觉地倾向于将免疫视为层级式的；使用 IP/IPR 术语时，则倾向于将免疫视为网络式的。两种框架各有盲区。本书出于教学便利，将继续使用 PTI/ETI 术语，但读者应始终记住：这对术语描述的是一个连续谱上的两端，而非两个离散的实体。</p>
   </div>
 
   <!-- ======== Key Question ======== -->
-  <div class=”box box-cognition”><div class=”box-title”>Key Question</div>
+  <div class="box box-cognition"><div class="box-title">Key Question</div>
   <p><strong>如果放弃 PTI/ETI 二分法，什么框架能更好地描述植物免疫识别的全貌？</strong></p>
-  <p>这个问题目前没有共识答案。Invasion Model 提供了一个更统一但也更抽象的框架。”表面受体 vs 细胞内受体”的分类在机制上更清晰，但仍然是二分的。也许未来的最优框架不是二元的，而是一个多维的”免疫空间”——受体类型、配体性质、信号动态、输出模式各为一个维度，每种具体的免疫反应占据这个空间中的一个点。这种”参数化”的思维方式已经在系统免疫学（systems immunology）领域崭露头角 <span class=”cross-ref”>→ 第12章</span>。</p>
+  <p>这个问题目前没有共识答案。Invasion Model 提供了一个更统一但也更抽象的框架。”表面受体 vs 细胞内受体”的分类在机制上更清晰，但仍然是二分的。也许未来的最优框架不是二元的，而是一个多维的”免疫空间”——受体类型、配体性质、信号动态、输出模式各为一个维度，每种具体的免疫反应占据这个空间中的一个点。这种”参数化”的思维方式已经在系统免疫学（systems immunology）领域崭露头角 <span class="cross-ref">→ 第12章</span>。</p>
   <p>对于实际研究，最重要的可能不是选择哪个框架，而是在使用任何框架时都保持对其假设的清醒意识。一旦模型从”有用的工具”变成”不言自明的真理”，科学进步就会减速。</p>
   </div>
 
@@ -372,6 +377,7 @@
     <li>Lapin D, Bhandari DD, Parker JE. Origins and immunity networking functions of EDS1 family proteins. <em>Annu Rev Phytopathol</em>, 2022, 60: 253–276.</li>
     <li>Lu D, Wu S, Gao X, et al. A receptor-like cytoplasmic kinase, BIK1, associates with a flagellin receptor complex to initiate plant innate immunity. <em>Proc Natl Acad Sci USA</em>, 2010, 107: 496–501.</li>
     <li>Navarro L, Zipfel C, Rowland O, et al. The transcriptional innate immune response to flg22. Interplay and overlap with Avr gene-dependent defense responses and bacterial pathogenesis. <em>Plant Physiol</em>, 2004, 135: 1113–1128.</li>
+    <li>Naveed ZA, Wei X, Chen J, et al. The PTI to ETI Continuum in <em>Phytophthora</em>-Plant Interactions. <em>Front Plant Sci</em>, 2020, 11: 593905. DOI: 10.3389/fpls.2020.593905.</li>
     <li>Ngou BPM, Ahn HK, Ding P, Jones JDG. Mutual potentiation of plant immunity by cell-surface and intracellular receptors. <em>Nature</em>, 2021, 592: 110–115.</li>
     <li>Ngou BPM, Ding P, Jones JDG. Thirty years of resistance: Zig-zag through the plant immune system. <em>Plant Cell</em>, 2022, 34: 1253–1272.</li>
     <li>Pruitt RN, Gust AA, Nürnberger T. Plant immunity unified. <em>Nat Plants</em>, 2021, 7: 382–383.</li>

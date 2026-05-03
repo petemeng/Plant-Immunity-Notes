@@ -178,8 +178,8 @@
   </div>
 
   <div class="figure">
-    <img src="../../assets/images/papers/frontiers-2020-pti-eti-continuum-fig1.jpg" alt="Naveed et al. 2020 图1：Phytophthora-植物互作中的 PTI 到 ETI 连续体">
-    <p class="figure-caption"><strong>图 2.P1 论文原图：PTI 到 ETI 的连续体视角。</strong>原图为 Naveed et al. (2020) <em>Frontiers in Plant Science</em> Fig. 1，DOI: 10.3389/fpls.2020.593905。该图用卵菌-植物互作为例，把 PTI、ETS、ETI 和免疫输出连接为连续过程，适合对照本章关于二元边界崩塌的讨论。依据 CC BY 4.0 原样复用；图片未作裁剪、改色或内容改动。</p>
+    <img src="../../assets/images/papers/natplants-2026-bik1-substrate-map-fig1.png" alt="Toth et al. 2026 图1：BIK1 底物图谱连接 PRR 与 NLR 信号层">
+    <p class="figure-caption"><strong>图 2.P1 论文原图：BIK1 底物图谱把 PTI 与 ETI 的共享底盘具体化。</strong>原图为 Toth et al. (2026) <em>Nature Plants</em> Fig. 1，DOI: 10.1038/s41477-025-02218-z。该图显示 PRR 相关 RLCK 枢纽 BIK1 的底物范围可延伸到多类免疫调控节点和 NLR 受体，有助于理解 PTI 与 ETI 并非两条孤立通路，而是在早期激酶层发生交汇。依据 CC BY 4.0 原样复用；图片未作裁剪、改色或内容改动。</p>
   </div>
 
   <h3>协同模型的核心逻辑</h3>
@@ -377,13 +377,13 @@
     <li>Lapin D, Bhandari DD, Parker JE. Origins and immunity networking functions of EDS1 family proteins. <em>Annu Rev Phytopathol</em>, 2022, 60: 253–276.</li>
     <li>Lu D, Wu S, Gao X, et al. A receptor-like cytoplasmic kinase, BIK1, associates with a flagellin receptor complex to initiate plant innate immunity. <em>Proc Natl Acad Sci USA</em>, 2010, 107: 496–501.</li>
     <li>Navarro L, Zipfel C, Rowland O, et al. The transcriptional innate immune response to flg22. Interplay and overlap with Avr gene-dependent defense responses and bacterial pathogenesis. <em>Plant Physiol</em>, 2004, 135: 1113–1128.</li>
-    <li>Naveed ZA, Wei X, Chen J, et al. The PTI to ETI Continuum in <em>Phytophthora</em>-Plant Interactions. <em>Front Plant Sci</em>, 2020, 11: 593905. DOI: 10.3389/fpls.2020.593905.</li>
     <li>Ngou BPM, Ahn HK, Ding P, Jones JDG. Mutual potentiation of plant immunity by cell-surface and intracellular receptors. <em>Nature</em>, 2021, 592: 110–115.</li>
     <li>Ngou BPM, Ding P, Jones JDG. Thirty years of resistance: Zig-zag through the plant immune system. <em>Plant Cell</em>, 2022, 34: 1253–1272.</li>
     <li>Pruitt RN, Gust AA, Nürnberger T. Plant immunity unified. <em>Nat Plants</em>, 2021, 7: 382–383.</li>
     <li>Tao Y, Xie Z, Chen W, et al. Quantitative nature of <em>Arabidopsis</em> responses during compatible and incompatible interactions with the bacterial pathogen <em>Pseudomonas syringae</em>. <em>Plant Cell</em>, 2003, 15: 317–330.</li>
     <li>Thomma BPHJ, Nürnberger T, Joosten MHAJ. Of PAMPs and effectors: the blurred PTI-ETI dichotomy. <em>Plant Cell</em>, 2011, 23: 4–15.</li>
     <li>Thor K, Peiter E. Cytosolic free calcium and plant immune signalling. <em>J Exp Bot</em>, 2014, 65: 5955–5968.</li>
+    <li>Toth R, Choi S, Le Naour-Vernet M, et al. Motif-based substrate mapping of the receptor-like cytoplasmic kinase BIK1 reveals novel components and regulatory nodes of plant immunity. <em>Nat Plants</em>, 2026, 12: 465–480. DOI: 10.1038/s41477-025-02218-z.</li>
     <li>Tsuda K, Katagiri F. Comparing signaling mechanisms engaged in pattern-triggered and effector-triggered immunity. <em>Curr Opin Plant Biol</em>, 2010, 13: 459–465.</li>
     <li>Tsuda K, Sato M, Stoddard T, et al. Network properties of robust immunity in plants. <em>PLoS Genet</em>, 2009, 5: e1000772.</li>
     <li>Wang J, Hu M, Wang J, et al. Reconstitution and structure of a plant NLR resistosome conferring immunity. <em>Science</em>, 2019, 364: eaav5870.</li>

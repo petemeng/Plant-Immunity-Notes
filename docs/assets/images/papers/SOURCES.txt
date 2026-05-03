@@ -8,63 +8,24 @@ recolor, annotate, or otherwise adapt these images.
 Creative Commons Attribution 4.0 International (CC BY 4.0)
 https://creativecommons.org/licenses/by/4.0/
 
-File: frontiers-2013-no-sa-ja-et-fig1.jpg
+File: natbiotech-2025-engineered-prr-fig1.png
 Source: Fig. 1
-Article: Integrating nitric oxide into salicylic acid and jasmonic
-acid/ethylene plant defense pathways. Frontiers in Plant Science, 2013.
-DOI: 10.3389/fpls.2013.00215
+Article: Yang Y, Steidele CE, Huang X, et al. Engineered pattern recognition
+receptors enhance broad-spectrum plant resistance. Nature Biotechnology, 2025.
+DOI: 10.1038/s41587-025-02858-8
 
-File: frontiers-2020-defense-modulation-fig1.jpg
-Source: Fig. 1
-Article: Nishad R, Ahmed T, Rahman VJ, et al. Modulation of Plant Defense
-System in Response to Microbial Interactions. Frontiers in Microbiology, 2020.
-DOI: 10.3389/fmicb.2020.01298
+File: natbiotech-2025-engineered-prr-fig5.png
+Source: Fig. 5
+Article: Yang Y, Steidele CE, Huang X, et al. Engineered pattern recognition
+receptors enhance broad-spectrum plant resistance. Nature Biotechnology, 2025.
+DOI: 10.1038/s41587-025-02858-8
 
-File: frontiers-2020-pti-eti-continuum-fig1.jpg
-Source: Fig. 1
-Article: Naveed ZA, Wei X, Chen J, et al. The PTI to ETI Continuum in
-Phytophthora-Plant Interactions. Frontiers in Plant Science, 2020.
-DOI: 10.3389/fpls.2020.593905
-
-File: frontiers-2022-transcriptional-coactivators-fig1.jpg
-Source: Fig. 1
-Article: Khan MSS, Islam F, Chen H, et al. Transcriptional Coactivators:
-Driving Force of Plant Immunity. Frontiers in Plant Science, 2022.
-DOI: 10.3389/fpls.2022.823937
-
-File: frontiers-2023-nlr-recognition-fig1.jpg
-Source: Fig. 1
-Article: Anbu S, Swart V, van den Berg N. Unmasking the invaders: NLR-mal
-function in plant defense. Frontiers in Plant Science, 2023.
-DOI: 10.3389/fpls.2023.1307294
-
-File: frontiers-2025-crispr-wheat-fig1.jpg
-Source: Fig. 1
-Article: Waites J, Achary VMM, Syombua ED, et al. CRISPR-mediated genome
-editing of wheat for enhancing disease resistance. Frontiers in Genome
-Editing, 2025.
-DOI: 10.3389/fgeed.2025.1542487
-
-File: frontiers-2025-fungal-effectors-fig1.jpg
-Source: Fig. 1
-Article: Kainat, Mujtaba M, Wang Y, et al. Effectors of plants pathogenic
-fungi and fungal like microbes: a comprehensive review on mechanisms, roles,
-and host interactions. Frontiers in Plant Science, 2025.
-DOI: 10.3389/fpls.2025.1626960
-
-File: frontiers-2025-fungal-effectors-fig3.jpg
-Source: Fig. 3
-Article: Kainat, Mujtaba M, Wang Y, et al. Effectors of plants pathogenic
-fungi and fungal like microbes: a comprehensive review on mechanisms, roles,
-and host interactions. Frontiers in Plant Science, 2025.
-DOI: 10.3389/fpls.2025.1626960
-
-File: frontiers-2026-cpk-immunity-fig1.jpg
-Source: Fig. 1
-Article: Deng L, Ji S, Wang G, et al. Calcium-dependent protein kinases in
-plant immunity: from calcium signaling to network integration. Frontiers in
-Plant Science, 2026.
-DOI: 10.3389/fpls.2025.1704615
+File: natplants-2026-ja-systemic-fig6.png
+Source: Fig. 6
+Article: Gaikwad T, Breen S, Breeze E, et al. Rapid local and systemic
+jasmonate signalling drives the initiation and establishment of plant systemic
+immunity. Nature Plants, 2026.
+DOI: 10.1038/s41477-025-02178-4
 
 File: plos-2025-defense-budget-fig1.png
 Source: Fig. 1
@@ -102,6 +63,18 @@ Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International
 (CC BY-NC-ND 4.0)
 https://creativecommons.org/licenses/by-nc-nd/4.0/
 
+File: nature-2026-helper-nlr-clusters-fig1.png
+Source: Fig. 1
+Article: Ge D, Ortiz-Morea FA, Xie Y, et al. Assembly of helper NLR
+resistosome clusters upon activation of a coiled-coil NLR. Nature, 2026.
+DOI: 10.1038/s41586-026-10215-1
+
+File: nature-2026-helper-nlr-clusters-fig4.png
+Source: Fig. 4
+Article: Ge D, Ortiz-Morea FA, Xie Y, et al. Assembly of helper NLR
+resistosome clusters upon activation of a coiled-coil NLR. Nature, 2026.
+DOI: 10.1038/s41586-026-10215-1
+
 File: wu-2025-microbiome-fig7.png
 Source: Fig. 7
 Article: Wu J, Hu S, Chen J, et al. Soil microbial legacy mediated by buckwheat
@@ -123,3 +96,21 @@ Article: Ni J, Mao W, Shi T, et al. A rice ceRNA module suppresses Rhizoctonia
 solani-induced cross-kingdom RNAi to reduce fungal pathogenicity. Nature
 Communications, 2026.
 DOI: 10.1038/s41467-026-72158-5
+
+Creative Commons Attribution-NonCommercial-NoDerivatives 3.0 Unported
+(CC BY-NC-ND 3.0)
+https://creativecommons.org/licenses/by-nc-nd/3.0/
+
+File: natcomm-2013-rice-blast-secretion-fig1.jpg
+Source: Fig. 1
+Article: Giraldo MC, Dagdas YF, Gupta YK, et al. Two distinct secretion
+systems facilitate tissue invasion by the rice blast fungus Magnaporthe
+oryzae. Nature Communications, 2013.
+DOI: 10.1038/ncomms2996
+
+File: natcomm-2013-rice-blast-secretion-fig8.jpg
+Source: Fig. 8
+Article: Giraldo MC, Dagdas YF, Gupta YK, et al. Two distinct secretion
+systems facilitate tissue invasion by the rice blast fungus Magnaporthe
+oryzae. Nature Communications, 2013.
+DOI: 10.1038/ncomms2996

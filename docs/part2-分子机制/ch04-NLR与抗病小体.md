@@ -266,8 +266,8 @@
   <p>生物信息学分析显示，植物 NLR 组中整合的域类型极为多样——包括激酶域、WRKY 域、HMA 域、BED 锌指域等，总计超过50种不同的整合域类型 (Kroj et al., 2016; Sarris et al., 2016)。这些整合域的多样性可能反映了效应蛋白靶标的多样性，暗示 ID-NLR 是植物应对效应蛋白多样化的一种高效进化策略。</p>
 
   <div class="figure">
-    <img src="../../assets/images/papers/frontiers-2023-nlr-recognition-fig1.jpg" alt="Anbu et al. 2023 图1：NLR 介导的直接和间接效应子识别模型">
-    <p class="figure-caption"><strong>图 4.P1 论文原图：NLR 对效应蛋白的直接与间接识别模型。</strong>原图为 Anbu et al. (2023) <em>Frontiers in Plant Science</em> Fig. 1，DOI: 10.3389/fpls.2023.1307294。该图把直接结合、guard/decoy 监测和整合域识别放在同一框架中，可作为 NLR 架构和激活机制的文献图示。依据 CC BY 4.0 原样复用；图片未作裁剪、改色或内容改动。</p>
+    <img src="../../assets/images/papers/nature-2026-helper-nlr-clusters-fig4.png" alt="Ge et al. 2026 图4：SUMM2 激活后形成 EDS1-PAD4-ADR1-L1 helper NLR 抗病小体簇">
+    <p class="figure-caption"><strong>图 4.P1 论文原图：helper NLR 抗病小体簇把 NLR 输出从线性通路推向高阶组装。</strong>原图为 Ge et al. (2026) <em>Nature</em> Fig. 4，DOI: 10.1038/s41586-026-10215-1。该图展示 SUMM2 激活后 EDS1-PAD4 与 ADR1-L1 的空间组织和簇状组装，直接对应本章关于 sensor-helper 分工和 NLR 输出阈值的讨论。依据 CC BY-NC-ND 4.0 原样复用；图片未作裁剪、改色或内容改动。</p>
   </div>
 
   <div class="box box-cognition">
@@ -527,12 +527,11 @@
   <h2><span class="section-num">4.13</span>参考文献</h2>
   <ol class="references">
     <li>Adachi H, Derevnina L, Kamoun S. NLR singletons, pairs, and networks: evolution, assembly, and regulation of the intracellular immunoreceptor circuitry of plants. <em>Curr Opin Plant Biol</em>, 2019, 50: 121–131.</li>
-    <li>Anbu S, Swart V, van den Berg N. Unmasking the invaders: NLR-mal function in plant defense. <em>Front Plant Sci</em>, 2023, 14: 1307294. DOI: 10.3389/fpls.2023.1307294.</li>
     <li>Bi G, Su M, Li N, et al. The ZAR1 resistosome is a calcium-permeable channel triggering plant immune signaling. <em>Cell</em>, 2021, 184: 3528–3541.</li>
     <li>Cesari S, Thouri M, Broz P, et al. The rice resistance protein pair RGA4/RGA5 recognizes the <em>Magnaporthe oryzae</em> effectors AVR-Pia and AVR1-CO39 by direct binding. <em>Plant Cell</em>, 2013, 25: 1463–1481.</li>
     <li>Cesari S, Bernoux M, Moncuquet P, et al. A novel conserved mechanism for plant NLR protein pairs: the "integrated decoy" hypothesis. <em>Front Plant Sci</em>, 2014, 5: 606.</li>
     <li>Dongus JA, Parker JE. EDS1 signalling: at the nexus of intracellular and surface receptor immunity. <em>Curr Opin Plant Biol</em>, 2021, 62: 102039.</li>
-    <li>Ge D, Ortiz-Morea FA, Xie Y, et al. Assembly of helper NLR resistosome clusters upon activation of a coiled-coil NLR. <em>Nature</em>, 2026, 652: 251–258. DOI: 10.1038/s41586-026-08785-9.</li>
+    <li>Ge D, Ortiz-Morea FA, Xie Y, et al. Assembly of helper NLR resistosome clusters upon activation of a coiled-coil NLR. <em>Nature</em>, 2026, 652: 251–258. DOI: 10.1038/s41586-026-10215-1.</li>
     <li>Horsefield S, Burdett H, Zhang X, et al. NAD⁺ cleavage activity by animal and plant TIR domains in cell death pathways. <em>Science</em>, 2019, 365: 793–799.</li>
     <li>Kourelis J, van der Hoorn RAL. Defended to the nines: 25 years of resistance gene cloning identifies nine mechanisms for R protein function. <em>Plant Cell</em>, 2018, 30: 285–299.</li>
     <li>Kroj T, Chanclud E, Michel-Romiti C, et al. Integration of decoy domains derived from protein targets of pathogen effectors into plant immune receptors is widespread. <em>New Phytol</em>, 2016, 210: 618–626.</li>

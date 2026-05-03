@@ -356,6 +356,13 @@
   border-radius: 3px;
 }
 
+.md-typeset .figure svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto 0.7rem;
+}
+
 .md-typeset .figure-placeholder {
   height: 170px;
   background: linear-gradient(135deg, #e8f5e9 0%, #f1f8e9 50%, #fff8e1 100%);

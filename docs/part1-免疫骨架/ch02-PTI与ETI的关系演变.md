@@ -58,7 +58,36 @@
     <li><strong>新一轮军备竞赛：</strong>病原通过丢弃被识别的效应蛋白、进化新效应蛋白或获得新的 PTI 抑制手段逃避 ETI。植物则进化新的 NLR 来识别新效应蛋白。如此交替循环，形成”之字形”的免疫幅度波动。</li>
   </ol>
 
-  [图 2.1 Zigzag 模型示意图：免疫幅度随进化博弈的波动]
+  <div class="figure">
+    <svg viewBox="0 0 760 270" role="img" aria-label="Zigzag 模型中免疫幅度随进化博弈波动">
+      <defs>
+        <marker id="arrow-ch2-1" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto">
+          <path d="M0,0 L7,3 L0,6 Z" fill="#6b7f8f"></path>
+        </marker>
+      </defs>
+      <line x1="70" y1="220" x2="710" y2="220" stroke="#6b7f8f" stroke-width="2.5" marker-end="url(#arrow-ch2-1)"></line>
+      <line x1="70" y1="220" x2="70" y2="42" stroke="#6b7f8f" stroke-width="2.5" marker-end="url(#arrow-ch2-1)"></line>
+      <text x="390" y="250" text-anchor="middle" font-size="13" fill="#4f6578">共进化时间</text>
+      <text x="25" y="132" text-anchor="middle" transform="rotate(-90 25 132)" font-size="13" fill="#4f6578">免疫幅度</text>
+      <path d="M82 198 L190 112 L300 182 L410 70 L520 154 L640 64" fill="none" stroke="#78917d" stroke-width="4"></path>
+      <circle cx="190" cy="112" r="5" fill="#2f4636"></circle>
+      <circle cx="300" cy="182" r="5" fill="#8a3d2d"></circle>
+      <circle cx="410" cy="70" r="5" fill="#2f4636"></circle>
+      <circle cx="520" cy="154" r="5" fill="#8a3d2d"></circle>
+      <circle cx="640" cy="64" r="5" fill="#2f4636"></circle>
+      <rect x="120" y="84" width="140" height="34" rx="4" fill="#edf4fb" stroke="#7b95b2"></rect>
+      <text x="190" y="106" text-anchor="middle" font-size="12" fill="#30475f">PTI 建立</text>
+      <rect x="244" y="188" width="112" height="34" rx="4" fill="#fff0e3" stroke="#b18056"></rect>
+      <text x="300" y="210" text-anchor="middle" font-size="12" fill="#5a3b25">ETS 抑制</text>
+      <rect x="352" y="42" width="116" height="34" rx="4" fill="#eef5ee" stroke="#78917d"></rect>
+      <text x="410" y="64" text-anchor="middle" font-size="12" fill="#2f4636">ETI 反击</text>
+      <rect x="464" y="160" width="112" height="34" rx="4" fill="#fff0e3" stroke="#b18056"></rect>
+      <text x="520" y="182" text-anchor="middle" font-size="12" fill="#5a3b25">病原逃逸</text>
+      <rect x="578" y="36" width="124" height="34" rx="4" fill="#eef5ee" stroke="#78917d"></rect>
+      <text x="640" y="58" text-anchor="middle" font-size="12" fill="#2f4636">新 NLR 识别</text>
+    </svg>
+    <p class="figure-caption"><strong>图 2.1 Zigzag 模型示意图。</strong>植物通过 PRR 识别建立 PTI，病原效应蛋白压低免疫幅度形成 ETS，NLR 识别效应蛋白后触发更强 ETI；随后病原逃逸、植物再进化新识别能力，形成之字形的共进化波动。</p>
+  </div>
 
   <h3>模型的革命性贡献</h3>
   <p>Zigzag 模型的成功并非因为它发现了新的实验事实——它是一篇综述，不包含原始数据。它的真正贡献在于<strong>概念整合</strong>：</p>
@@ -111,7 +140,42 @@
     <li>ETI 激活后，FLS2、EFR 等 PRR 的转录水平在2-6小时内显著上升，形成一个正反馈环路：<strong>ETI 增强 PTI 的感知能力，而增强的 PTI 又为 ETI 提供更强的效应输出平台。</strong></li>
   </ul>
 
-  [图 2.2 PTI-ETI 协同放大的分子机制模型]
+  <div class="figure">
+    <svg viewBox="0 0 760 260" role="img" aria-label="PTI-ETI 协同放大的分子机制模型">
+      <defs>
+        <marker id="arrow-ch2-2" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto">
+          <path d="M0,0 L7,3 L0,6 Z" fill="#6b7f8f"></path>
+        </marker>
+      </defs>
+      <rect x="42" y="58" width="170" height="70" rx="5" fill="#edf4fb" stroke="#7b95b2"></rect>
+      <text x="127" y="84" text-anchor="middle" font-size="14" fill="#30475f">PTI 入口</text>
+      <text x="127" y="106" text-anchor="middle" font-size="12" fill="#30475f">PRR / BAK1 / BIK1</text>
+
+      <rect x="42" y="158" width="170" height="70" rx="5" fill="#eef5ee" stroke="#78917d"></rect>
+      <text x="127" y="184" text-anchor="middle" font-size="14" fill="#2f4636">ETI 入口</text>
+      <text x="127" y="206" text-anchor="middle" font-size="12" fill="#2f4636">NLR / helper NLR</text>
+
+      <rect x="300" y="82" width="166" height="44" rx="5" fill="#fff3df" stroke="#c48f3b"></rect>
+      <text x="383" y="109" text-anchor="middle" font-size="13" fill="#7a531c">共享信号底盘</text>
+      <rect x="300" y="146" width="166" height="44" rx="5" fill="#fff3df" stroke="#c48f3b"></rect>
+      <text x="383" y="173" text-anchor="middle" font-size="13" fill="#7a531c">ROS / MAPK / SA</text>
+
+      <rect x="552" y="102" width="158" height="70" rx="5" fill="#f3f0ff" stroke="#8276b2"></rect>
+      <text x="631" y="128" text-anchor="middle" font-size="14" fill="#3f3a63">协同输出</text>
+      <text x="631" y="151" text-anchor="middle" font-size="12" fill="#3f3a63">强、久、广的防御</text>
+
+      <path d="M212 93 L300 104" stroke="#6b7f8f" stroke-width="2.7" marker-end="url(#arrow-ch2-2)"></path>
+      <path d="M212 193 L300 168" stroke="#6b7f8f" stroke-width="2.7" marker-end="url(#arrow-ch2-2)"></path>
+      <path d="M466 104 L552 128" stroke="#6b7f8f" stroke-width="2.7" marker-end="url(#arrow-ch2-2)"></path>
+      <path d="M466 168 L552 146" stroke="#6b7f8f" stroke-width="2.7" marker-end="url(#arrow-ch2-2)"></path>
+
+      <path d="M152 158 C214 28 430 28 560 100" fill="none" stroke="#78917d" stroke-width="2.4" stroke-dasharray="5 4" marker-end="url(#arrow-ch2-2)"></path>
+      <text x="356" y="42" text-anchor="middle" font-size="12" fill="#2f4636">ETI 上调 PRR、共受体和 RBOHD 等组件</text>
+      <path d="M302 124 C242 146 214 122 212 101" fill="none" stroke="#7b95b2" stroke-width="2.2" stroke-dasharray="5 4" marker-end="url(#arrow-ch2-2)"></path>
+      <text x="274" y="139" text-anchor="middle" font-size="12" fill="#30475f">PTI 提供执行平台</text>
+    </svg>
+    <p class="figure-caption"><strong>图 2.2 PTI-ETI 协同放大的分子机制模型。</strong>PTI 提供可快速启动的信号底盘，ETI 通过转录和蛋白水平增强 PRR、共受体、RBOHD 与激素模块，两者形成正反馈，从而产生强于单独激活的防御输出。</p>
+  </div>
 
   <h3>协同模型的核心逻辑</h3>
   <p>综合两项研究，PTI-ETI 协同放大模型可以概括为：</p>
@@ -157,7 +221,41 @@
     <li>免疫反应的强度和性质不取决于识别层次的”级别”，而取决于<strong>信号的强度、持续时间和下游网络的配置</strong>。</li>
   </ul>
 
-  [图 2.3 Zigzag 模型与 Invasion Model 的概念对比]
+  <div class="figure">
+    <svg viewBox="0 0 760 250" role="img" aria-label="Zigzag 模型与 Invasion Model 的概念对比">
+      <defs>
+        <marker id="arrow-ch2-3" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto">
+          <path d="M0,0 L7,3 L0,6 Z" fill="#6b7f8f"></path>
+        </marker>
+      </defs>
+      <rect x="38" y="40" width="315" height="168" rx="6" fill="#f9f8f5" stroke="#e0d9c8"></rect>
+      <text x="196" y="68" text-anchor="middle" font-size="15" fill="#4d3928">Zigzag：按配体类型分层</text>
+      <rect x="76" y="92" width="98" height="42" rx="4" fill="#edf4fb" stroke="#7b95b2"></rect>
+      <text x="125" y="118" text-anchor="middle" font-size="12" fill="#30475f">PAMP</text>
+      <rect x="222" y="92" width="98" height="42" rx="4" fill="#eef5ee" stroke="#78917d"></rect>
+      <text x="271" y="118" text-anchor="middle" font-size="12" fill="#2f4636">PTI</text>
+      <path d="M174 113 L222 113" stroke="#6b7f8f" stroke-width="2.3" marker-end="url(#arrow-ch2-3)"></path>
+      <rect x="76" y="152" width="98" height="42" rx="4" fill="#fff0e3" stroke="#b18056"></rect>
+      <text x="125" y="178" text-anchor="middle" font-size="12" fill="#5a3b25">Effector</text>
+      <rect x="222" y="152" width="98" height="42" rx="4" fill="#eef5ee" stroke="#78917d"></rect>
+      <text x="271" y="178" text-anchor="middle" font-size="12" fill="#2f4636">ETI</text>
+      <path d="M174 173 L222 173" stroke="#6b7f8f" stroke-width="2.3" marker-end="url(#arrow-ch2-3)"></path>
+
+      <rect x="407" y="40" width="315" height="168" rx="6" fill="#f9f8f5" stroke="#e0d9c8"></rect>
+      <text x="565" y="68" text-anchor="middle" font-size="15" fill="#4d3928">Invasion Model：统一为入侵模式</text>
+      <rect x="430" y="112" width="96" height="50" rx="4" fill="#fff3df" stroke="#c48f3b"></rect>
+      <text x="478" y="133" text-anchor="middle" font-size="12" fill="#7a531c">IP</text>
+      <text x="478" y="150" text-anchor="middle" font-size="11" fill="#7a531c">入侵线索</text>
+      <rect x="562" y="112" width="96" height="50" rx="4" fill="#edf4fb" stroke="#7b95b2"></rect>
+      <text x="610" y="133" text-anchor="middle" font-size="12" fill="#30475f">IPR</text>
+      <text x="610" y="150" text-anchor="middle" font-size="11" fill="#30475f">受体系统</text>
+      <path d="M526 137 L562 137" stroke="#6b7f8f" stroke-width="2.3" marker-end="url(#arrow-ch2-3)"></path>
+      <path d="M658 137 L700 137" stroke="#6b7f8f" stroke-width="2.3" marker-end="url(#arrow-ch2-3)"></path>
+      <text x="701" y="141" text-anchor="start" font-size="12" fill="#2f4636">网络输出</text>
+      <text x="565" y="188" text-anchor="middle" font-size="12" fill="#4f6578">强度由位置、持续时间和下游网络共同决定</text>
+    </svg>
+    <p class="figure-caption"><strong>图 2.3 Zigzag 模型与 Invasion Model 的概念对比。</strong>Zigzag 模型按 PAMP 与效应蛋白区分 PTI/ETI；Invasion Model 则把所有能提示入侵的分子统一称为入侵模式，把受体统一看作入侵模式受体，强调免疫输出由信号情境而非名称决定。</p>
+  </div>
 
   <h3>Invasion Model 的优势与争议</h3>
   <p>Invasion Model 的最大优势在于<strong>概念简洁性</strong>：它消除了 PTI/ETI 边界处的分类困难，将所有免疫识别纳入同一框架。它也更好地容纳了一些”不合群”的识别系统——例如 Cf 蛋白对质外体效应蛋白的识别、NLR 对 PAMP 的胞内识别等。</p>

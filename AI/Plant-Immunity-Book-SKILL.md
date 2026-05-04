@@ -259,12 +259,12 @@ Plant-Immunity-Book/
 │   │   └── ch13-非编码RNA与免疫调控.md
 │   ├── part5-转化与展望/
 │   │   ├── ch14-从基础到抗病育种.md
-│   │   └── ch15-未解问题与未来方向.md
+│   │   ├── ch15-微生物组工程与生物防治.md
+│   │   └── ch16-未解决的问题与未来方向.md
 │   └── appendix/
-│       ├── 关键实验室与学者.md
-│       ├── 免疫研究标准实验体系.md
-│       ├── 推荐阅读清单.md
-│       └── 术语表.md
+│       ├── 术语表.md
+│       ├── 模式植物与模式病原体索引.md
+│       └── 推荐阅读与经典文献指引.md
 │
 └── Templates/
     ├── 概念卡片.md
@@ -361,7 +361,8 @@ Plant-Immunity-Book/
 | 章节 | 核心内容 | 必读文献 |
 |------|----------|----------|
 | ch14 从基础到抗病育种 | NLR 工程、CRISPR、GWAS | Koller et al. 2019 *Annu Rev Phytopathol*; Li et al. 2020 *Science* |
-| ch15 未解问题与未来方向 | 核心争论、开放问题、趋势 | Zhou & Zhang 2020 *Mol Plant*; Saur et al. 2021 *Curr Opin Plant Biol* |
+| ch15 微生物组工程与生物防治 | SynCom 设计、合成生物学、田间挑战、监管 | Trivedi et al. 2020 *Nat Rev Microbiol*; Niu & Kolter 2024 *Annu Rev Phytopathol* |
+| ch16 未解决的问题与未来方向 | 范式转换、新技术、AI、十大开放问题 | Zhou & Zhang 2020 *Cell*; Ngou et al. 2021 *Nature* |
 
 ### 附录
 

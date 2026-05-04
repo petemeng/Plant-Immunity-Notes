@@ -219,6 +219,23 @@
   <h3>组蛋白修饰与免疫 priming</h3>
   <p>免疫 priming 的表观遗传基础不限于 DNA 甲基化。Jaskiewicz et al. (2011) 发现，经 SA 或病原处理的拟南芥在防御基因启动子区域出现持久的 H3K4me3（激活标记）和 H3 乙酰化增加，即使在 SA 水平恢复正常后这些标记仍然存在。这种"表观遗传疤痕"可能解释了 priming 的分子基础：防御基因虽然未被完全激活，但其染色质状态已经被"预设"为更容易被再次激活的状态 <span class="cross-ref">→ 第11章</span>。</p>
 
+  <h3>染色质重塑复合物：免疫转录重编程的"门禁系统"</h3>
+  <p>除了组蛋白修饰酶，ATP 依赖的染色质重塑复合物（chromatin remodeling complexes）在免疫中扮演着关键的"门禁"角色——它们通过移动、移除或重组核小体来改变特定基因组区域的可及性，决定哪些基因可以被转录因子结合：</p>
+  <ul>
+    <li><strong>SWI/SNF 复合物：</strong>拟南芥 SWI/SNF 家族成员 SYD 和 BRM 是免疫的负调控因子——<em>syd</em> 和 <em>brm</em> 突变体表现出增强的抗病性，部分原因是在这些突变体中，<em>PR1</em> 等防御基因的启动子区域核小体占有率降低、染色质更开放，导致基础防御水平升高 (Walley et al., 2008)。SWI/SNF 复合物还参与 SA 介导的转录重编程，调控从生长程序到防御程序的"开关"——在无病原时维持生长相关基因的开放构象，在病原感知后将 SWI/SNF 活性转向防御基因座的开放。</li>
+    <li><strong>INO80 复合物：</strong>INO80 染色质重塑复合物在 DNA 损伤修复和转录调控中起作用，有证据表明其也参与防御基因的转录调控。INO80 的突变影响 SA 响应基因的表达水平。</li>
+    <li><strong>CHR5 和 CHR11/17：</strong>这些 ISWI 家族的染色质重塑因子参与核小体间距的调节，影响转录因子对免疫基因启动子的访问效率。</li>
+  </ul>
+
+  <h3>免疫记忆的跨代传递：超越遗传的防御遗产</h3>
+  <p>植物免疫最令人着迷但也最具争议的现象之一是<strong>跨代免疫记忆</strong>（transgenerational immune memory）——亲代经历的病原攻击，是否能让未经历的子代获得增强的抗性？</p>
+  <ul>
+    <li><strong>Luna et al. (2012)</strong> 报道拟南芥经 <em>Pst</em> DC3000 处理后，子代在没有再次接触病原的情况下表现出增强的 SA 依赖性防御——这种增强与特定的 DNA 甲基化变化相关，且在二代后减弱。</li>
+    <li><strong>Slaughter et al. (2012)</strong> 在拟南芥中展示了类似的跨代 priming 效应，但发现效应的稳定性依赖于子代的环境条件——在胁迫环境中跨代记忆更稳定，在无胁迫环境中迅速衰减。这暗示跨代表观遗传是<strong>环境依赖的</strong>，而非硬编码的"遗传"。</li>
+    <li>Holeski et al. (2012) 在 <em>Mimulus guttatus</em>（猴面花）中展示了跨代 herbivory 防御 priming，说明这一现象并非拟南芥特有。</li>
+  </ul>
+  <p>然而，必须强调：<strong>跨代免疫记忆的因果证据链仍然脆弱</strong>。主要挑战包括：（1）很难排除种子储存的代谢物或微生物组的影响（而非真正的表观遗传传递）；（2）DNA 甲基化变化在每代都被大规模重置（通过 RdDM 和 DEMETER 介导的去甲基化），表观等位基因（epiallele）的稳定传递机制基本未知；（3）效应量通常很小——子代的抗性增强幅度远小于亲代本身的 priming 效应。这些问题使"跨代免疫记忆是否是进化上被选择的适应"这一问题仍然悬而未决。</p>
+
   <p>ncRNA 在这个过程中扮演什么角色？一种可能的模型是：免疫信号诱导特定的 lncRNA 或 siRNA 产生 → 这些 ncRNA 引导染色质修饰酶到防御基因座 → 建立持久的表观遗传标记 → 后续的免疫刺激可以更快速地在这些"预标记"的位点启动全面的转录激活。这一模型的各个环节已有间接证据支持，但<strong>完整的因果链条尚未在任何单一系统中被验证</strong>。</p>
 
   <!-- ======== Key Question ======== -->
@@ -300,6 +317,7 @@
     <li>Cai Q, Qiao L, Wang M, et al. Plants send small RNAs in extracellular vesicles to fungal pathogen to silence virulence genes. <em>Science</em>, 2018, 360: 1126–1129.</li>
     <li>Ding SW, Voinnet O. Antiviral immunity directed by small RNAs. <em>Cell</em>, 2007, 130: 209–222.</li>
     <li>Dowen RH, Pelizzola M, Schmitz RJ, et al. Widespread dynamic DNA methylation in response to biotic stress. <em>Proc Natl Acad Sci USA</em>, 2012, 109: E2183–E2191.</li>
+    <li>Holeski LM, Jander G, Agrawal AA. Transgenerational defense induction and epigenetic inheritance in plants. <em>Trends Ecol Evol</em>, 2012, 27: 618–626.</li>
     <li>Huang CY, Wang H, Hu P, et al. Long noncoding RNAs and their roles in plant immune responses. <em>Plant Commun</em>, 2021, 2: 100228.</li>
     <li>Jaskiewicz M, Conrath U, Peterhänsel C. Chromatin modification acts as a memory for systemic acquired resistance in the plant stress response. <em>EMBO Rep</em>, 2011, 12: 50–55.</li>
     <li>Liu S, Li HY, Zhang T, et al. Organic fertilizer enhances the secretion of microRNAs from tomato roots to facilitate beneficial rhizosphere microorganism expansion and suppress <em>Ralstonia solanacearum</em> proliferation. <em>Microbiome</em>, 2025, 13: 159. DOI: 10.1186/s40168-025-02137-3.</li>
@@ -309,7 +327,9 @@
     <li>Ni J, Mao W, Shi T, et al. A rice ceRNA module suppresses <em>Rhizoctonia solani</em>-induced cross-kingdom RNAi to reduce fungal pathogenicity. <em>Nat Commun</em>, 2026. DOI: 10.1038/s41467-026-72158-5.</li>
     <li>Seo JS, Sun HX, Park BS, et al. ELF18-INDUCED LONG-NONCODING RNA associates with Mediator to enhance expression of innate immune response genes in <em>Arabidopsis</em>. <em>Plant Cell</em>, 2017, 29: 1024–1038.</li>
     <li>Shivaprasad PV, Chen HM, Patel K, et al. A microRNA superfamily regulates nucleotide binding site–leucine-rich repeats and other mRNAs. <em>Plant Cell</em>, 2012, 24: 859–874.</li>
+    <li>Slaughter A, Daniel X, Flors V, et al. Descendants of primed <em>Arabidopsis</em> plants exhibit resistance to biotic stress. <em>Plant Physiol</em>, 2012, 158: 835–843.</li>
     <li>Vargason JM, Szittya G, Burgyán J, Hall TMT. Size selective recognition of siRNA by an RNA silencing suppressor. <em>Cell</em>, 2003, 115: 799–811.</li>
+    <li>Walley JW, Rowe HC, Xiao Y, et al. The chromatin remodeler SPLAYED regulates specific stress signaling pathways. <em>PLoS Pathog</em>, 2008, 4: e1000237.</li>
     <li>Wang M, Weiberg A, Dellota E Jr, Yamane D, Jin H. <em>Botrytis</em> small RNA Bc-siR37 suppresses plant defense genes by cross-kingdom RNAi. <em>Nat Plants</em>, 2017, 3: 16231.</li>
     <li>Weiberg A, Wang M, Lin FM, et al. Fungal small RNAs suppress plant immunity by hijacking host RNA interference pathways. <em>Science</em>, 2013, 342: 118–123.</li>
     <li>Yu Y, Zhou YF, Feng YZ, et al. Transcriptional landscape of pathogen-responsive lncRNAs in rice unveils the role of ALEX1 in jasmonate pathway and disease resistance. <em>Plant Biotechnol J</em>, 2020, 18: 679–690.</li>

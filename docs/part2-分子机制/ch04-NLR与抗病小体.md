@@ -4,7 +4,7 @@
   <div class="breadcrumb">
     <a href="#">首页</a><span>›</span>
     <a href="#">第二部分 分子机制</a><span>›</span>
-    第四章
+    第4章
   </div>
 
   <!-- Chapter Header -->

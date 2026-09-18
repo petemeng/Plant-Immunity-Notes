@@ -64,7 +64,7 @@ def main():
         for node in article.select(".md-content__button, .headerlink"):
             node.decompose()
         # Give the new Markdown chapters the same answer controls as legacy chapters.
-        if source.startswith(("learning/ch00", "part6-")):
+        if source.startswith(("learning/ch00", "part6-", "part7-")):
             for heading in article.select("h2"):
                 if "自测" not in heading.get_text():
                     continue
@@ -158,9 +158,11 @@ aside a{display:block;padding:6px 0;text-decoration:none}aside h2{font-size:20px
 @media print{@page{size:A4;margin:18mm}html{font-size:12pt}aside,.controls{display:none!important}main{margin:0;padding:0;max-width:none}.cover{min-height:190mm;padding-top:45mm}.cover h1{font-size:34pt}.book-section{margin:0;padding-top:0}.md-typeset{font-size:10.5pt;line-height:1.75}.md-typeset table{display:table;width:100%;font-size:9pt}.md-typeset img,.md-typeset svg{max-height:230mm;object-fit:contain}.md-typeset h2,.md-typeset h3{break-after:avoid}.md-typeset .figure,tr{break-inside:avoid}a{color:inherit;text-decoration:none}.page-wrapper .chapter-header{padding-top:10mm}}
 '''
     toc = "\n".join(f'<a href="#{page_ids[site_path(site,source)]}">{escape(title)}</a>' for title,source in pages)
+    chapter_count = sum(bool(re.match(r"ch\d", Path(source).stem)) for _, source in pages)
+    revision = escape(config.get("extra", {}).get("book_revision", "持续修订版"))
     html = f'''<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>植物免疫学 · 完整书稿</title><style>{css}</style></head><body>
 <aside id="book-navigation" aria-label="全书目录"><h2>植物免疫学</h2><input id="filter" type="search" aria-label="筛选章节" placeholder="筛选章节"><nav id="toc">{toc}</nav></aside><a class="back-to-toc" href="#book-navigation" aria-label="返回全书目录">目录 ↑</a>
-<main class="md-typeset"><header class="cover"><p>从基础概念到机制与证据</p><h1>植物免疫学</h1><p>21 章 · 学习路线 · 机制图解 · 自测讲解 · 文献研读</p><p>2026 年 9 月 18 日　教材扩充与科学校订稿</p><div class="controls"><button onclick="window.print()">打印 / 保存为 PDF</button><button id="answers">收起所有答案</button></div><p class="printnote">本文件内嵌正文与插图，可离线阅读；外部论文链接需联网。教学示意不代表实测结果，证据边界见版本说明。</p></header>{''.join(articles)}</main>
+<main class="md-typeset"><header class="cover"><p>从基础概念到机制与证据</p><h1>植物免疫学</h1><p>{chapter_count} 章 · 学习路线 · 机制图解 · 研究技术 · 自测讲解 · 文献研读</p><p>{revision}　教材扩充与科学校订稿</p><div class="controls"><button onclick="window.print()">打印 / 保存为 PDF</button><button id="answers">收起所有答案</button></div><p class="printnote">本文件内嵌正文与插图，可离线阅读；外部论文链接需联网。教学示意不代表实测结果，证据边界见版本说明。</p></header>{''.join(articles)}</main>
 <script>document.getElementById('filter').addEventListener('input',function(){{let q=this.value.toLowerCase();document.querySelectorAll('#toc a').forEach(a=>a.hidden=!a.textContent.toLowerCase().includes(q))}});document.getElementById('answers').addEventListener('click',function(){{let open=this.textContent.includes('展开');document.querySelectorAll('details').forEach(d=>d.open=open);this.textContent=open?'收起所有答案':'展开所有答案'}});window.addEventListener('beforeprint',()=>document.querySelectorAll('details').forEach(d=>d.open=true));</script></body></html>'''
     final = BeautifulSoup(html,"html.parser")
     ids = Counter(x["id"] for x in final.select("[id]"))

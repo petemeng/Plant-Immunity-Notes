@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1148" viewBox="0 0 800 1148" role="img" aria-labelledby="title desc">
+  <title id="title">表达、定位与调控研究中的五类证据</title>
+  <desc id="desc">五个纵向卡片区分RNA丰度、蛋白丰度、亚细胞定位、DNA关联和调控输出，分别列出代表技术、测量对象及不能直接等同的结论。排列不表示因果顺序或证据强弱等级。</desc>
+  <rect width="800" height="1148" rx="20" fill="#faf9f6"/>
+  <g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#23382e">
+    <text x="38" y="57" font-size="34" font-weight="700">不同技术，观察不同层次</text>
+    <text x="38" y="95" font-size="22" fill="#5a6860">先问测量对象，再把证据连成调控解释。</text>
+
+    <g>
+      <rect x="28" y="122" width="744" height="174" rx="14" fill="#e8f1e9" stroke="#cad9cf"/>
+      <circle cx="61" cy="159" r="16" fill="#2d7a4f"/>
+      <text x="61" y="166" font-size="20" fill="#ffffff" text-anchor="middle" font-weight="700">1</text>
+      <text x="90" y="169" font-size="28" font-weight="700">RNA 丰度</text>
+      <text x="400" y="168" font-size="23" fill="#446254">RT-qPCR · RNA-seq</text>
+      <text x="49" y="215" font-size="25">测量：目标转录本的相对丰度</text>
+      <rect x="44" y="235" width="712" height="45" rx="8" fill="#ffffff" fill-opacity="0.7"/>
+      <text x="58" y="266" font-size="24" fill="#7e5829">不能直接等同：转录速率或蛋白丰度</text>
+    </g>
+
+    <g>
+      <rect x="28" y="310" width="744" height="174" rx="14" fill="#edf2f7" stroke="#ccd8e3"/>
+      <circle cx="61" cy="347" r="16" fill="#4d77a1"/>
+      <text x="61" y="354" font-size="20" fill="#ffffff" text-anchor="middle" font-weight="700">2</text>
+      <text x="90" y="357" font-size="28" font-weight="700">蛋白丰度</text>
+      <text x="400" y="356" font-size="23" fill="#446254">Western blot · 蛋白质组</text>
+      <text x="49" y="403" font-size="25">测量：与目标蛋白相关的抗体或肽段信号</text>
+      <rect x="44" y="423" width="712" height="45" rx="8" fill="#ffffff" fill-opacity="0.7"/>
+      <text x="58" y="454" font-size="24" fill="#7e5829">不能直接等同：蛋白活性或修饰占有率</text>
+    </g>
+
+    <g>
+      <rect x="28" y="498" width="744" height="174" rx="14" fill="#e8f1e9" stroke="#cad9cf"/>
+      <circle cx="61" cy="535" r="16" fill="#2d7a4f"/>
+      <text x="61" y="542" font-size="20" fill="#ffffff" text-anchor="middle" font-weight="700">3</text>
+      <text x="90" y="545" font-size="28" font-weight="700">亚细胞定位</text>
+      <text x="400" y="544" font-size="23" fill="#446254">GFP · 共聚焦成像</text>
+      <text x="49" y="591" font-size="25">测量：报告分子或融合蛋白的空间分布</text>
+      <rect x="44" y="611" width="712" height="45" rx="8" fill="#ffffff" fill-opacity="0.7"/>
+      <text x="58" y="642" font-size="24" fill="#7e5829">不能直接等同：两个蛋白直接结合</text>
+    </g>
+
+    <g>
+      <rect x="28" y="686" width="744" height="174" rx="14" fill="#edf2f7" stroke="#ccd8e3"/>
+      <circle cx="61" cy="723" r="16" fill="#4d77a1"/>
+      <text x="61" y="730" font-size="20" fill="#ffffff" text-anchor="middle" font-weight="700">4</text>
+      <text x="90" y="733" font-size="28" font-weight="700">DNA 关联</text>
+      <text x="400" y="732" font-size="23" fill="#446254">Y1H · EMSA · ChIP</text>
+      <text x="49" y="779" font-size="25">测量：各自体系中的 DNA 关联或结合</text>
+      <rect x="44" y="799" width="712" height="45" rx="8" fill="#ffffff" fill-opacity="0.7"/>
+      <text x="58" y="830" font-size="24" fill="#7e5829">不能直接等同：植物内源基因被激活</text>
+    </g>
+
+    <g>
+      <rect x="28" y="874" width="744" height="174" rx="14" fill="#f4eee2" stroke="#ded3bf"/>
+      <circle cx="61" cy="911" r="16" fill="#a07835"/>
+      <text x="61" y="918" font-size="20" fill="#ffffff" text-anchor="middle" font-weight="700">5</text>
+      <text x="90" y="921" font-size="28" font-weight="700">调控输出</text>
+      <text x="400" y="920" font-size="23" fill="#446254">Dual-LUC · GUS</text>
+      <text x="49" y="967" font-size="25">测量：所用调控片段的报告输出</text>
+      <rect x="44" y="987" width="712" height="45" rx="8" fill="#ffffff" fill-opacity="0.7"/>
+      <text x="58" y="1018" font-size="24" fill="#7e5829">不能直接等同：内源调控与抗病效果</text>
+    </g>
+
+    <text x="400" y="1091" font-size="23" font-weight="700" text-anchor="middle">每种方法，都有自己的测量对象与适用范围。</text>
+    <text x="400" y="1125" font-size="19" fill="#5a6860" text-anchor="middle">原创教学示意 · 排列不代表因果顺序或证据强弱等级</text>
+  </g>
+</svg>

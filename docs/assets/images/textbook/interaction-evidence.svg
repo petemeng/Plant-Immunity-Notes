@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="690" viewBox="0 0 1000 690" role="img" aria-labelledby="title desc">
+  <title id="title">Co-IP、Y2H与成分明确体系提供不同的互作证据</title>
+  <desc id="desc">三行教学图。第一行是A通过C连接B，Co-IP能同时捕获这些成员；第二行是BD-A与AD-B使报告基因输出；第三行是成分明确的A和B形成复合体，支持所测条件下直接结合能力。所有结果还需联系植物中的功能证据。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#536b60"/></marker>
+  </defs>
+  <rect width="1000" height="690" rx="20" fill="#faf9f6"/>
+  <g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#23382e">
+    <text x="42" y="49" font-size="27" font-weight="700">问清楚“哪一种关系”，再解释阳性结果</text>
+    <text x="42" y="81" font-size="17" fill="#5a6860">原创教学示意 · A、B、C 为虚构蛋白 · 图中关系不代表真实实验数据</text>
+    <rect x="30" y="109" width="940" height="160" rx="13" fill="#e8f1e9" stroke="#cad9cf"/>
+    <text x="50" y="141" font-size="22" font-weight="700">Co-IP</text>
+    <text x="50" y="171" font-size="17">从复杂样本</text>
+    <text x="50" y="196" font-size="17">富集 A</text>
+    <rect x="220" y="145" width="282" height="97" rx="15" fill="#ffffff" stroke="#8ca492" stroke-dasharray="7 5"/>
+    <path d="M281 191 H442" stroke="#536b60" stroke-width="4"/>
+    <circle cx="272" cy="191" r="24" fill="#2d7a4f"/><circle cx="361" cy="191" r="24" fill="#a07835"/><circle cx="450" cy="191" r="24" fill="#4d77a1"/>
+    <g font-size="22" font-weight="700" fill="white" text-anchor="middle"><text x="272" y="199">A</text><text x="361" y="199">C</text><text x="450" y="199">B</text></g>
+    <path d="M520 191 H568" stroke="#536b60" stroke-width="3" marker-end="url(#arrow)"/>
+    <text x="597" y="172" font-size="20" font-weight="700">共同被富集</text>
+    <text x="597" y="202" font-size="17">支持复合体关联</text>
+    <text x="597" y="231" font-size="17" fill="#7e5829">仍可能通过 C 间接连接</text>
+    <rect x="30" y="286" width="940" height="160" rx="13" fill="#edf2f7" stroke="#ccd8e3"/>
+    <text x="50" y="319" font-size="22" font-weight="700">经典 Y2H</text>
+    <text x="50" y="349" font-size="17">酵母核内</text>
+    <text x="50" y="374" font-size="17">转录报告</text>
+    <path d="M221 404 H505" stroke="#7e8a92" stroke-width="5"/>
+    <rect x="235" y="369" width="52" height="32" rx="5" fill="#526c83"/><text x="261" y="392" font-size="19" fill="white" text-anchor="middle">BD</text>
+    <circle cx="261" cy="341" r="23" fill="#2d7a4f"/><circle cx="332" cy="341" r="23" fill="#4d77a1"/>
+    <path d="M284 341 H309" stroke="#536b60" stroke-width="4"/>
+    <g font-size="21" font-weight="700" fill="white" text-anchor="middle"><text x="261" y="349">A</text><text x="332" y="349">B</text></g>
+    <rect x="308" y="369" width="50" height="32" rx="5" fill="#a07835"/><text x="333" y="392" font-size="19" fill="white" text-anchor="middle">AD</text>
+    <path d="M363 378 H393" stroke="#536b60" stroke-width="2.5" marker-end="url(#arrow)"/>
+    <rect x="401" y="370" width="100" height="32" rx="5" fill="#dce6ce"/><text x="451" y="392" font-size="17" text-anchor="middle">报告基因</text>
+    <path d="M520 367 H568" stroke="#536b60" stroke-width="3" marker-end="url(#arrow)"/>
+    <text x="597" y="347" font-size="20" font-weight="700">报告被激活</text>
+    <text x="597" y="378" font-size="17">支持该体系中的候选关系</text>
+    <text x="597" y="408" font-size="17" fill="#7e5829">先排除自激活与表达问题</text>
+    <rect x="30" y="463" width="940" height="160" rx="13" fill="#f4eee2" stroke="#ded3bf"/>
+    <text x="50" y="496" font-size="21" font-weight="700">成分明确体系</text>
+    <text x="50" y="526" font-size="17">检验 A、B</text>
+    <text x="50" y="551" font-size="17">结合能力</text>
+    <circle cx="256" cy="544" r="22" fill="#2d7a4f"/><circle cx="316" cy="544" r="22" fill="#4d77a1"/>
+    <path d="M351 544 H390" stroke="#536b60" stroke-width="2.5" marker-end="url(#arrow)"/>
+    <circle cx="425" cy="544" r="22" fill="#2d7a4f"/><circle cx="467" cy="544" r="22" fill="#4d77a1"/>
+    <g font-size="20" font-weight="700" fill="white" text-anchor="middle"><text x="256" y="551">A</text><text x="316" y="551">B</text><text x="425" y="551">A</text><text x="467" y="551">B</text></g>
+    <path d="M520 544 H568" stroke="#536b60" stroke-width="3" marker-end="url(#arrow)"/>
+    <text x="597" y="525" font-size="20" font-weight="700">在明确背景下形成结合</text>
+    <text x="597" y="555" font-size="17">支持所测条件下的直接结合能力</text>
+    <text x="597" y="585" font-size="17" fill="#7e5829">仍需判断植物中的实际作用</text>
+    <text x="500" y="662" font-size="18" font-weight="700" text-anchor="middle">物理联系、天然时空背景、免疫功能，需要相互衔接的证据。</text>
+  </g>
+</svg>

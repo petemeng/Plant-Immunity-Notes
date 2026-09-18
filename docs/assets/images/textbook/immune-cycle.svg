@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 340" role="img" aria-labelledby="title desc">
+<title id="title">从识别到防御结果</title><desc id="desc">识别、传递、执行形成过程，反馈调节识别与信号；环境、组织和时间影响全部层次。</desc>
+<defs><marker id="arr" markerWidth="9" markerHeight="9" refX="8" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8" fill="#456b58"/></marker></defs>
+<style>text{font-family:"Microsoft YaHei","Noto Sans SC",sans-serif;fill:#243b30} .small{font-size:16px}.label{font-size:19px;font-weight:600}</style>
+<rect width="920" height="340" fill="#faf9f6" rx="12"/>
+<text x="460" y="37" text-anchor="middle" class="label">组织身份 · 环境条件 · 时间状态</text>
+<rect x="30" y="80" width="185" height="90" rx="10" fill="#edf3f8" stroke="#789580"/>
+<text x="122.5" y="110" text-anchor="middle" class="label">识别</text>
+<text x="122.5" y="136" text-anchor="middle" class="small">微生物与宿主线索</text>
+<rect x="255" y="80" width="185" height="90" rx="10" fill="#e8f0e9" stroke="#789580"/>
+<text x="347.5" y="110" text-anchor="middle" class="label">信号传递</text>
+<text x="347.5" y="136" text-anchor="middle" class="small">离子、激酶与调控</text>
+<rect x="480" y="80" width="185" height="90" rx="10" fill="#fff2d9" stroke="#789580"/>
+<text x="572.5" y="110" text-anchor="middle" class="label">防御执行</text>
+<text x="572.5" y="136" text-anchor="middle" class="small">结构、代谢与表达</text>
+<rect x="705" y="80" width="185" height="90" rx="10" fill="#eee9f4" stroke="#789580"/>
+<text x="797.5" y="110" text-anchor="middle" class="label">功能结果</text>
+<text x="797.5" y="136" text-anchor="middle" class="small">保护效果与生理代价</text>
+<path d="M215 125 H252" fill="none" stroke="#456b58" stroke-width="2.5" marker-end="url(#arr)"/>
+<path d="M440 125 H477" fill="none" stroke="#456b58" stroke-width="2.5" marker-end="url(#arr)"/>
+<path d="M665 125 H702" fill="none" stroke="#456b58" stroke-width="2.5" marker-end="url(#arr)"/>
+<path d="M572 170 V220 H347 V174" fill="none" stroke="#456b58" stroke-width="2.5" marker-end="url(#arr)"/>
+<text x="460" y="247" text-anchor="middle" class="small">反馈可增强、限制或重置响应</text>
+<text x="460" y="295" text-anchor="middle" class="small">注意：信号指标变化，需要额外证据才能与最终保护建立联系。</text></svg>

@@ -1,6 +1,8 @@
-# Plant Immunity Book
+# 植物免疫学：从基础概念到机制与证据
 
-聚焦植物免疫的科学逻辑、研究思路和关键创新发现。
+面向初学者的中文植物免疫学习书稿。当前为**第0章基础导论＋6篇20章，共21章**，覆盖细胞基础、识别与信号、NLR、激素、进化、微生物组、屏障与化学防御、系统免疫、根部免疫、育种及证据阅读。
+
+从 [全书导览](docs/index.md) 或 [学习路线](docs/learning/学习路线与知识地图.md) 开始。每章提供导读与带解析的自测；[版本说明](docs/appendix/版本说明与证据边界.md)记录科学校订与尚未完成的出版级审核范围。
 
 ## 当前结构
 
@@ -16,22 +18,34 @@
 先安装依赖：
 
 ```powershell
-pip install "mkdocs<2" "mkdocs-material>=9,<10"
+python -m pip install -r requirements-book.txt
 ```
 
 启动预览：
 
 ```powershell
-mkdocs serve
+python -X utf8 -m mkdocs serve
 ```
 
 构建静态网站：
 
 ```powershell
-mkdocs build --strict
+python -X utf8 -m mkdocs build --strict --site-dir build/site
 ```
 
-构建输出目录：`site/`
+本地构建输出目录：`build/site/`。使用 `-X utf8` 避免 Windows 控制台编码问题；依赖限定为 MkDocs 1.x，不需要为此迁移站点框架。
+
+## 离线整书阅读版
+
+先运行上面的严格构建，再导出：
+
+```powershell
+python -X utf8 scripts/export_book.py
+```
+
+输出为 `build/植物免疫学-完整书稿.html`。该文件内嵌正文、样式和插图，双击即可离线阅读，支持目录筛选、答案展开/收起及浏览器打印。外部论文链接仍需联网。`build/book-validation.json` 记录目录页数、编号章节数、可见文本汉字数、图表出现次数及链接检查结果；统计不等于学术准确性认证。
+
+第0、19、20章的原创插图可用 `scripts/render_learning_figures.py` 重新生成（可选依赖 `matplotlib`）；第17、18章保留 SVG 与 Mermaid 源码。所有构建产物位于已忽略的 `build/`，正文源文件仍在 `docs/`。
 
 ## 自动发布
 
@@ -44,4 +58,4 @@ mkdocs build --strict
 
 ## 说明
 
-仓库中原有 `book/`（Quarto）目录保留为历史沉淀，不再作为主发布路径。
+主发布链路保持 MkDocs，GitHub Actions 默认输出 `site/`。本地修改和构建不会自动提交或推送。正文以机制理解和证据阅读为主；学术引用时请回到原始文献，并留意版本说明中的未核验项与图片许可边界。

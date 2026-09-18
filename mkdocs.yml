@@ -1,5 +1,5 @@
-site_name: Plant Immunity Book
-site_description: 植物免疫与微生物互作
+site_name: 植物免疫学
+site_description: 从基础概念到机制与证据——适合初学者的植物免疫学习书稿
 site_author: Peter
 site_url: https://petemeng.github.io/Plant-Immunity-Notes/
 repo_url: https://github.com/petemeng/Plant-Immunity-Notes
@@ -13,6 +13,7 @@ theme:
     - navigation.tabs
     - navigation.sections
     - navigation.top
+    - navigation.footer
     - content.code.copy
     - search.highlight
 
@@ -35,13 +36,17 @@ markdown_extensions:
 
 extra_css:
   - assets/stylesheets/book-chapter.v2.css
+  - assets/stylesheets/textbook.css
 
 extra_javascript:
   - assets/javascripts/chapter-toc.v2.js
   - https://unpkg.com/mermaid@10/dist/mermaid.min.js
 
 nav:
-  - 前言: index.md
+  - 从这里开始:
+      - 前言与全书导览: index.md
+      - 学习路线与知识地图: learning/学习路线与知识地图.md
+      - ch00 细胞与分子基础: learning/ch00-细胞与分子基础.md
   - Part 1 免疫骨架:
       - ch01 植物免疫全景: part1-免疫骨架/ch01-植物免疫全景.md
       - ch02 PTI与ETI的关系演变: part1-免疫骨架/ch02-PTI与ETI的关系演变.md
@@ -63,7 +68,14 @@ nav:
       - ch14 从基础到抗病育种: part5-转化与展望/ch14-从基础到抗病育种.md
       - ch15 微生物组工程与生物防治: part5-转化与展望/ch15-微生物组工程与生物防治.md
       - ch16 未解决的问题与未来方向: part5-转化与展望/ch16-未解决的问题与未来方向.md
-  - Appendix:
+  - Part 6 专题与研读:
+      - ch17 屏障与化学防御: part6-专题与研读/ch17-屏障与化学防御.md
+      - ch18 系统免疫与防御预激: part6-专题与研读/ch18-系统免疫与防御预激.md
+      - ch19 根部免疫与共生边界: part6-专题与研读/ch19-根部免疫与共生边界.md
+      - ch20 如何阅读植物免疫证据: part6-专题与研读/ch20-如何阅读植物免疫证据.md
+  - 附录与复习:
       - 术语表: appendix/术语表.md
       - 模式植物与模式病原体索引: appendix/模式植物与模式病原体索引.md
       - 推荐阅读与经典文献指引: appendix/推荐阅读与经典文献指引.md
+      - 概念辨析与常见误区: appendix/概念辨析与常见误区.md
+      - 版本说明与证据边界: appendix/版本说明与证据边界.md

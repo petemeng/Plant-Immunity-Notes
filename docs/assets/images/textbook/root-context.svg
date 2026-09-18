@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 480" role="img" aria-labelledby="title desc">
+<title id="title">根部免疫的三个坐标</title><desc id="desc">纵向发育区域、径向组织身份和当前细胞状态共同决定对根免疫的解释。</desc>
+<defs><marker id="arr" markerWidth="9" markerHeight="9" refX="8" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8" fill="#456b58"/></marker></defs>
+<style>text{font-family:"Microsoft YaHei","Noto Sans SC",sans-serif;fill:#243b30} .small{font-size:16px}.label{font-size:19px;font-weight:600}</style>
+<rect width="920" height="480" fill="#faf9f6" rx="12"/>
+<text x="460" y="37" text-anchor="middle" class="label">同一个“根部响应”，需要三个坐标</text>
+<rect x="25" y="70" width="250" height="58" rx="10" fill="#edf3f8" stroke="#789580"/>
+<text x="150.0" y="100" text-anchor="middle" class="label">纵向：发育区域</text>
+<rect x="335" y="70" width="250" height="58" rx="10" fill="#e8f0e9" stroke="#789580"/>
+<text x="460.0" y="100" text-anchor="middle" class="label">径向：组织身份</text>
+<rect x="645" y="70" width="250" height="58" rx="10" fill="#fff2d9" stroke="#789580"/>
+<text x="770.0" y="100" text-anchor="middle" class="label">状态：当前活动</text>
+<rect x="45" y="155" width="210" height="58" rx="10" fill="#edf3f8" stroke="#789580"/>
+<text x="150.0" y="185" text-anchor="middle" class="label">较成熟的分化区域</text>
+<rect x="45" y="232" width="210" height="58" rx="10" fill="#edf3f8" stroke="#789580"/>
+<text x="150.0" y="262" text-anchor="middle" class="label">伸长区域</text>
+<rect x="45" y="309" width="210" height="58" rx="10" fill="#edf3f8" stroke="#789580"/>
+<text x="150.0" y="339" text-anchor="middle" class="label">分生区域与根冠</text>
+<circle cx="460" cy="266" r="113" fill="#dae8db" stroke="#789580"/>
+<circle cx="460" cy="266" r="87" fill="#eaf0de" stroke="#789580"/>
+<circle cx="460" cy="266" r="60" fill="#f4e5be" stroke="#789580"/>
+<circle cx="460" cy="266" r="34" fill="#e4dbef" stroke="#789580"/>
+<text x="460" y="169" text-anchor="middle" font-size="16">表皮</text>
+<text x="460" y="199" text-anchor="middle" font-size="16">皮层</text>
+<text x="460" y="226" text-anchor="middle" font-size="16">内皮层</text>
+<text x="460" y="275" text-anchor="middle" font-size="16">中柱</text>
+<rect x="665" y="155" width="210" height="58" rx="10" fill="#fff2d9" stroke="#789580"/>
+<text x="770.0" y="185" text-anchor="middle" class="label">未出现特定应答</text>
+<rect x="665" y="232" width="210" height="58" rx="10" fill="#fff2d9" stroke="#789580"/>
+<text x="770.0" y="262" text-anchor="middle" class="label">局部感知与应答</text>
+<rect x="665" y="309" width="210" height="58" rx="10" fill="#fff2d9" stroke="#789580"/>
+<text x="770.0" y="339" text-anchor="middle" class="label">恢复、重塑或持续变化</text>
+<text x="460" y="435" text-anchor="middle" class="small">组织示意不按比例；不同植物根的层数、结构与区域划分可以不同。</text></svg>

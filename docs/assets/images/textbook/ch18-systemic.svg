@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="1000" viewBox="0 0 1100 1000" role="img" aria-labelledby="title desc">
+  <title id="title">系统免疫的传递、接收、放大与预激</title>
+  <desc id="desc">局部变化产生信号，经过组织间传递后在远端放大。NHP和SA网络共同联系NPR1等调控组分，形成即时防御及对后续刺激的反应能力改变。组织、发育、源汇与环境影响整个过程。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L9 5 L0 10Z" fill="#47616b"/></marker>
+    <marker id="both" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L9 5 L0 10Z" fill="#a87538"/></marker>
+    <style>text{font-family:'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#223e46}.main{font-size:23px;font-weight:600}.sub{font-size:19px;fill:#4d6269}.note{font-size:17px;fill:#71624b}.box{stroke-width:2}.flow{fill:none;stroke:#47616b;stroke-width:2.5;marker-end:url(#arrow)}.context{fill:none;stroke:#a87538;stroke-width:2;stroke-dasharray:7 5;marker-end:url(#arrow)}</style>
+  </defs>
+  <rect width="1100" height="1000" rx="20" fill="#fbfcfa"/>
+  <text x="600" y="42" text-anchor="middle" class="main">从局部经历到远端准备状态</text>
+  <rect class="box" x="405" y="65" width="390" height="65" rx="13" fill="#e7efed" stroke="#668a83"/>
+  <text x="600" y="105" text-anchor="middle" class="main">局部感知与组织状态变化</text>
+  <path class="flow" d="M600 130V158"/>
+  <rect class="box" x="405" y="158" width="390" height="65" rx="13" fill="#e7efed" stroke="#668a83"/>
+  <text x="600" y="198" text-anchor="middle" class="main">局部代谢和信号输出</text>
+  <path class="flow" d="M600 223V251"/>
+  <rect class="box" x="405" y="251" width="390" height="65" rx="13" fill="#eaf3f4" stroke="#71969f"/>
+  <text x="600" y="291" text-anchor="middle" class="main">组织间传递与沿途调节</text>
+  <path class="flow" d="M600 316V344"/>
+  <rect class="box" x="405" y="344" width="390" height="65" rx="13" fill="#eaf3f4" stroke="#71969f"/>
+  <text x="600" y="384" text-anchor="middle" class="main">远端组织接收并放大</text>
+  <rect class="box" x="40" y="235" width="285" height="160" rx="13" fill="#f7edda" stroke="#bd9a60"/>
+  <text x="182" y="273" text-anchor="middle" class="main">组织与环境条件</text>
+  <text x="182" y="308" text-anchor="middle" class="sub">细胞类型 · 发育阶段</text><text x="182" y="337" text-anchor="middle" class="sub">源—汇关系 · 环境</text><text x="182" y="369" text-anchor="middle" class="note">约束传递与接收</text>
+  <path class="context" d="M325 280H405"/><path class="context" d="M325 371H405"/>
+  <path class="flow" d="M530 409V438H390V465"/><path class="flow" d="M670 409V438H810V465"/>
+  <rect class="box" x="245" y="465" width="290" height="75" rx="13" fill="#edf0e2" stroke="#8d9c65"/>
+  <text x="390" y="510" text-anchor="middle" class="main">NHP 相关网络</text>
+  <rect class="box" x="665" y="465" width="290" height="75" rx="13" fill="#edf0e2" stroke="#8d9c65"/>
+  <text x="810" y="510" text-anchor="middle" class="main">SA 相关网络</text>
+  <path d="M549 502H651" fill="none" stroke="#a87538" stroke-width="2.4" marker-start="url(#both)" marker-end="url(#both)"/>
+  <text x="600" y="479" text-anchor="middle" class="note">相互联系</text>
+  <path class="flow" d="M390 540V570H530V597"/><path class="flow" d="M810 540V570H670V597"/>
+  <rect class="box" x="395" y="597" width="410" height="75" rx="13" fill="#e7efed" stroke="#668a83"/>
+  <text x="600" y="642" text-anchor="middle" class="main">NPR1 与其他调控组分</text>
+  <path class="flow" d="M530 672V700H370V730"/><path class="flow" d="M670 672V700H830V730"/>
+  <rect class="box" x="180" y="730" width="380" height="90" rx="13" fill="#eaf3f4" stroke="#71969f"/>
+  <text x="370" y="765" text-anchor="middle" class="main">部分即时防御输出</text><text x="370" y="796" text-anchor="middle" class="sub">当前防御状态发生变化</text>
+  <rect class="box" x="640" y="730" width="380" height="90" rx="13" fill="#eaf3f4" stroke="#71969f"/>
+  <text x="830" y="765" text-anchor="middle" class="main">后续反应能力改变</text><text x="830" y="796" text-anchor="middle" class="sub">预激：速度、幅度或性质变化</text>
+  <path class="flow" d="M370 820V848H530V878"/><path class="flow" d="M830 820V848H670V878"/>
+  <rect class="box" x="395" y="878" width="410" height="65" rx="13" fill="#e7efed" stroke="#668a83"/>
+  <text x="600" y="918" text-anchor="middle" class="main">后续刺激下的保护性结果</text>
+  <text x="550" y="979" text-anchor="middle" class="sub">概念整合图：箭头不一律表示直接结合；不同组织与体系的依赖关系可不同</text>
+</svg>

@@ -1,6 +1,6 @@
 ﻿<div class="page-wrapper">
 
-  <div class="breadcrumb"><a href="#">首页</a><span>›</span><a href="#">第一部分 · 免疫骨架</a><span>›</span>第2章</div>
+  <div class="breadcrumb"><a href="../../">首页</a><span>›</span><span>第一部分 · 免疫骨架</span><span>›</span>第2章</div>
 
   <header class="chapter-header"><div class="chapter-header-inner">
       <div class="chapter-number">02</div>
@@ -8,6 +8,13 @@
       <h1 class="chapter-title">PTI 与 ETI 的关系演变</h1>
       <p class="chapter-subtitle">从泰然二分到深度交织，这对概念的演变史折射了整个领域的思想变迁</p>
     </div></header>
+  <section class="box box-experiment learning-guide" aria-label="初学者学习导引">
+  <h2>学习导引</h2>
+  <p><strong>学完本章，你应能：</strong></p><ul><li>说明 PTI 与 ETI 是不同识别入口，但共享部分下游过程。</li><li>区分共同输出、相互增强和绝对依赖三种证据强度。</li><li>用研究对象与测量指标限定2021年协同模型的适用范围。</li></ul>
+  <p><strong>必备概念：</strong>PAMP/MAMP 是微生物来源的可识别分子特征；效应子是改变宿主过程的分子；PRR 和 NLR 是不同的受体类别。遗传“需要某组分”只针对所测条件与输出。</p>
+  <p><strong>建议路线：</strong>先读2.1—2.2理解模型为何出现，再集中读2.3及证据边界。2.4—2.5是概念讨论，可以第二遍阅读；不需要在第一次阅读时选边支持某个术语体系。 基础补课可见<a href="../../learning/ch00-细胞与分子基础/">第0章：细胞与分子基础</a>。</p>
+  </section>
+
 
   <nav class="chapter-toc"><h3>本章目录</h3><ol>
       <li>Flor 的基因对基因假说：一切的起点</li>
@@ -17,6 +24,8 @@
       <li>当下的开放讨论：我们还需要 PTI/ETI 这对术语吗？</li>
       <li>里程碑研究思路拆解</li><li>当前争论与未解问题</li><li>关键实验方法</li><li>推荐阅读</li>
     </ol></nav>
+  <div class="box box-cognition"><div class="box-title">概念桥梁：“协同”到底要比较什么</div><p>假设一项研究分别记录表面识别入口、胞内识别入口及两者共同作用时的同一指标。共同作用高于任何单一路径，只能先说明联合效果更强；若要称为“超过相加的协同”，还需说明基线如何扣除、读数是否线性以及采用何种无交互预期。例如把病原数量取对数后计算相加，含义会不同于对原始数量直接相加。<br>更关键的是区分<strong>信号起始</strong>与<strong>完整抗病输出</strong>：NLR 能开始信号转导，不代表其全部下游反应能在缺少其他模块时达到正常强度；某项 ROS 读数减弱，也不能说明该细胞已完全不能识别效应子。因此，本章用“相互增强”概括研究结果，并逐项讨论依赖性。</p></div>
+
 
   <!-- ======== 引言 ======== -->
   <div class="chapter-intro">
@@ -32,7 +41,7 @@
 
   <p>PTI 与 ETI 的故事，必须从一个更古老的概念讲起。</p>
 
-  <p>1940年代至1970年代，美国农业部的 Harold H. Flor 在北达科他州的亚麻锈病系统（<em>Linum usitatissimum</em>–<em>Melampsora lini</em>）中进行了长达三十年的遗传分析。他的核心发现可以用一句话概括：<strong>宿主中每一个决定抗性的基因（R 基因），在病原中都有一个对应的决定无毒性的基因（Avr 基因）</strong> (Flor, 1971)。只有当 R 基因与对应的 Avr 基因同时存在时，才会触发抗性反应；任何一方缺失，互作结果就是感病。</p>
+  <p>1940年代至1970年代，美国农业部的 Harold H. Flor 在北达科他州的亚麻锈病系统（<em>Linum usitatissimum</em>–<em>Melampsora lini</em>）中进行了长达三十年的遗传分析。他的核心发现可以用一句话概括：<strong>宿主中每一个决定抗性的基因（R 基因），在病原中都有一个对应的决定无毒性的基因（Avr 基因）</strong> (Flor, 1971)。只有当 R 基因与对应的 Avr 基因同时存在时，才会触发抗性反应；缺少该配对时，不会由这一识别关系产生抗性；其他受体与防御机制仍可能影响最终结果。</p>
 
   <p>这一”基因对基因假说”（gene-for-gene hypothesis）具有惊人的预测力和简洁性。在分子生物学工具尚未成熟的年代，它仅凭遗传学数据就准确地预言了植物抗病性的基本逻辑——一种高度特异性的分子识别关系。但这个假说也埋下了一个深远的概念陷阱：它天然地暗示 R-Avr 互作是一种”直接的、受体-配体式的识别”。正如我们在第1章讨论的，后来的保卫假说和诱饵模型表明，间接识别可能才是更普遍的机制 <span class="cross-ref">→ 第1章 1.3节</span>。</p>
 
@@ -101,7 +110,7 @@
   <h3>隐含的假设与局限</h3>
   <p>然而，Zigzag 模型在巨大成功的同时也固化了几个关键假设，这些假设在后续研究中逐一受到挑战：</p>
 
-  <p><strong>假设一：PTI 和 ETI 是独立运作的两个层次。</strong>在 Zigzag 模型的叙事中，PTI 被效应蛋白”关闭”后，ETI 才被”打开”——两者似乎是一种替代关系而非协同关系。模型图中的免疫幅度在 ETS 阶段降至基线以下，暗示 PTI 在效应蛋白存在时基本失效。</p>
+  <p><strong>常见误读一：把图中分段等同于信号独立。</strong>Zigzag 是概括识别与病原适应的概念模型，并不是经过完整验证的分子接线图。分阶段作图容易造成“PTI 先关闭、ETI 再接替”的印象，但不能据此断言原模型已证明两个系统互不相干。后来的遗传与生化工作是在补充和修正这个简图。</p>
 
   <p><strong>假设二：PTI 是”弱”的，ETI 是”强”的。</strong>模型图中 ETI 的幅度远高于 PTI，给人的印象是 PTI 只能提供基本防御，真正有效的抗性来自 ETI。但实际上，PRR 介导的免疫在自然界中可能承担了大部分防御工作——毕竟大多数微生物从未成功突破 PTI (Zipfel, 2014)。</p>
 
@@ -113,10 +122,10 @@
 
   <h2><span class="section-num">2.3</span>PTI-ETI 协同放大：二元边界的崩塌</h2>
 
-  <p>如果说 Zigzag 模型是植物免疫领域的”标准模型”，那么2021年初同时发表在<em>Nature</em>和<em>Science</em>上的两篇论文，就是对这个标准模型最有力的修正——甚至可以说是一次概念地震。</p>
+  <p>如果说 Zigzag 模型是植物免疫领域的”标准模型”，那么2021年初同时发表于<em>Nature</em>的两篇论文，就是对这个标准模型最有力的修正——甚至可以说是一次概念地震。</p>
 
   <h3>裂缝的出现：2006-2020年间的不和谐音符</h3>
-  <p>在 Ngou 和 Yuan 的工作发表之前，Zigzag 模型的”两层独立”假设已经面临越来越多的质疑，只是这些质疑还没有凝聚成一个替代性框架：</p>
+  <p>在 Ngou 和 Yuan 的工作发表之前，对 Zigzag 模型的“两层独立”式解读已经面临越来越多的质疑，只是这些质疑还没有凝聚成一个替代性框架：</p>
   <ul>
     <li>Tsuda &amp; Katagiri (2010) 的网络分析表明，PTI 和 ETI 共享大量下游信号组分——SA、JA、ET 和 PAD4 通路在两种免疫反应中均被激活，只是程度和动态不同。</li>
     <li>多项研究观察到，ETI 的标志性输出（如持续的 ROS 爆发、胼胝质大量沉积、PR 基因高表达）在 PTI 信号组分缺失的背景下会显著减弱 (Lu et al., 2010; Zhang et al., 2010)。</li>
@@ -126,19 +135,9 @@
   <p>这些证据像是一面墙上的裂缝——每一条单独看都不致命，但汇总起来清楚地暗示：PTI 和 ETI 并非两个独立的信号通路，而是共用同一套信号基础设施的两种激活模式。</p>
 
   <h3>关键突破：2021年的两篇论文</h3>
-  <p><strong>Ngou et al. (2021, <em>Nature</em>)</strong>在拟南芥中构建了一个精巧的实验系统：利用雌二醇诱导型启动子控制细菌效应蛋白 AvrRps4 的表达，从而在没有细菌感染（因此没有 PAMP 刺激）的条件下，单独激活 ETI 通路。他们发现：</p>
-  <ul>
-    <li>单独激活 ETI（不伴随 PTI）仅产生微弱的 ROS 爆发和极低水平的胼胝质沉积——远低于正常细菌感染时的水平。</li>
-    <li>当 ETI 激活与 PAMP（flg22）处理同时进行时，ROS 爆发和胼胝质沉积出现了<strong>超加性效应</strong>（superadditive effect）——即协同输出远大于两者单独之和。</li>
-    <li>ETI 激活后，PTI 通路关键组分（包括 PRR 共受体 BAK1/SERK4 和 RBOHD）的蛋白水平显著上调，表明 ETI 主动增强 PTI 的信号基础设施。</li>
-  </ul>
-
-  <p><strong>Yuan et al. (2021, <em>Science</em>)</strong>则从反方向验证了相同结论：他们构建了 PRR 信号几乎完全缺失的拟南芥多重突变体（<em>fls2 efr cerk1 lyk5 bak1-5 bkk1-1</em>等组合），发现在这些背景下，NLR 介导的 ETI 反应（包括对<em>Pst</em> DC3000 携带 AvrRps4 的抗性）大幅减弱。关键发现包括：</p>
-  <ul>
-    <li>在 PTI 信号缺失的多重突变体中，ETI 激活的转录重编程规模显著缩小。</li>
-    <li>SA 积累——ETI 的核心输出之一——在 PRR 缺陷背景下显著降低。</li>
-    <li>ETI 激活后，FLS2、EFR 等 PRR 的转录水平在2-6小时内显著上升，形成一个正反馈环路：<strong>ETI 增强 PTI 的感知能力，而增强的 PTI 又为 ETI 提供更强的效应输出平台。</strong></li>
-  </ul>
+  <p><strong>Ngou et al. (2021, <em>Nature</em>)</strong>把胞内受体激活与外源微生物模式刺激在研究设计中分开，比较单一路径与联合条件。结果支持：胞内识别可以提高若干表面免疫信号组分的丰度，表面识别则增强部分 NLR 依赖的输出。在所研究的拟南芥—细菌体系中，两种入口共同作用有利于形成有效抗性。这里“未施加模式刺激”不等于植物没有任何基础表面信号。</p>
+  <p><strong>Yuan et al. (2021, <em>Nature</em>)</strong>分析了 PRR 或共受体受损的拟南芥材料，包括 <em>fls2 efr cerk1</em> 和 <em>bak1 bkk1 cerk1</em> 三重突变体。在这些背景中，部分 ETI 反应和抗细菌能力减弱。BIK1 与 RBOHD 相关的 ROS 信号为两种受体入口如何连接提供了机制证据；NLR 信号也提高若干 PTI 组分的转录或蛋白水平。</p>
+  <p><strong>共同结论与边界：</strong>两篇论文支持“完整免疫输出依赖网络协作”，而不是“删去几个 PRR 就删除了全部表面免疫”。基因型、物种、组织和读数不同，依赖程度可能变化。原始论文见<a href="https://www.nature.com/articles/s41586-021-03315-7">Ngou 等</a>及<a href="https://www.nature.com/articles/s41586-021-03316-6">Yuan 等</a>。</p>
 
   <div class="figure">
     <svg viewBox="0 0 760 260" role="img" aria-label="PTI-ETI 协同放大的分子机制模型">
@@ -194,9 +193,9 @@
   <h3>协同模型的边界与未解问题</h3>
   <p>协同模型虽然令人信服，但也有其局限性需要清醒认识：</p>
 
-  <p><strong>物种普遍性：</strong>两篇论文的核心实验均在拟南芥中完成。在作物系统中，PTI-ETI 协同的定量程度可能不同。例如，水稻的 NLR 蛋白 Pigm 直接在细胞核中调控免疫基因转录，其 ETI 对 PTI 基础设施的依赖程度可能低于拟南芥系统 (Deng et al., 2017)。</p>
+  <p><strong>物种普遍性：</strong>两篇关键研究的核心体系是拟南芥。不同作物的受体库、辅助网络和组织特征有差异，不能仅根据某个 NLR 的定位或抗性表型推断其对 PRR 的依赖程度。跨物种推广需要直接比较相应信号与抗性结果。</p>
 
-  <p><strong>NLR 类型依赖性：</strong>不同类型的 NLR（TNL vs CNL vs RNL）激活后的下游机制不同。TIR 域 NLR（TNL）通过产生小分子信号激活 EDS1-PAD4-ADR1 辅助 NLR 通路 (Lapin et al., 2022)，而 CC 域 NLR（CNL）如 ZAR1 直接形成质膜孔道 (Wang et al., 2019)。这两类 NLR 对 PTI 底盘的依赖是否一致？初步证据提示可能存在差异 <span class="cross-ref">→ 第4章</span>。</p>
+  <p><strong>NLR 类型与输出依赖性：</strong>TNL 常经 TIR 小分子信号、EDS1 复合体与辅助 NLR 连接到免疫输出；部分 CNL 如 ZAR1 自身具有通道活性。结构类型不同提供了可检验的问题，但不能单凭类型预测谁更依赖 PTI。通道证据及分类边界见第4章。</p>
 
   <p><strong>生态学真实性：</strong>实验室中通常使用单一 PAMP 和单一效应蛋白研究协同效应。但在自然感染中，植物同时面对多种 PAMP 和多种效应蛋白的复杂组合，协同效应的实际表现可能更为复杂。</p>
 
@@ -303,32 +302,32 @@
   <!-- ======== 里程碑研究 ======== -->
   <h2><span class="section-num">2.6</span>里程碑研究思路拆解</h2>
 
-  <h3>里程碑 1：Ngou et al. (2021) — ETI 需要 PTI 底盘</h3>
+  <h3>里程碑 1：Ngou et al. (2021) — 分离识别入口，观察相互增强</h3>
   <div class="box box-experiment"><div class="box-title">思路拆解</div>
   <p><strong>面对的问题：</strong>Zigzag 模型将 PTI 和 ETI 描述为独立的两层防御。但如果真的独立，为什么在某些 PTI 缺陷突变体中，ETI 反应也会减弱？</p>
-  <p><strong>关键思路：</strong>要测试 ETI 是否依赖 PTI，需要在没有 PAMP 刺激的条件下单独激活 ETI——但正常细菌感染总是同时提供 PAMP 和效应蛋白。解决方案是使用<strong>化学诱导系统</strong>：将效应蛋白 AvrRps4 置于雌二醇诱导型启动子控制下，在无菌条件下用雌二醇单独激活 ETI。</p>
-  <p><strong>关键证据链：</strong>（1）单独 ETI 产生的 ROS 和胼胝质极少；（2）ETI + flg22 产生超加性效应；（3）ETI 激活上调 BAK1/SERK4/RBOHD 蛋白水平；（4）在 <em>bak1/serk4</em> 双突变体中，ETI 介导的抗性大幅减弱。</p>
+  <p><strong>关键思路：</strong>自然感染同时带来多种信号，难以区分各自贡献。研究采用能在分析上分离胞内识别与外源模式刺激的系统，比较单独与联合响应。教学重点在于变量拆分和对照逻辑，而不是把人工系统等同于自然感染。</p>
+  <p><strong>关键证据链：</strong>比较分开的与联合的识别入口，观察到部分免疫输出互相增强，并发现胞内受体激活可提高某些 PTI 信号蛋白丰度。蛋白积累、酶活增强、细胞死亡和抗细菌结果提供不同层次的证据，不能用一个读数概括全部过程。</p>
   <p><strong>实验设计的精巧之处：</strong>诱导型系统解决了"分离 PTI 和 ETI"这一长期技术难题。同时，作者使用了蛋白水平（而非仅转录水平）的检测来证明 ETI 上调 PRR 组分，增加了结论的可靠性。</p>
   <p><strong>局限性：</strong>诱导系统的时间动态可能与自然感染不完全一致；雌二醇本身可能有微弱的生理效应需要排除。</p></div>
 
-  <h3>里程碑 2：Tsuda & Katagiri (2010) — PTI 与 ETI 的信号网络比较</h3>
+  <h3>里程碑 2：Tsuda et al. (2009) 与 Tsuda &amp; Katagiri (2010) — 从网络实验到综合框架</h3>
   <div class="box box-experiment"><div class="box-title">思路拆解</div>
   <p><strong>面对的问题：</strong>PTI 和 ETI 的下游信号通路究竟是独立的还是共享的？此前的研究多聚焦于单个通路，缺乏系统性比较。</p>
   <p><strong>关键思路：</strong>利用拟南芥的信号突变体组合（<em>sid2</em>、<em>dde2</em>、<em>ein2</em>、<em>pad4</em>等单突变和多重突变），在 PTI 和 ETI 条件下分别测量细菌增殖终点，通过<strong>定量网络分析</strong>评估各信号扇区的贡献。</p>
   <p><strong>关键证据链：</strong>（1）SA、JA、ET 和 PAD4 四个信号扇区在 PTI 和 ETI 中均有贡献，但权重不同；（2）PTI 中各扇区呈加性贡献，ETI 中则呈现显著的<strong>冗余性补偿</strong>——单个扇区缺失对 ETI 影响不大，但多个同时缺失则导致急剧崩溃；（3）这种网络拓扑差异可以用数学模型形式化描述。</p>
-  <p><strong>影响：</strong>这是第一项用网络思维系统分析 PTI/ETI 关系的工作，为后来的协同模型奠定了概念基础。"信号网络共享但拓扑不同"的结论至今仍是该领域的核心认知。</p></div>
+  <p><strong>影响与文献类型：</strong>Tsuda et al. (2009) 是提供网络实验的原始研究；Tsuda &amp; Katagiri (2010) 是综述。它们帮助把“哪些信号都参与”转变为“这些信号如何交互”的问题。网络结论应限定在所研究的免疫刺激和遗传背景中。</p></div>
 
   <h3>里程碑 3：Cook, de Wit & Thomma (2015) — Invasion Model 的正式提出</h3>
   <div class="box box-experiment"><div class="box-title">思路拆解</div>
   <p><strong>面对的问题：</strong>PTI/ETI 二分法存在无法自洽的分类困难——同一种分子信号在不同标准下会被归入不同类别。</p>
   <p><strong>关键思路：</strong>提出用"入侵模式"（Invasion Pattern, IP）统一取代 PAMP 和效应蛋白的分类，用"入侵模式受体"（IPR）统一取代 PRR 和 NLR 的分类。不是发现新事实，而是<strong>提出新的组织知识的方式</strong>。</p>
-  <p><strong>核心论据：</strong>列举了大量 PTI/ETI 边界模糊的案例（Cf 蛋白、EIX 受体、质外体效应蛋白识别等），论证现有二分法的不自洽性在逻辑上不可修补。</p>
+  <p><strong>核心论据：</strong>列举了大量 PTI/ETI 边界模糊的案例（Cf 蛋白、EIX 受体、质外体效应蛋白识别等），说明仅按传统配体类别划分会出现边界情况，提出另一种组织知识的方式。</p>
   <p><strong>影响与局限：</strong>Invasion Model 引发了持续至今的术语论争。其贡献在于迫使领域反思分类框架的隐含假设；局限在于作为一个"纯概念"提案，缺乏独立的实验预测来区分自身与竞争框架。</p></div>
 
   <!-- ======== 争论 ======== -->
   <h2><span class="section-num">2.7</span>当前争论与未解问题</h2>
   <ul class="questions-list">
-    <li><strong>不同 NLR 对 PTI 底盘的依赖是否一致？</strong>CNL 型 NLR（如 ZAR1）直接形成膜孔道，可能对 PTI 的依赖较低；TNL 型 NLR（如 RPP1、RPS4）需要通过 EDS1-helper NLR 轴传导信号，可能更依赖 PTI 组分。这一假说尚未被系统验证。</li>
+    <li><strong>不同 NLR 的网络依赖是否一致？</strong>需要针对感知、信号放大、限制病原与细胞死亡分别比较，而不能仅凭 CNL 或 TNL 标签排序。</li>
     <li><strong>协同机制在作物中是否保守？</strong>拟南芥的结果能否外推到水稻、小麦、番茄等作物？水稻的 NLR 免疫网络与拟南芥有显著差异（如缺乏典型的 TNL），协同模式可能不同 (Duxbury et al., 2021)。</li>
     <li><strong>协同的定量程度是否可预测？</strong>给定一个 PRR-NLR 的组合，能否预测其协同增效的幅度？还是说协同效应高度依赖于具体的信号网络配置？建立这种预测能力是将协同概念应用于育种的前提。</li>
     <li><strong>协同失效时，系统最先在哪个节点崩溃？</strong>如果我们将免疫网络视为一个工程系统，哪些节点是"单点故障"？RBOHD 的功能缺失似乎对 PTI 和 ETI 的协同效应影响都很大——它是不是一个关键瓶颈？</li>
@@ -338,9 +337,9 @@
   <!-- ======== 实验方法 ======== -->
   <h2><span class="section-num">2.8</span>关键实验方法</h2>
   <table><thead><tr><th>实验方法</th><th>原理与用途</th><th>关键参数与注意事项</th><th>经典文献</th></tr></thead><tbody>
-  <tr><td>双通路遗传拆分</td><td>构建 PRR 和 NLR 信号组分的多重突变体组合，分别或同时激活 PTI/ETI，定量比较单独 vs 协同的免疫输出。是研究 PTI-ETI 关系的核心策略。</td><td>需要高阶多重突变体（如 <em>fls2 efr cerk1</em> 三重突变）；注意遗传冗余可能掩盖效应；统计分析需要检验"超加性"而非仅"显著差异"。</td><td class="ref">Ngou et al., 2021, Nature; Yuan et al., 2021, Science</td></tr>
-  <tr><td>诱导型效应蛋白表达系统</td><td>将效应蛋白基因置于化学诱导型启动子（如雌二醇/地塞米松诱导型）控制下，在无菌条件下单独激活 ETI，避免 PAMP 的干扰。</td><td>注意诱导剂本身的潜在生理效应；诱导时间动态可能与自然感染不同；需要验证蛋白表达水平在生理范围内。</td><td class="ref">Ngou et al., 2021, Nature</td></tr>
-  <tr><td>ROS / Ca²⁺ / MAPK 并行检测</td><td>在同一实验中同时或平行测量 ROS 爆发（luminol 法）、胞质 Ca²⁺ 浓度（aequorin 或 GCaMP 探针）和 MAPK 磷酸化（Western blot），获得免疫信号的多维动态图谱。</td><td>时间分辨率要求不同：Ca²⁺ 为秒级，ROS 为分钟级，MAPK 为分钟至半小时级。需要合适的活体检测探针和多通道检测设备。</td><td class="ref">Yuan et al., 2021, Science; Thor &amp; Peiter, 2014, J Exp Bot</td></tr>
+  <tr><td>双通路遗传拆分</td><td>构建 PRR 和 NLR 信号组分的多重突变体组合，分别或同时激活 PTI/ETI，定量比较单独 vs 协同的免疫输出。是研究 PTI-ETI 关系的核心策略。</td><td>需要高阶多重突变体（如 <em>fls2 efr cerk1</em> 三重突变）；注意遗传冗余可能掩盖效应；统计分析需要检验"超加性"而非仅"显著差异"。</td><td class="ref">Ngou et al., 2021, Nature; Yuan et al., 2021, Nature</td></tr>
+  <tr><td>识别入口分离的证据解读</td><td>比较单一路径与联合条件，理解互相增强如何被区分于简单并行输出。</td><td>人工系统的时空动态可能偏离自然互作；还需关注基础状态、对照和测量尺度。</td><td class="ref">Ngou et al., 2021, Nature</td></tr>
+  <tr><td>ROS / Ca²⁺ / MAPK 并行检测</td><td>在同一实验中同时或平行测量 ROS 爆发（luminol 法）、胞质 Ca²⁺ 浓度（aequorin 或 GCaMP 探针）和 MAPK 磷酸化（Western blot），获得免疫信号的多维动态图谱。</td><td>时间分辨率要求不同：Ca²⁺ 为秒级，ROS 为分钟级，MAPK 为分钟至半小时级。需要合适的活体检测探针和多通道检测设备。</td><td class="ref">Yuan et al., 2021, Nature; Thor &amp; Peiter, 2014, J Exp Bot</td></tr>
   <tr><td>信号网络定量分析</td><td>利用多重信号突变体的表型数据（如细菌增殖），通过组合分析定量评估各信号分支的独立贡献和交互作用。可结合数学建模。</td><td>需要完整的突变体矩阵（所有单重、双重、三重...组合）；表型测量需要高精度和足够重复；统计模型需考虑遗传性状相加和非加性效应。</td><td class="ref">Tsuda et al., 2009, PLoS Genet; Tsuda &amp; Katagiri, 2010, Curr Opin Plant Biol</td></tr>
   </tbody></table>
 
@@ -349,7 +348,7 @@
     <div class="reading-level level-essential"><h4>🔴 必读</h4>
 <div class="reading-item"><div class="reading-ref"><span class="authors">Jones JDG, Dangl JL.</span><span class="title"><em>The plant immune system.</em></span><span class="journal"><em>Nature</em>, 2006, 444: 323–329.</span></div><div class="reading-reason">Zigzag 模型的原始出处，理解整个概念演变的起点。</div></div>
 <div class="reading-item"><div class="reading-ref"><span class="authors">Ngou BPM, Ahn HK, Ding P, Jones JDG.</span><span class="title"><em>Mutual potentiation of plant immunity by cell-surface and intracellular receptors.</em></span><span class="journal"><em>Nature</em>, 2021, 592: 110–115.</span></div><div class="reading-reason">PTI-ETI 协同放大的核心实验证据之一。</div></div>
-<div class="reading-item"><div class="reading-ref"><span class="authors">Yuan M, Jiang Z, Bi G, et al.</span><span class="title"><em>Pattern-recognition receptors are required for NLR-mediated plant immunity.</em></span><span class="journal"><em>Science</em>, 2021, 371: 185–187.</span></div><div class="reading-reason">从反方向证明 ETI 依赖 PTI 的信号基础设施。</div></div>
+<div class="reading-item"><div class="reading-ref"><span class="authors">Yuan M, Jiang Z, Bi G, et al.</span><span class="title"><em>Pattern-recognition receptors are required for NLR-mediated plant immunity.</em></span><span class="journal"><em>Nature</em>, 2021, 592: 105–109.</span></div><div class="reading-reason">提供 PRR 及共受体对完整 ETI 输出贡献的遗传与生化证据。</div></div>
     </div>
     <div class="reading-level level-important"><h4>🟡 重要</h4>
 <div class="reading-item"><div class="reading-ref"><span class="authors">Tsuda K, Katagiri F.</span><span class="title"><em>Comparing signaling mechanisms engaged in pattern-triggered and effector-triggered immunity.</em></span><span class="journal"><em>Curr Opin Plant Biol</em>, 2010, 13: 459–465.</span></div><div class="reading-reason">首次系统比较 PTI/ETI 信号网络，协同概念的先驱。</div></div>
@@ -389,9 +388,15 @@
     <li>Wang J, Hu M, Wang J, et al. Reconstitution and structure of a plant NLR resistosome conferring immunity. <em>Science</em>, 2019, 364: eaav5870.</li>
     <li>Yuan M, Jiang Z, Bi G, et al. Pattern-recognition receptors are required for NLR-mediated plant immunity. <em>Nature</em>, 2021, 592: 105–109.</li>
     <li>Zhang J, Shao F, Li Y, et al. A <em>Pseudomonas syringae</em> effector inactivates MAPKs to suppress PAMP-induced immunity in plants. <em>Cell Host Microbe</em>, 2007, 1: 175–185.</li>
-    <li>Zipfel C. Plant pattern-recognition receptors. <em>Trends Immunol</em>, 2014, 35: 345–351.</li>
     <li>Zipfel C, Kunze G, Chinchilla D, et al. Perception of the bacterial PAMP EF-Tu by the receptor EFR restricts <em>Agrobacterium</em>-mediated transformation. <em>Cell</em>, 2006, 125: 749–760.</li>
+    <li>Zipfel C. Plant pattern-recognition receptors. <em>Trends Immunol</em>, 2014, 35: 345–351.</li>
   </ol>
 
-  <nav class="chapter-nav"><a href="#"><div><span class="nav-label">上一章</span>← 第1章 植物免疫全景</div></a><a href="#"><div style="text-align:right;"><span class="nav-label">下一章</span>第3章 受体与信号转导 →</div></a></nav>
+
+  <section class="chapter-review"><h2>本章小结与自测</h2><p>先遮住解析，用自己的话作答。能说明“为什么”，比复述缩写更能检验理解。</p>
+  <h3>理解题 2.1：在某个 PRR 突变体中 ETI 相关 ROS 减弱，能推断 NLR 无法识别效应子吗？</h3><details><summary>查看解析</summary><p>不能。ROS 属于下游输出，缺陷可能发生在信号放大或执行阶段。识别、受体激活、转录变化、限制病原和细胞死亡需要分别判断；一个输出下降不等于所有 ETI 过程消失。</p></details>
+  <h3>理解题 2.2：PTI 和 ETI 都出现 Ca²⁺ 升高，是否证明两者由同一种受体启动？</h3><details><summary>查看解析</summary><p>不证明。不同受体可以汇合到相同的第二信使或执行模块。共享输出说明网络相交，受体身份和上游识别机制仍需各自的证据。</p></details>
+  <h3>理解题 2.3：如何准确复述2021年的两篇关键研究？</h3><details><summary>查看解析</summary><p>在所研究的拟南芥—细菌互作中，表面与胞内受体信号相互增强，若干 PRR 及共受体缺陷削弱完整 ETI 输出。这支持整合网络模型，但不能直接推广为所有物种、所有 NLR、所有组织均绝对相互依赖。</p></details>
+  <p><strong>复习任务：</strong>画一张不超过六个节点的本章概念图，并在每条箭头旁写出关系：直接作用、间接依赖、相关性或待验证假说。若无法确定，应保留问号。</p></section>
+<nav class="chapter-nav"><a href="../ch01-植物免疫全景/"><div><span class="nav-label">上一章</span>← 第1章 植物免疫全景</div></a><a href="../../part2-分子机制/ch03-受体与信号转导/"><div style="text-align:right;"><span class="nav-label">下一章</span>第3章 受体与信号转导 →</div></a></nav>
 </div>

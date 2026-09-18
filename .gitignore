@@ -16,3 +16,5 @@ book/images/
 
 # MkDocs build output
 site/
+build/
+__pycache__/

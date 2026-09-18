@@ -64,7 +64,7 @@ def main():
         for node in article.select(".md-content__button, .headerlink"):
             node.decompose()
         # Give the new Markdown chapters the same answer controls as legacy chapters.
-        if source.startswith(("learning/ch00", "part6-", "part7-")):
+        if source.startswith(("learning/ch00", "part6-", "part7-", "history/")):
             for heading in article.select("h2"):
                 if "自测" not in heading.get_text():
                     continue
@@ -84,6 +84,9 @@ def main():
                         node.decompose()
                     elif active is not None:
                         active.append(node.extract())
+        # Catalog controls need the website script; keep the full directories offline.
+        for node in article.select(".history-tools"):
+            node.decompose()
         for tag in article.select("a[href], img[src]"):
             attr = "href" if tag.name == "a" else "src"
             value = tag[attr]
@@ -159,10 +162,12 @@ aside a{display:block;padding:6px 0;text-decoration:none}aside h2{font-size:20px
 '''
     toc = "\n".join(f'<a href="#{page_ids[site_path(site,source)]}">{escape(title)}</a>' for title,source in pages)
     chapter_count = sum(bool(re.match(r"ch\d", Path(source).stem)) for _, source in pages)
+    gene_count = sum(source.startswith("history/genes/") and Path(source).name != "index.md" for _, source in pages)
+    lab_count = sum(source.startswith("history/labs/") and Path(source).name != "index.md" for _, source in pages)
     revision = escape(config.get("extra", {}).get("book_revision", "持续修订版"))
     html = f'''<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>植物免疫学 · 完整书稿</title><style>{css}</style></head><body>
 <aside id="book-navigation" aria-label="全书目录"><h2>植物免疫学</h2><input id="filter" type="search" aria-label="筛选章节" placeholder="筛选章节"><nav id="toc">{toc}</nav></aside><a class="back-to-toc" href="#book-navigation" aria-label="返回全书目录">目录 ↑</a>
-<main class="md-typeset"><header class="cover"><p>从基础概念到机制与证据</p><h1>植物免疫学</h1><p>{chapter_count} 章 · 学习路线 · 机制图解 · 研究技术 · 自测讲解 · 文献研读</p><p>{revision}　教材扩充与科学校订稿</p><div class="controls"><button onclick="window.print()">打印 / 保存为 PDF</button><button id="answers">收起所有答案</button></div><p class="printnote">本文件内嵌正文与插图，可离线阅读；外部论文链接需联网。教学示意不代表实测结果，证据边界见版本说明。</p></header>{''.join(articles)}</main>
+<main class="md-typeset"><header class="cover"><p>从基础概念到机制与证据</p><h1>植物免疫学</h1><p>{chapter_count} 章 · {gene_count} 篇基因研究史 · {lab_count} 篇课题组研究脉络</p><p>学习路线 · 机制图解 · 研究技术 · 自测讲解 · 文献研读</p><p>{revision}　教材扩充与科学校订稿</p><div class="controls"><button onclick="window.print()">打印 / 保存为 PDF</button><button id="answers">收起所有答案</button></div><p class="printnote">本文件内嵌正文与插图，可离线阅读；外部论文链接需联网。教学示意不代表实测结果，证据边界见版本说明。</p></header>{''.join(articles)}</main>
 <script>document.getElementById('filter').addEventListener('input',function(){{let q=this.value.toLowerCase();document.querySelectorAll('#toc a').forEach(a=>a.hidden=!a.textContent.toLowerCase().includes(q))}});document.getElementById('answers').addEventListener('click',function(){{let open=this.textContent.includes('展开');document.querySelectorAll('details').forEach(d=>d.open=open);this.textContent=open?'收起所有答案':'展开所有答案'}});window.addEventListener('beforeprint',()=>document.querySelectorAll('details').forEach(d=>d.open=true));</script></body></html>'''
     final = BeautifulSoup(html,"html.parser")
     ids = Counter(x["id"] for x in final.select("[id]"))
@@ -173,7 +178,7 @@ aside a{display:block;padding:6px 0;text-decoration:none}aside h2{font-size:20px
         raise SystemExit(f"Broken offline anchors: {broken}")
     out.parent.mkdir(parents=True,exist_ok=True)
     out.write_text(html,encoding="utf-8")
-    report={"pages":len(stats),"numbered_chapters":sum(bool(re.match(r"ch\d",Path(s["source"]).stem)) for s in stats),"han_characters":sum(s["han_characters"] for s in stats),"tables":sum(s["tables"] for s in stats),"figure_occurrences":sum(s["figures"] for s in stats),"self_test_questions":sum(s["self_test_questions"] for s in stats),"internal_links":"passed","offline_anchors":"passed","files":stats}
+    report={"pages":len(stats),"numbered_chapters":chapter_count,"gene_histories":gene_count,"lab_histories":lab_count,"han_characters":sum(s["han_characters"] for s in stats),"tables":sum(s["tables"] for s in stats),"figure_occurrences":sum(s["figures"] for s in stats),"self_test_questions":sum(s["self_test_questions"] for s in stats),"internal_links":"passed","offline_anchors":"passed","files":stats}
     (out.parent/"book-validation.json").write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding="utf-8")
     print(json.dumps({k:v for k,v in report.items() if k!="files"},ensure_ascii=False))
     print(out)

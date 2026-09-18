@@ -40,6 +40,7 @@ extra_css:
 
 extra_javascript:
   - assets/javascripts/chapter-toc.v2.js
+  - assets/javascripts/history-catalog.js
   - https://unpkg.com/mermaid@10/dist/mermaid.min.js
 
 extra:
@@ -49,6 +50,9 @@ nav:
   - 从这里开始:
       - 前言与全书导览: index.md
       - 学习路线与知识地图: learning/学习路线与知识地图.md
+      - 研究史系列导览: history/index.md
+      - 跨主题发现年表: history/timeline.md
+      - 研究史资料与署名: history/sources-and-attribution.md
       - ch00 细胞与分子基础: learning/ch00-细胞与分子基础.md
   - Part 1 免疫骨架:
       - ch01 植物免疫全景: part1-免疫骨架/ch01-植物免疫全景.md
@@ -80,6 +84,81 @@ nav:
       - ch21 蛋白质相互作用：Co-IP、Y2H等: part7-研究技术与实验逻辑/ch21-蛋白质相互作用研究技术.md
       - ch22 表达、定位与转录调控: part7-研究技术与实验逻辑/ch22-表达定位与转录调控研究技术.md
       - ch23 遗传学与免疫表型: part7-研究技术与实验逻辑/ch23-遗传学与免疫表型研究技术.md
+  # BEGIN HISTORY CATALOG
+  - 经典基因研究史:
+      - 系列目录: history/genes/index.md
+      - 细胞表面识别与早期信号:
+          - FLS2: history/genes/FLS2.md
+          - EFR: history/genes/EFR.md
+          - BAK1 / SERK3: history/genes/BAK1.md
+          - CERK1与LYK5: history/genes/CERK1-LYK5.md
+          - SOBIR1: history/genes/SOBIR1.md
+          - BIK1: history/genes/BIK1.md
+          - RBOHD: history/genes/RBOHD.md
+          - MPK3与MPK6: history/genes/MPK3-MPK6.md
+          - PEPR1与PEPR2: history/genes/PEPR1-PEPR2.md
+          - CPK5: history/genes/CPK5.md
+          - FLS3: history/genes/FLS3.md
+          - RLP23: history/genes/RLP23.md
+      - 细胞内识别与信号:
+          - RPM1与RPS2: history/genes/RPM1-RPS2.md
+          - RIN4: history/genes/RIN4.md
+          - RPS4与RRS1: history/genes/RPS4-RRS1.md
+          - EDS1、PAD4与SAG101: history/genes/EDS1-PAD4-SAG101.md
+          - ADR1与NRG1家族: history/genes/ADR1-NRG1.md
+          - ZAR1: history/genes/ZAR1.md
+      - 激素、转录与系统免疫:
+          - NPR1: history/genes/NPR1.md
+          - ICS1 / SID2、EDS5与PBS3: history/genes/ICS1-EDS5-PBS3.md
+          - ALD1与FMO1: history/genes/ALD1-FMO1.md
+          - SARD1与CBP60g: history/genes/SARD1-CBP60g.md
+          - WRKY33: history/genes/WRKY33.md
+          - COI1、JAZ与MYC2: history/genes/COI1-JAZ-MYC2.md
+      - 作物经典抗性与易感性:
+          - 烟草N: history/genes/N.md
+          - 番茄Cf-9: history/genes/Cf9.md
+          - 番茄Pto与Prf: history/genes/Pto-Prf.md
+          - 水稻XA21: history/genes/XA21.md
+          - 水稻Pi-ta: history/genes/Pi-ta.md
+          - MLO: history/genes/MLO.md
+          - 小麦Lr34: history/genes/Lr34.md
+          - DMR6: history/genes/DMR6.md
+  - 课题组研究脉络:
+      - 系列目录: history/labs/index.md
+      - 模式识别与信号网络:
+          - Thomas Boller: history/labs/Boller.md
+          - Georg Felix: history/labs/Felix.md
+          - Cyril Zipfel: history/labs/Zipfel.md
+          - 周俭民 / Jian-Min Zhou: history/labs/Zhou-Jianmin.md
+          - 何平 / Ping He: history/labs/He-Ping.md
+          - 单立波 / Libo Shan: history/labs/Shan-Libo.md
+          - Jen Sheen: history/labs/Sheen.md
+      - 细胞内免疫与结构机制:
+          - Jeffery L. Dangl: history/labs/Dangl.md
+          - Jonathan D. G. Jones: history/labs/Jones.md
+          - Jane E. Parker: history/labs/Parker.md
+          - 柴继杰 / Jijie Chai: history/labs/Chai-Jijie.md
+          - Peter N. Dodds: history/labs/Dodds.md
+          - Sophien Kamoun: history/labs/Kamoun.md
+          - Barbara Baker: history/labs/Baker.md
+      - 系统免疫、代谢与生态:
+          - 董欣年 / Xinnian Dong: history/labs/Dong-Xinnian.md
+          - 李昕 / Xin Li: history/labs/Li-Xin.md
+          - 张跃林 / Yuelin Zhang: history/labs/Zhang-Yuelin.md
+          - Corné M. J. Pieterse: history/labs/Pieterse.md
+          - Paul Schulze-Lefert: history/labs/Schulze-Lefert.md
+          - 何胜阳 / Sheng-Yang He: history/labs/He-Shengyang.md
+          - Frederick M. Ausubel: history/labs/Ausubel.md
+      - 作物互作与抗性:
+          - Pamela C. Ronald: history/labs/Ronald.md
+          - Brian J. Staskawicz: history/labs/Staskawicz.md
+          - Gregory B. Martin: history/labs/Martin.md
+          - 窦道龙 / Daolong Dou: history/labs/Dou-Daolong.md
+      - RNA与跨界相互作用:
+          - 马文勃 / Wenbo Ma: history/labs/Ma-Wenbo.md
+          - 金海翎 / Hailing Jin: history/labs/Jin-Hailing.md
+          - 戚益军 / Yijun Qi: history/labs/Qi-Yijun.md
+  # END HISTORY CATALOG
   - 附录与复习:
       - 术语表: appendix/术语表.md
       - 模式植物与模式病原体索引: appendix/模式植物与模式病原体索引.md

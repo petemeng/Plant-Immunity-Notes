@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="590" viewBox="0 0 1000 590" role="img" aria-labelledby="title desc">
+<title id="title">从基因研究史到课题组研究脉络</title>
+<desc id="desc">左侧沿研究对象追踪身份与机制，右侧沿团队追踪问题与证据。两者在原始论文和认识变化处交汇，再回到教材中的概念与方法。</desc>
+<rect width="1000" height="590" rx="22" fill="#f2f5ef"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" fill="#234932">
+<text x="50" y="57" font-size="29" font-weight="700">用两个视角，读懂同一段发现历史</text>
+<text x="50" y="93" font-size="19" fill="#597263">教学阅读地图 · 不表示实验步骤或团队师承</text>
+<rect x="45" y="125" width="435" height="208" rx="14" fill="#fff" stroke="#92b49a"/>
+<rect x="520" y="125" width="435" height="208" rx="14" fill="#fff" stroke="#a6aacc"/>
+<text x="72" y="167" font-size="25" font-weight="700">基因与模块研究史</text>
+<text x="72" y="203" font-size="20">一个对象，跨越多个团队与年代</text>
+<text x="72" y="246" font-size="21">表型 → 身份 → 功能 → 模型修订</text>
+<text x="72" y="293" font-size="18" fill="#597263">例：FLS2、NPR1、ZAR1、Pi-ta</text>
+<text x="548" y="167" font-size="25" font-weight="700">课题组研究脉络</text>
+<text x="548" y="203" font-size="20">一个问题，逐步发展新的解释</text>
+<text x="548" y="246" font-size="21">起点 → 证据 → 转折 → 开放问题</text>
+<text x="548" y="293" font-size="18" fill="#597263">保留共同作者、合作团队与历史背景</text>
+<path d="M263 334v25h237m237-25v25H500v27" fill="none" stroke="#769b7e" stroke-width="3"/>
+<path d="m493 377 7 11 7-11" fill="none" stroke="#769b7e" stroke-width="3"/>
+<rect x="120" y="390" width="760" height="80" rx="13" fill="#244e35"/>
+<text x="500" y="423" text-anchor="middle" font-size="23" fill="#fff" font-weight="700">原始论文：直接测到了什么，改变了哪一种认识？</text>
+<text x="500" y="452" text-anchor="middle" font-size="18" fill="#e2eee1">同一篇合作论文可出现在多个专题，不等于多次独立验证</text>
+<text x="500" y="522" text-anchor="middle" font-size="22">回到教材：概念定义 · 方法原理 · 对照逻辑 · 适用范围</text>
+<text x="500" y="558" text-anchor="middle" font-size="18" fill="#597263">先理解问题，再记分子名称；同时保留发现与修订的时间。</text>
+</g></svg>

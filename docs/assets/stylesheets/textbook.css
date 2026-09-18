@@ -12,12 +12,20 @@
 .md-typeset details { border: 1px solid #cad7c9; border-radius: 6px; padding: .7rem 1rem; margin: .7rem 0 1rem; background: #fafcf9; }
 .md-typeset summary { cursor: pointer; font-family: var(--font-sans); font-weight: 600; color: #31543b; }
 .md-typeset img { max-width: 100%; height: auto; }
+.md-typeset .history-tools { background: #edf3eb; border: 1px solid #cad7c9; border-radius: 8px; padding: 1rem; margin: 1.5rem 0; }
+.md-typeset .history-tools label { display: block; font-weight: 600; margin-bottom: .4rem; }
+.md-typeset .history-tools input { width: 100%; padding: .6rem .7rem; background: white; color: #24382b; border: 1px solid #7d9c82; border-radius: 5px; font: inherit; }
+.md-typeset .history-tools input:focus-visible { outline: 2px solid #31543b; outline-offset: 2px; }
+.md-typeset .history-tools p { margin: .5rem 0 0; font-size: .72rem; }
+.md-typeset .history-tools[hidden], .md-typeset tr[hidden] { display: none !important; }
 @media (max-width: 600px) {
   .md-typeset { font-size: .82rem; }
   .md-typeset .page-wrapper { padding-left: 0; padding-right: 0; font-size: .82rem; }
   .md-typeset .learning-guide { padding: .8rem; }
 }
 @media print {
+  .history-tools { display: none !important; }
+  .md-typeset tr[hidden] { display: table-row !important; }
   .md-header, .md-tabs, .md-sidebar, .md-footer, .md-top, .md-content__button { display: none !important; }
   .md-typeset { font-size: 10.5pt; line-height: 1.7; }
   .md-typeset .page-wrapper { max-width: none; padding: 0; font-size: inherit; }

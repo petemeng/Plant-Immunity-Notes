@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="1010" viewBox="0 0 720 1010" role="img" aria-labelledby="title desc">
+<title id="title">FLS2：受体身份怎样逐层建立</title><desc id="desc">2000年遗传必要性，2006年直接结合与识别特征，2007年共同受体组装，2013年胞外复合体结构。箭头表示认识接续。</desc>
+<defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9" fill="#627e72"/></marker></defs>
+<style>text{font-family:"Microsoft YaHei","Noto Sans CJK SC",sans-serif} .heading{font-weight:700}</style>
+<rect width="720" height="1010" fill="#f7faf7"/>
+<text x="36" y="53" font-size="31" fill="#19372f" text-anchor="start" class="heading">FLS2：受体身份怎样逐层建立</text>
+<text x="36" y="90" font-size="22" fill="#50655e" text-anchor="start" class="body">四类证据，各自回答一个不同问题</text>
+<rect x="30" y="120" width="660" height="178" rx="16" fill="#ffffff" stroke="#d6e3da" stroke-width="2"/>
+<rect x="48" y="137" width="87" height="40" rx="9" fill="#e2f0e8" stroke="#e2f0e8" stroke-width="2"/>
+<text x="91" y="166" font-size="24" fill="#18755e" text-anchor="middle" class="heading">2000</text>
+<text x="152" y="166" font-size="25" fill="#19372f" text-anchor="start" class="heading">这个基因是否必要？</text>
+<text x="51" y="207" font-size="23" fill="#50655e" text-anchor="start" class="body">响应缺陷 → 定位与克隆</text>
+<text x="51" y="239" font-size="23" fill="#50655e" text-anchor="start" class="body">FLS2具有受体样结构</text>
+<text x="51" y="271" font-size="23" fill="#50655e" text-anchor="start" class="body">还需区分：感知者，还是感知的助手？</text>
+<path d="M360,299 L360,316" fill="none" stroke="#627e72" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="30" y="322" width="660" height="178" rx="16" fill="#ffffff" stroke="#d6e3da" stroke-width="2"/>
+<rect x="48" y="339" width="87" height="40" rx="9" fill="#e2f0e8" stroke="#e2f0e8" stroke-width="2"/>
+<text x="91" y="368" font-size="24" fill="#18755e" text-anchor="middle" class="heading">2006</text>
+<text x="152" y="368" font-size="25" fill="#19372f" text-anchor="start" class="heading">它是否承担配体识别？</text>
+<text x="51" y="409" font-size="23" fill="#50655e" text-anchor="start" class="body">配体结合 + 识别特征随FLS2转移</text>
+<text x="51" y="441" font-size="23" fill="#50655e" text-anchor="start" class="body">支持FLS2决定主要识别选择性</text>
+<text x="51" y="473" font-size="23" fill="#50655e" text-anchor="start" class="body">还需解释：识别怎样连接激活？</text>
+<path d="M360,501 L360,518" fill="none" stroke="#627e72" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="30" y="524" width="660" height="178" rx="16" fill="#ffffff" stroke="#d6e3da" stroke-width="2"/>
+<rect x="48" y="541" width="87" height="40" rx="9" fill="#e2f0e8" stroke="#e2f0e8" stroke-width="2"/>
+<text x="91" y="570" font-size="24" fill="#18755e" text-anchor="middle" class="heading">2007</text>
+<text x="152" y="570" font-size="25" fill="#19372f" text-anchor="start" class="heading">刺激以后怎样组成信号单位？</text>
+<text x="51" y="611" font-size="23" fill="#50655e" text-anchor="start" class="body">FLS2与BAK1出现配体相关关联</text>
+<text x="51" y="643" font-size="23" fill="#50655e" text-anchor="start" class="body">从单个受体，走向共同受体复合体</text>
+<text x="51" y="675" font-size="23" fill="#50655e" text-anchor="start" class="body">关联证据尚未显示每个分子的接触。</text>
+<path d="M360,703 L360,720" fill="none" stroke="#627e72" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="30" y="726" width="660" height="178" rx="16" fill="#ffffff" stroke="#d6e3da" stroke-width="2"/>
+<rect x="48" y="743" width="87" height="40" rx="9" fill="#e2f0e8" stroke="#e2f0e8" stroke-width="2"/>
+<text x="91" y="772" font-size="24" fill="#18755e" text-anchor="middle" class="heading">2013</text>
+<text x="152" y="772" font-size="25" fill="#19372f" text-anchor="start" class="heading">共同受体为什么能被招募？</text>
+<text x="51" y="813" font-size="23" fill="#50655e" text-anchor="start" class="body">flg22与FLS2结合，也参与BAK1接触</text>
+<text x="51" y="845" font-size="23" fill="#50655e" text-anchor="start" class="body">胞外结构解释联合识别与组装</text>
+<text x="51" y="877" font-size="23" fill="#50655e" text-anchor="start" class="body">并未独自排定全部胞内磷酸化次序。</text>
+<text x="36" y="953" font-size="20" fill="#50655e" text-anchor="start" class="body">原创概念图；箭头表示证据推进，不是细胞内反应时序。</text>
+<text x="36" y="982" font-size="20" fill="#50655e" text-anchor="start" class="body">完整分子机制、来源与适用范围见本篇正文。</text>
+</svg>

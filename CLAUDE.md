@@ -16,6 +16,8 @@
 
 另有研究史双系列：32篇基因/模块、28篇课题组，源文件在`docs/history/`，目录数据在`data/history-catalog.json`。研究史不计入24个编号章节。增加条目后运行`scripts/build_history_catalog.py`同步目录与导航。研究史写作依照`docs/history/sources-and-attribution.md`，明确论文时间、共同作者、机构变迁、历史模型及后续修订；不得把公开论文的编辑归纳写成未公开的个人研究计划。
 
+研究史深化版每篇保留至少两项代表研究的实质拆解、年表及模型/问题演进表、四道带解析自测和配套阅读。优先补足对象特有的生物学与研究连续性，避免重复抽象的证据口号。FLS2、ZAR1、EDS1和NPR1原创图由`scripts/render_history_figures.py`生成，正文图注给出来源和范围。
+
 - Part 1 免疫骨架（ch01–02）：植物免疫的整体图景与概念框架
 - Part 2 分子机制（ch03–06）：受体、NLR、激素、进化
 - Part 3 攻防博弈（ch07–09）：效应子、识别策略、协同进化

@@ -4,7 +4,7 @@
 
 公网阅读：[GitHub Pages 植物免疫学](https://petemeng.github.io/Plant-Immunity-Notes/)。新增技术篇从 Co-IP、Y2H 讲到表达定位、转录调控、遗传证据与免疫读数，侧重原理、对照和结果解读。
 
-新增研究史双系列：[32篇经典基因或模块](https://petemeng.github.io/Plant-Immunity-Notes/history/genes/)与[28篇课题组研究脉络](https://petemeng.github.io/Plant-Immunity-Notes/history/labs/)。每篇包含关键年表、阶段演变、证据推理、原始文献与两道讲解自测；另有[研究史导览](docs/history/index.md)、跨主题年表和资料署名说明。这60篇专题与24章教材并行，单独统计。
+研究史双系列深化版：[32篇经典基因或模块](https://petemeng.github.io/Plant-Immunity-Notes/history/genes/)与[28篇课题组研究脉络](https://petemeng.github.io/Plant-Immunity-Notes/history/labs/)。全部60篇展开关键年表、至少两项代表研究的具体证据与接续问题、模型演进表、原始文献及四道讲解自测，共240题；另有[研究史导览](docs/history/index.md)、跨主题年表和资料署名说明。这60篇专题与24章教材并行，单独统计。
 
 从 [全书导览](docs/index.md) 或 [学习路线](docs/learning/学习路线与知识地图.md) 开始。每章提供导读与带解析的自测；[版本说明](docs/appendix/版本说明与证据边界.md)记录科学校订与尚未完成的出版级审核范围。
 
@@ -54,6 +54,8 @@ python -X utf8 scripts/export_book.py
 研究史目录调整后运行 `python -X utf8 scripts/build_history_catalog.py`，提交前用 `python -X utf8 scripts/build_history_catalog.py --check` 验证目录与导航一致。网页两份目录支持即时筛选；离线整书保留完整目录，并沿用全书目录搜索。
 
 第0、19、20章的原创插图可用 `scripts/render_learning_figures.py` 重新生成（可选依赖 `matplotlib`）；第17、18章保留 SVG 与 Mermaid 源码。所有构建产物位于已忽略的 `build/`，正文源文件仍在 `docs/`。
+
+研究史中的FLS2、ZAR1、EDS1、NPR1四幅原创教学图可用 `python -X utf8 scripts/render_history_figures.py` 重新生成，无需额外依赖。图示表达概念与证据层次，不是实验数据或原子结构。
 
 ## 自动发布
 

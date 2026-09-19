@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="880" viewBox="0 0 720 880" role="img" aria-labelledby="title desc">
+<title id="title">EDS1：先分清两种异二聚体</title><desc id="desc">TIR相关酶活动产生不同核苷酸信号。pRib-AMP或pRib-ADP联系EDS1-PAD4和ADR1；ADPr-ATP或di-ADPR联系EDS1-SAG101和NRG1。分支并非绝对独立。</desc>
+<defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9" fill="#627e72"/></marker></defs>
+<style>text{font-family:"Microsoft YaHei","Noto Sans CJK SC",sans-serif} .heading{font-weight:700}</style>
+<rect width="720" height="880" fill="#f7faf7"/>
+<text x="36" y="53" font-size="31" fill="#19372f" text-anchor="start" class="heading">EDS1：先分清两种异二聚体</text>
+<text x="36" y="90" font-size="22" fill="#50655e" text-anchor="start" class="body">以2022年两类TIR来源信号研究为主线</text>
+<rect x="104" y="126" width="512" height="86" rx="16" fill="#e2f0e8" stroke="#d6e3da" stroke-width="2"/>
+<text x="360" y="162" font-size="27" fill="#18755e" text-anchor="middle" class="heading">TIR相关酶活动</text>
+<text x="360" y="193" font-size="22" fill="#19372f" text-anchor="middle" class="body">产生可被下游读取的小分子信号</text>
+<path d="M275,215 L192,263" fill="none" stroke="#627e72" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M445,215 L528,263" fill="none" stroke="#627e72" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="30" y="280" width="316" height="291" rx="16" fill="#ffffff" stroke="#d6e3da" stroke-width="2"/>
+<text x="188" y="326" font-size="24" fill="#50655e" text-anchor="middle" class="body">配体类别</text>
+<text x="188" y="362" font-size="23" fill="#18755e" text-anchor="middle" class="heading">pRib-AMP /</text>
+<text x="188" y="393" font-size="23" fill="#18755e" text-anchor="middle" class="heading">pRib-ADP</text>
+<path d="M188,414 L188,443" fill="none" stroke="#627e72" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="188" y="482" font-size="26" fill="#18755e" text-anchor="middle" class="heading">EDS1–PAD4</text>
+<text x="188" y="526" font-size="21" fill="#50655e" text-anchor="middle" class="body">一个EDS1 + 一个伙伴</text>
+<path d="M188,573 L188,609" fill="none" stroke="#627e72" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="30" y="625" width="316" height="76" rx="16" fill="#e2f0e8" stroke="#d6e3da" stroke-width="2"/>
+<text x="188" y="674" font-size="27" fill="#18755e" text-anchor="middle" class="heading">ADR1家族</text>
+<rect x="374" y="280" width="316" height="291" rx="16" fill="#ffffff" stroke="#d6e3da" stroke-width="2"/>
+<text x="532" y="326" font-size="24" fill="#50655e" text-anchor="middle" class="body">配体类别</text>
+<text x="532" y="362" font-size="23" fill="#315d97" text-anchor="middle" class="heading">ADPr-ATP / di-ADPR</text>
+<path d="M532,414 L532,443" fill="none" stroke="#627e72" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="532" y="482" font-size="26" fill="#315d97" text-anchor="middle" class="heading">EDS1–SAG101</text>
+<text x="532" y="526" font-size="21" fill="#50655e" text-anchor="middle" class="body">一个EDS1 + 一个伙伴</text>
+<path d="M532,573 L532,609" fill="none" stroke="#627e72" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="374" y="625" width="316" height="76" rx="16" fill="#edf2f8" stroke="#d6e3da" stroke-width="2"/>
+<text x="532" y="674" font-size="27" fill="#315d97" text-anchor="middle" class="heading">NRG1家族</text>
+<text x="36" y="746" font-size="20" fill="#50655e" text-anchor="start" class="body">分工有偏向，但不能简化为“一个只管抗性，另一个只管死亡”。</text>
+<text x="36" y="777" font-size="20" fill="#50655e" text-anchor="start" class="body">具体家族成员、植物背景及其他输入，需要回到原论文判断。</text>
+<text x="36" y="823" font-size="20" fill="#50655e" text-anchor="start" class="body">原创概念图；EDS1–PAD4与EDS1–SAG101是不同复合体。</text>
+<text x="36" y="852" font-size="20" fill="#50655e" text-anchor="start" class="body">本图未将三种EDS1家族蛋白画成一个固定三聚体。</text>
+</svg>

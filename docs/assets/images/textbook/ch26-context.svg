@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="946" viewBox="0 0 680 946" role="img" aria-labelledby="title desc"><title id="title">26.3 “有益”需要写清比较背景</title><desc id="desc">同一微生物的效应取决于宿主、土壤、原有群落和环境；抵抗与耐受是不同维度。</desc><style>text{font-family:"Microsoft YaHei","Noto Sans CJK SC",sans-serif}</style><rect width="680" height="946" fill="#f8faf6"/>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8" fill="#718d7d"/></marker></defs>
+<text x="30" y="45" font-size="30" fill="#193a30" font-weight="700">26.3 “有益”需要写清比较背景</text>
+<text x="30" y="100.5" font-size="23" fill="#52685f" font-weight="400">宿主表现、侵害负荷与环境共同决定解释</text>
+<rect x="26" y="161.85" width="304" height="143" rx="15" fill="#eef5ef" stroke="#d4e3d9" stroke-width="2"/>
+<text x="46" y="198.85" font-size="25" fill="#176c55" font-weight="700">宿主与土壤</text>
+<text x="46" y="240.85" font-size="23" fill="#193a30" font-weight="400">基因型、发育阶段</text>
+<text x="46" y="274.2" font-size="23" fill="#193a30" font-weight="400">铁可利用性、pH等</text>
+<rect x="350" y="161.85" width="304" height="143" rx="15" fill="#eef3f9" stroke="#d4e3d9" stroke-width="2"/>
+<text x="370" y="198.85" font-size="25" fill="#315f91" font-weight="700">群落与环境</text>
+<text x="370" y="240.85" font-size="23" fill="#193a30" font-weight="400">已有成员及互作</text>
+<text x="370" y="274.2" font-size="23" fill="#193a30" font-weight="400">病害对象、气候等</text>
+<rect x="26" y="324.85" width="628" height="160" rx="15" fill="#ffffff" stroke="#d4e3d9" stroke-width="2"/>
+<text x="47" y="361.85" font-size="26" fill="#176c55" font-weight="700">抵抗：限制病原负荷</text>
+<text x="47" y="404.85" font-size="24" fill="#193a30" font-weight="400">需要与相应负荷证据联系。</text>
+<text x="47" y="439.85" font-size="24" fill="#193a30" font-weight="400">症状减轻本身还不足以确定负荷减少。</text>
+<rect x="26" y="506.85" width="628" height="160" rx="15" fill="#ffffff" stroke="#d4e3d9" stroke-width="2"/>
+<text x="47" y="543.85" font-size="26" fill="#315f91" font-weight="700">耐受：在一定负荷下减少损失</text>
+<text x="47" y="586.85" font-size="24" fill="#193a30" font-weight="400">比较同等或可比负荷下的宿主表现。</text>
+<text x="47" y="621.85" font-size="24" fill="#193a30" font-weight="400">一个终点的较大生物量不能单独确定耐受。</text>
+<rect x="26" y="688.85" width="628" height="160" rx="15" fill="#fff7e8" stroke="#d4e3d9" stroke-width="2"/>
+<text x="47" y="725.85" font-size="26" fill="#176c55" font-weight="700">从模型走向一般解释</text>
+<text x="47" y="768.85" font-size="24" fill="#193a30" font-weight="400">改变土壤、宿主或环境后，原来的关系是否还成立？</text>
+<text x="47" y="803.85" font-size="24" fill="#193a30" font-weight="400">跨背景证据决定适用范围。</text>
+<text x="32" y="884.85" font-size="22" fill="#52685f" font-weight="400">原创教学示意；具体来源与适用范围见本章图注。</text>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="1031" viewBox="0 0 680 1031" role="img" aria-labelledby="title desc"><title id="title">24.2 群落由多种过程共同塑造</title><desc id="desc">免疫、营养、宿主分泌物和跨界互作共同影响群落，群落也影响宿主营养和健康。</desc><style>text{font-family:"Microsoft YaHei","Noto Sans CJK SC",sans-serif}</style><rect width="680" height="1031" fill="#f8faf6"/>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8" fill="#718d7d"/></marker></defs>
+<text x="30" y="45" font-size="30" fill="#193a30" font-weight="700">24.2 群落由多种过程共同塑造</text>
+<text x="30" y="100.5" font-size="23" fill="#52685f" font-weight="400">宿主、资源与微生物之间持续相互影响</text>
+<rect x="26" y="161.85" width="628" height="125" rx="15" fill="#ffffff" stroke="#d4e3d9" stroke-width="2"/>
+<text x="47" y="198.85" font-size="26" fill="#176c55" font-weight="700">共同背景</text>
+<text x="47" y="241.85" font-size="24" fill="#193a30" font-weight="400">土壤来源库 × 宿主基因型 × 发育与环境</text>
+<rect x="26" y="308.85" width="304" height="143" rx="15" fill="#eef5ef" stroke="#d4e3d9" stroke-width="2"/>
+<text x="46" y="345.85" font-size="25" fill="#176c55" font-weight="700">宿主免疫</text>
+<text x="46" y="387.85" font-size="23" fill="#193a30" font-weight="400">模式感知</text>
+<text x="46" y="421.20000000000005" font-size="23" fill="#193a30" font-weight="400">组织边界与稳态</text>
+<rect x="350" y="308.85" width="304" height="143" rx="15" fill="#eef3f9" stroke="#d4e3d9" stroke-width="2"/>
+<text x="370" y="345.85" font-size="25" fill="#315f91" font-weight="700">资源与代谢</text>
+<text x="370" y="387.85" font-size="23" fill="#193a30" font-weight="400">铁可利用性等</text>
+<text x="370" y="421.20000000000005" font-size="23" fill="#193a30" font-weight="400">根分泌物及局部化学环境</text>
+<rect x="26" y="471.85" width="628" height="160" rx="15" fill="#ffffff" stroke="#d4e3d9" stroke-width="2"/>
+<text x="47" y="508.85" font-size="26" fill="#176c55" font-weight="700">微生物之间的关系</text>
+<text x="47" y="551.85" font-size="24" fill="#193a30" font-weight="400">资源竞争、功能互补、跨界制约</text>
+<text x="47" y="586.85" font-size="24" fill="#193a30" font-weight="400">某一成员的表现取决于周围伙伴。</text>
+<path d="M340,641.85 L340,662.85" stroke="#718d7d" stroke-width="3" fill="none"  marker-end="url(#arrow)"/>
+<rect x="26" y="677.85" width="628" height="160" rx="15" fill="#e6f1e9" stroke="#d4e3d9" stroke-width="2"/>
+<text x="47" y="714.85" font-size="26" fill="#176c55" font-weight="700">群落组成、数量与功能</text>
+<text x="47" y="757.85" font-size="24" fill="#193a30" font-weight="400">这些过程共同改变群落；群落也反馈影响宿主营养和</text>
+<text x="47" y="792.85" font-size="24" fill="#193a30" font-weight="400">健康。</text>
+<text x="32" y="873.85" font-size="22" fill="#52685f" font-weight="400">营养收益与抗病收益需要分别评价。连线表达综合关系，并非</text>
+<text x="32" y="905.75" font-size="22" fill="#52685f" font-weight="400">一条已完全解析的单向通路。</text>
+<text x="32" y="969.65" font-size="22" fill="#52685f" font-weight="400">原创教学示意；具体来源与适用范围见本章图注。</text>
+</svg>

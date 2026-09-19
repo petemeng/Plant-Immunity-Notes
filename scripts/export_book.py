@@ -64,7 +64,7 @@ def main():
         for node in article.select(".md-content__button, .headerlink"):
             node.decompose()
         # Give the new Markdown chapters the same answer controls as legacy chapters.
-        if source.startswith(("learning/ch00", "part6-", "part7-", "history/")):
+        if source.startswith(("learning/ch00", "part6-", "part7-", "part8-", "history/")):
             for heading in article.select("h2"):
                 if "自测" not in heading.get_text():
                     continue

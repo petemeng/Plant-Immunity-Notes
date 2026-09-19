@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="1007" viewBox="0 0 680 1007" role="img" aria-labelledby="title desc"><title id="title">26.2 预激改变后续响应的能力</title><desc id="desc">预激期可能只有部分变化，后续挑战时响应性质不同；根部启动组分不等于长距离移动信号。</desc><style>text{font-family:"Microsoft YaHei","Noto Sans CJK SC",sans-serif}</style><rect width="680" height="1007" fill="#f8faf6"/>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8" fill="#718d7d"/></marker></defs>
+<text x="30" y="45" font-size="30" fill="#193a30" font-weight="700">26.2 预激改变后续响应的能力</text>
+<text x="30" y="100.5" font-size="23" fill="#52685f" font-weight="400">定性阶段示意，不是实测时间或曲线</text>
+<rect x="26" y="161.85" width="628" height="160" rx="15" fill="#ffffff" stroke="#d4e3d9" stroke-width="2"/>
+<text x="47" y="198.85" font-size="26" fill="#176c55" font-weight="700">阶段一：根部接触与局部响应</text>
+<text x="47" y="241.85" font-size="24" fill="#193a30" font-weight="400">经典WCS417模型涉及MYB72、BGLU42等根部功能。</text>
+<text x="47" y="276.85" font-size="24" fill="#193a30" font-weight="400">局部营养与分泌物变化需按具体体系解释。</text>
+<path d="M340,331.85 L340,352.85" stroke="#718d7d" stroke-width="3" fill="none"  marker-end="url(#arrow)"/>
+<rect x="26" y="367.85" width="628" height="160" rx="15" fill="#ffffff" stroke="#d4e3d9" stroke-width="2"/>
+<text x="47" y="404.85" font-size="26" fill="#176c55" font-weight="700">阶段二：形成预激状态</text>
+<text x="47" y="447.85" font-size="24" fill="#193a30" font-weight="400">部分分子可先改变，防御基线也可能相近。</text>
+<text x="47" y="482.85" font-size="24" fill="#193a30" font-weight="400">预激不等于所有防御基因持续高表达。</text>
+<path d="M340,537.85 L340,558.85" stroke="#718d7d" stroke-width="3" fill="none"  marker-end="url(#arrow)"/>
+<rect x="26" y="573.85" width="628" height="195" rx="15" fill="#ffffff" stroke="#d4e3d9" stroke-width="2"/>
+<text x="47" y="610.85" font-size="26" fill="#176c55" font-weight="700">阶段三：后续挑战与保护</text>
+<text x="47" y="653.85" font-size="24" fill="#193a30" font-weight="400">所测响应可更快、更强或呈现不同性质。</text>
+<text x="47" y="688.85" font-size="24" fill="#193a30" font-weight="400">经典模型涉及JA/ET响应能力与NPR1；并非所有ISR</text>
+<text x="47" y="723.85" font-size="24" fill="#193a30" font-weight="400">都相同。</text>
+<path d="M60,795.85 L620,795.85" stroke="#718d7d" stroke-width="3" fill="none" stroke-dasharray="8 7" marker-end="url(#arrow)"/>
+<text x="32" y="849.85" font-size="22" fill="#52685f" font-weight="400">根部与远端之间的移动信息仍需具体证据：不能把MYB72、</text>
+<text x="32" y="881.75" font-size="22" fill="#52685f" font-weight="400">BGLU42、香豆素或某种激素直接指定为通用移动信号。</text>
+<text x="32" y="945.65" font-size="22" fill="#52685f" font-weight="400">原创教学示意；具体来源与适用范围见本章图注。</text>
+</svg>

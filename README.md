@@ -1,12 +1,14 @@
 # 植物免疫学：从基础概念到机制与证据
 
-面向初学者的中文植物免疫学习书稿。当前为**第0章基础导论＋7篇23章，共24章**，覆盖细胞基础、识别与信号、NLR、激素、进化、微生物组、屏障与化学防御、系统免疫、根部免疫、育种、证据阅读及常用研究技术。
+面向初学者的中文植物免疫学习书稿。当前为**第0章基础导论＋8篇27章，共28章**，覆盖细胞基础、识别与信号、NLR、激素、进化、微生物组、屏障与化学防御、系统免疫、根部免疫、育种、证据阅读及常用研究技术。
 
 公网阅读：[GitHub Pages 植物免疫学](https://petemeng.github.io/Plant-Immunity-Notes/)。新增技术篇从 Co-IP、Y2H 讲到表达定位、转录调控、遗传证据与免疫读数，侧重原理、对照和结果解读。
 
-研究史双系列深化版：[32篇经典基因或模块](https://petemeng.github.io/Plant-Immunity-Notes/history/genes/)与[28篇课题组研究脉络](https://petemeng.github.io/Plant-Immunity-Notes/history/labs/)。全部60篇展开关键年表、至少两项代表研究的具体证据与接续问题、模型演进表、原始文献及四道讲解自测，共240题；另有[研究史导览](docs/history/index.md)、跨主题年表和资料署名说明。这60篇专题与24章教材并行，单独统计。
+研究史双系列深化版：[32篇经典基因或模块](https://petemeng.github.io/Plant-Immunity-Notes/history/genes/)与[28篇课题组研究脉络](https://petemeng.github.io/Plant-Immunity-Notes/history/labs/)。全部60篇展开关键年表、至少两项代表研究的具体证据与接续问题、模型演进表、原始文献及四道讲解自测，共240题；另有[研究史导览](docs/history/index.md)、跨主题年表和资料署名说明。这60篇专题与28章教材并行，单独统计。
 
 从 [全书导览](docs/index.md) 或 [学习路线](docs/learning/学习路线与知识地图.md) 开始。每章提供导读与带解析的自测；[版本说明](docs/appendix/版本说明与证据边界.md)记录科学校订与尚未完成的出版级审核范围。
+
+新增[免疫与微生物专题](https://petemeng.github.io/Plant-Immunity-Notes/part8-免疫与微生物/)：第24—27章系统讲解群落稳态、根瘤与丛枝菌根、有益微生物与诱导抗性、微生物组测量与因果。四章配12幅原创示意图、24道带解析自测及原始论文研读。
 
 ## 当前结构
 
@@ -56,6 +58,8 @@ python -X utf8 scripts/export_book.py
 第0、19、20章的原创插图可用 `scripts/render_learning_figures.py` 重新生成（可选依赖 `matplotlib`）；第17、18章保留 SVG 与 Mermaid 源码。所有构建产物位于已忽略的 `build/`，正文源文件仍在 `docs/`。
 
 研究史中的FLS2、ZAR1、EDS1、NPR1四幅原创教学图可用 `python -X utf8 scripts/render_history_figures.py` 重新生成，无需额外依赖。图示表达概念与证据层次，不是实验数据或原子结构。
+
+第24—27章的12幅原创教学图可用 `python -X utf8 scripts/render_microbiome_figures.py` 重新生成，无需额外依赖。丰度算例为明确标注的虚拟数据。
 
 ## 自动发布
 

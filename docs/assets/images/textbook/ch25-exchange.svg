@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="1305" viewBox="0 0 680 1305" role="img" aria-labelledby="title desc"><title id="title">25.3 进入细胞，不等于失去边界</title><desc id="desc">两种胞内共生都保持宿主来源膜和微生物边界，植物细胞质与伙伴内部不直接混成一体。</desc><style>text{font-family:"Microsoft YaHei","Noto Sans CJK SC",sans-serif}</style><rect width="680" height="1305" fill="#f8faf6"/>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8" fill="#718d7d"/></marker></defs>
+<text x="30" y="45" font-size="30" fill="#193a30" font-weight="700">25.3 进入细胞，不等于失去边界</text>
+<text x="30" y="100.5" font-size="23" fill="#52685f" font-weight="400">宿主来源膜组织了专门的交换界面</text>
+<text x="33" y="185.85" font-size="27" fill="#176c55" font-weight="700">根瘤共生体</text>
+<rect x="28" y="201.85" width="624" height="258" rx="15" fill="#eaf3e9" stroke="#d4e3d9" stroke-width="2"/>
+<text x="49" y="237.85" font-size="24" fill="#193a30" font-weight="400">植物细胞质</text>
+<rect x="97" y="259.85" width="504" height="178" rx="15" fill="#fff7e8" stroke="#176c55" stroke-width="4"/>
+<text x="120" y="292.85" font-size="22" fill="#176c55" font-weight="700">绿色边框：共生体膜（宿主来源）</text>
+<text x="120" y="326.85" font-size="22" fill="#52685f" font-weight="400">界面空间</text>
+<rect x="163" y="346.85" width="386" height="68" rx="15" fill="#eee9f5" stroke="#7a6492" stroke-width="3"/>
+<text x="185" y="388.85" font-size="23" fill="#67527c" font-weight="400">类菌体（另有自身边界）</text>
+<text x="35" y="487.85" font-size="24" fill="#193a30" font-weight="400">固定氮 → 植物；植物碳 → 类菌体</text>
+<text x="33" y="564.65" font-size="27" fill="#176c55" font-weight="700">丛枝界面</text>
+<rect x="28" y="580.65" width="624" height="258" rx="15" fill="#eaf3e9" stroke="#d4e3d9" stroke-width="2"/>
+<text x="49" y="616.65" font-size="24" fill="#193a30" font-weight="400">植物细胞质</text>
+<rect x="97" y="638.65" width="504" height="178" rx="15" fill="#fff7e8" stroke="#176c55" stroke-width="4"/>
+<text x="120" y="671.65" font-size="22" fill="#176c55" font-weight="700">绿色边框：丛枝周膜（宿主来源）</text>
+<text x="120" y="705.65" font-size="22" fill="#52685f" font-weight="400">界面空间</text>
+<rect x="163" y="725.65" width="386" height="68" rx="15" fill="#eee9f5" stroke="#7a6492" stroke-width="3"/>
+<text x="185" y="767.65" font-size="23" fill="#67527c" font-weight="400">丛枝（另有自身边界）</text>
+<text x="35" y="866.65" font-size="24" fill="#193a30" font-weight="400">磷等 → 植物；植物糖/脂质 → 真菌</text>
+<rect x="26" y="919.4499999999999" width="628" height="160" rx="15" fill="#ffffff" stroke="#d4e3d9" stroke-width="2"/>
+<text x="47" y="956.4499999999999" font-size="26" fill="#176c55" font-weight="700">关系维持还需要解释</text>
+<text x="47" y="999.4499999999999" font-size="24" fill="#193a30" font-weight="400">营养需求与实际交换影响宿主投入及界面维持。</text>
+<text x="47" y="1034.4499999999998" font-size="24" fill="#193a30" font-weight="400">定殖、物质转移、净收益应分别判断。</text>
+<text x="32" y="1115.4499999999998" font-size="22" fill="#52685f" font-weight="400">紫色边框：微生物自身边界。图不按比例；箭头概括净方向，</text>
+<text x="32" y="1147.35" font-size="22" fill="#52685f" font-weight="400">未指定全部跨膜步骤。细胞内共生并不意味着微生物裸露在宿</text>
+<text x="32" y="1179.25" font-size="22" fill="#52685f" font-weight="400">主细胞质中。</text>
+<text x="32" y="1243.15" font-size="22" fill="#52685f" font-weight="400">原创教学示意；具体来源与适用范围见本章图注。</text>
+</svg>

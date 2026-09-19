@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="918" viewBox="0 0 680 918" role="img" aria-labelledby="title desc"><title id="title">25.2 从信号识别到不同细胞程序</title><desc id="desc">宿主受体组合读取LCO与几丁质相关信息，共同共生信号模块与免疫响应需按背景区分。</desc><style>text{font-family:"Microsoft YaHei","Noto Sans CJK SC",sans-serif}</style><rect width="680" height="918" fill="#f8faf6"/>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8" fill="#718d7d"/></marker></defs>
+<text x="30" y="45" font-size="30" fill="#193a30" font-weight="700">25.2 从信号识别到不同细胞程序</text>
+<text x="30" y="100.5" font-size="23" fill="#52685f" font-weight="400">共享组件不等于所有输入都通向同一结果</text>
+<rect x="26" y="161.85" width="628" height="160" rx="15" fill="#ffffff" stroke="#d4e3d9" stroke-width="2"/>
+<text x="47" y="198.85" font-size="26" fill="#176c55" font-weight="700">输入：多种相关分子信息</text>
+<text x="47" y="241.85" font-size="24" fill="#193a30" font-weight="400">Nod-LCO、Myc-LCO及几丁质寡糖等</text>
+<text x="47" y="276.85" font-size="24" fill="#193a30" font-weight="400">结构、修饰与组合影响宿主响应。</text>
+<path d="M340,331.85 L340,352.85" stroke="#718d7d" stroke-width="3" fill="none"  marker-end="url(#arrow)"/>
+<rect x="26" y="367.85" width="628" height="160" rx="15" fill="#ffffff" stroke="#d4e3d9" stroke-width="2"/>
+<text x="47" y="404.85" font-size="26" fill="#176c55" font-weight="700">宿主受体组合</text>
+<text x="47" y="447.85" font-size="24" fill="#193a30" font-weight="400">LysM受体及其伙伴，依宿主与细胞背景而变。</text>
+<text x="47" y="482.85" font-size="24" fill="#193a30" font-weight="400">部分组分参与多种响应，例如水稻OsCERK1。</text>
+<rect x="26" y="549.85" width="304" height="177" rx="15" fill="#eef5ef" stroke="#d4e3d9" stroke-width="2"/>
+<text x="46" y="586.85" font-size="25" fill="#176c55" font-weight="700">共生相关程序</text>
+<text x="46" y="628.85" font-size="23" fill="#193a30" font-weight="400">核内/核周钙振荡</text>
+<text x="46" y="662.2" font-size="23" fill="#193a30" font-weight="400">CCaMK → CYCLOPS</text>
+<text x="46" y="695.5500000000001" font-size="23" fill="#193a30" font-weight="400">连接共生细胞与器官程序</text>
+<rect x="350" y="549.85" width="304" height="177" rx="15" fill="#eef3f9" stroke="#d4e3d9" stroke-width="2"/>
+<text x="370" y="586.85" font-size="25" fill="#315f91" font-weight="700">免疫相关输出</text>
+<text x="370" y="628.85" font-size="23" fill="#193a30" font-weight="400">具有相应免疫信号连接</text>
+<text x="370" y="662.2" font-size="23" fill="#193a30" font-weight="400">不同伙伴与细胞状态</text>
+<text x="370" y="695.5500000000001" font-size="23" fill="#193a30" font-weight="400">不能仅按糖链长短二分</text>
+<text x="32" y="760.85" font-size="22" fill="#52685f" font-weight="400">CSSP：共同共生信号通路。图省略中间组分；箭头不全表示直</text>
+<text x="32" y="792.75" font-size="22" fill="#52685f" font-weight="400">接结合，CSSP也不是所有共栖的必经路线。</text>
+<text x="32" y="856.65" font-size="22" fill="#52685f" font-weight="400">原创教学示意；具体来源与适用范围见本章图注。</text>
+</svg>

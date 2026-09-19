@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="1000" viewBox="0 0 680 1000" role="img" aria-labelledby="title desc"><title id="title">27.3 同一个关联，可以有不同解释</title><desc id="desc">土壤同时影响群落和宿主可形成关联；群落影响宿主以及宿主反向影响群落也需分别判断。</desc><style>text{font-family:"Microsoft YaHei","Noto Sans CJK SC",sans-serif}</style><rect width="680" height="1000" fill="#f8faf6"/>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8" fill="#718d7d"/></marker></defs>
+<text x="30" y="45" font-size="30" fill="#193a30" font-weight="700">27.3 同一个关联，可以有不同解释</text>
+<text x="30" y="100.5" font-size="23" fill="#52685f" font-weight="400">图表示待比较的模型，并非已经证实的通路</text>
+<rect x="26" y="161.85" width="628" height="195" rx="15" fill="#ffffff" stroke="#d4e3d9" stroke-width="2"/>
+<text x="47" y="198.85" font-size="26" fill="#176c55" font-weight="700">模型一：共同原因</text>
+<text x="47" y="241.85" font-size="24" fill="#193a30" font-weight="400">土壤状态 → 群落改变</text>
+<text x="47" y="276.85" font-size="24" fill="#193a30" font-weight="400">土壤状态 → 宿主营养或免疫改变</text>
+<text x="47" y="311.85" font-size="24" fill="#193a30" font-weight="400">两者相关，不要求群落直接导致宿主变化。</text>
+<rect x="26" y="378.85" width="628" height="160" rx="15" fill="#ffffff" stroke="#d4e3d9" stroke-width="2"/>
+<text x="47" y="415.85" font-size="26" fill="#315f91" font-weight="700">模型二：群落参与宿主变化</text>
+<text x="47" y="458.85" font-size="24" fill="#193a30" font-weight="400">群落活动 → 宿主响应 → 相应功能结果</text>
+<text x="47" y="493.85" font-size="24" fill="#193a30" font-weight="400">需要时间、功能与替代解释的比较。</text>
+<rect x="26" y="560.85" width="628" height="160" rx="15" fill="#ffffff" stroke="#d4e3d9" stroke-width="2"/>
+<text x="47" y="597.85" font-size="26" fill="#176c55" font-weight="700">还可能存在反向因果</text>
+<text x="47" y="640.85" font-size="24" fill="#193a30" font-weight="400">宿主损伤或代谢改变 → 群落随之变化</text>
+<text x="47" y="675.85" font-size="24" fill="#193a30" font-weight="400">“受损植物中的富集成员”不自动就是致损原因。</text>
+<rect x="26" y="742.85" width="628" height="160" rx="15" fill="#fff7e8" stroke="#d4e3d9" stroke-width="2"/>
+<text x="47" y="779.85" font-size="26" fill="#176c55" font-weight="700">怎样让解释更可信？</text>
+<text x="47" y="822.85" font-size="24" fill="#193a30" font-weight="400">明确比较单位和背景，连接独立的功能证据。</text>
+<text x="47" y="857.85" font-size="24" fill="#193a30" font-weight="400">一个环境中的结果，仍需判断能否迁移到其他背景。</text>
+<text x="32" y="938.85" font-size="22" fill="#52685f" font-weight="400">原创教学示意；具体来源与适用范围见本章图注。</text>
+</svg>

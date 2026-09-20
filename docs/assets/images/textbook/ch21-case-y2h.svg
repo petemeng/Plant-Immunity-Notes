@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="1277" viewBox="0 0 680 1277" role="img" aria-labelledby="title desc"><title id="title">21.3 Y2H：同一候选读数，不同背景</title><desc id="desc">候选配对报告均为80；记录一诱饵加空AD为75，记录二为2，因此两套结果的背景解释不同。</desc><style>text{font-family:"Microsoft YaHei","Noto Sans CJK SC",sans-serif}</style><rect width="680" height="1277" fill="#f8faf6"/>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8" fill="#718d7d"/></marker></defs>
+<text x="30" y="45" font-size="30" fill="#193a30" font-weight="700">21.3 Y2H：同一候选读数，不同背景</text>
+<text x="30" y="100.5" font-size="23" fill="#52685f" font-weight="400">两套独立的虚构教学记录；并非真实重复</text>
+<text x="32" y="175.85" font-size="22" fill="#52685f" font-weight="400">两套记录的各组合均通过基础生长/构件保留检查。下表仅列报</text>
+<text x="32" y="207.75" font-size="22" fill="#52685f" font-weight="400">告任意单位。</text>
+<rect x="26" y="257.65" width="300" height="76" rx="0" fill="#176c55" stroke="#d4e3d9" stroke-width="1"/>
+<text text-anchor="middle" x="176.0" y="304.15" font-size="21" fill="white" font-weight="700">组合</text>
+<rect x="326" y="257.65" width="164" height="76" rx="0" fill="#176c55" stroke="#d4e3d9" stroke-width="1"/>
+<text text-anchor="middle" x="408.0" y="304.15" font-size="21" fill="white" font-weight="700">记录Ⅰ</text>
+<rect x="490" y="257.65" width="164" height="76" rx="0" fill="#176c55" stroke="#d4e3d9" stroke-width="1"/>
+<text text-anchor="middle" x="572.0" y="304.15" font-size="21" fill="white" font-weight="700">记录Ⅱ</text>
+<rect x="26" y="333.65" width="300" height="76" rx="0" fill="#edf4ef" stroke="#d4e3d9" stroke-width="1"/>
+<text text-anchor="middle" x="176.0" y="380.15" font-size="23" fill="#193a30" font-weight="400">BD-A＋AD-B</text>
+<rect x="326" y="333.65" width="164" height="76" rx="0" fill="#edf4ef" stroke="#d4e3d9" stroke-width="1"/>
+<text text-anchor="middle" x="408.0" y="380.15" font-size="23" fill="#193a30" font-weight="400">80</text>
+<rect x="490" y="333.65" width="164" height="76" rx="0" fill="#edf4ef" stroke="#d4e3d9" stroke-width="1"/>
+<text text-anchor="middle" x="572.0" y="380.15" font-size="23" fill="#193a30" font-weight="400">80</text>
+<rect x="26" y="409.65" width="300" height="76" rx="0" fill="#fff" stroke="#d4e3d9" stroke-width="1"/>
+<text text-anchor="middle" x="176.0" y="456.15" font-size="23" fill="#193a30" font-weight="400">BD-A＋空AD</text>
+<rect x="326" y="409.65" width="164" height="76" rx="0" fill="#fff" stroke="#d4e3d9" stroke-width="1"/>
+<text text-anchor="middle" x="408.0" y="456.15" font-size="23" fill="#193a30" font-weight="400">75</text>
+<rect x="490" y="409.65" width="164" height="76" rx="0" fill="#fff" stroke="#d4e3d9" stroke-width="1"/>
+<text text-anchor="middle" x="572.0" y="456.15" font-size="23" fill="#193a30" font-weight="400">2</text>
+<rect x="26" y="485.65" width="300" height="76" rx="0" fill="#edf4ef" stroke="#d4e3d9" stroke-width="1"/>
+<text text-anchor="middle" x="176.0" y="532.15" font-size="23" fill="#193a30" font-weight="400">空BD＋AD-B</text>
+<rect x="326" y="485.65" width="164" height="76" rx="0" fill="#edf4ef" stroke="#d4e3d9" stroke-width="1"/>
+<text text-anchor="middle" x="408.0" y="532.15" font-size="23" fill="#193a30" font-weight="400">2</text>
+<rect x="490" y="485.65" width="164" height="76" rx="0" fill="#edf4ef" stroke="#d4e3d9" stroke-width="1"/>
+<text text-anchor="middle" x="572.0" y="532.15" font-size="23" fill="#193a30" font-weight="400">2</text>
+<rect x="26" y="561.65" width="300" height="76" rx="0" fill="#fff" stroke="#d4e3d9" stroke-width="1"/>
+<text text-anchor="middle" x="176.0" y="608.15" font-size="23" fill="#193a30" font-weight="400">空BD＋空AD</text>
+<rect x="326" y="561.65" width="164" height="76" rx="0" fill="#fff" stroke="#d4e3d9" stroke-width="1"/>
+<text text-anchor="middle" x="408.0" y="608.15" font-size="23" fill="#193a30" font-weight="400">1</text>
+<rect x="490" y="561.65" width="164" height="76" rx="0" fill="#fff" stroke="#d4e3d9" stroke-width="1"/>
+<text text-anchor="middle" x="572.0" y="608.15" font-size="23" fill="#193a30" font-weight="400">1</text>
+<rect x="26" y="637.65" width="300" height="76" rx="0" fill="#edf4ef" stroke="#d4e3d9" stroke-width="1"/>
+<text text-anchor="middle" x="176.0" y="684.15" font-size="23" fill="#193a30" font-weight="400">已知阳性配对</text>
+<rect x="326" y="637.65" width="164" height="76" rx="0" fill="#edf4ef" stroke="#d4e3d9" stroke-width="1"/>
+<text text-anchor="middle" x="408.0" y="684.15" font-size="23" fill="#193a30" font-weight="400">90</text>
+<rect x="490" y="637.65" width="164" height="76" rx="0" fill="#edf4ef" stroke="#d4e3d9" stroke-width="1"/>
+<text text-anchor="middle" x="572.0" y="684.15" font-size="23" fill="#193a30" font-weight="400">90</text>
+<rect x="26" y="741.65" width="628" height="160" rx="15" fill="#ffffff" stroke="#d4e3d9" stroke-width="2"/>
+<text x="47" y="778.65" font-size="26" fill="#176c55" font-weight="700">记录Ⅰ：伙伴缺席，报告仍很高</text>
+<text x="47" y="821.65" font-size="24" fill="#193a30" font-weight="400">候选信号不能直接归因于A与B的特异关系。</text>
+<text x="47" y="856.65" font-size="24" fill="#193a30" font-weight="400">不可只从80减去75，就宣称排除了自激活。</text>
+<rect x="26" y="923.65" width="628" height="160" rx="15" fill="#ffffff" stroke="#d4e3d9" stroke-width="2"/>
+<text x="47" y="960.65" font-size="26" fill="#315f91" font-weight="700">记录Ⅱ：候选配对高于所列背景</text>
+<text x="47" y="1003.65" font-size="24" fill="#193a30" font-weight="400">支持该体系中的候选关联，仍需表达等前提。</text>
+<text x="47" y="1038.65" font-size="24" fill="#193a30" font-weight="400">已知阳性90不代表A与B的亲和力刻度。</text>
+<text x="32" y="1119.65" font-size="22" fill="#52685f" font-weight="400">基本生长正常不等于已确认完整融合蛋白表达。两记录用于比</text>
+<text x="32" y="1151.5500000000002" font-size="22" fill="#52685f" font-weight="400">较逻辑，不能从真实重复中挑选“好看”的一套。</text>
+<text x="32" y="1215.4500000000003" font-size="22" fill="#52685f" font-weight="400">原创教学示意；具体来源与适用范围见本章图注。</text>
+</svg>

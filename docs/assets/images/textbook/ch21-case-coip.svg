@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="1166" viewBox="0 0 680 1166" role="img" aria-labelledby="title desc"><title id="title">21.2 Co-IP：逐泳道检查输入与捕获</title><desc id="desc">五泳道分别为基准、甲、乙、丙和GFP标签对照；甲伙伴富集增加，乙诱饵捕获增加，丙伙伴输入增加。</desc><style>text{font-family:"Microsoft YaHei","Noto Sans CJK SC",sans-serif}</style><rect width="680" height="1166" fill="#f8faf6"/>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8" fill="#718d7d"/></marker></defs>
+<text x="30" y="45" font-size="30" fill="#193a30" font-weight="700">21.2 Co-IP：逐泳道检查输入与捕获</text>
+<text x="30" y="100.5" font-size="23" fill="#52685f" font-weight="400">虚构教学读数；各行仅在同行内比较</text>
+<text x="32" y="175.85" font-size="22" fill="#52685f" font-weight="400">捕获：anti-GFP；检测：A-GFP或B-HA。表中数字是任意单</text>
+<text x="32" y="207.75" font-size="22" fill="#52685f" font-weight="400">位，非免疫印迹照片。</text>
+<rect x="26" y="257.65" width="168" height="76" rx="0" fill="#176c55" stroke="#d4e3d9" stroke-width="1"/>
+<text text-anchor="middle" x="110.0" y="304.15" font-size="21" fill="white" font-weight="700">检测项目</text>
+<rect x="194" y="257.65" width="92" height="76" rx="0" fill="#176c55" stroke="#d4e3d9" stroke-width="1"/>
+<text text-anchor="middle" x="240.0" y="289.65" font-size="21" fill="white" font-weight="700">1</text>
+<text text-anchor="middle" x="240.0" y="318.65" font-size="21" fill="white" font-weight="700">基准</text>
+<rect x="286" y="257.65" width="92" height="76" rx="0" fill="#176c55" stroke="#d4e3d9" stroke-width="1"/>
+<text text-anchor="middle" x="332.0" y="289.65" font-size="21" fill="white" font-weight="700">2</text>
+<text text-anchor="middle" x="332.0" y="318.65" font-size="21" fill="white" font-weight="700">甲</text>
+<rect x="378" y="257.65" width="92" height="76" rx="0" fill="#176c55" stroke="#d4e3d9" stroke-width="1"/>
+<text text-anchor="middle" x="424.0" y="289.65" font-size="21" fill="white" font-weight="700">3</text>
+<text text-anchor="middle" x="424.0" y="318.65" font-size="21" fill="white" font-weight="700">乙</text>
+<rect x="470" y="257.65" width="92" height="76" rx="0" fill="#176c55" stroke="#d4e3d9" stroke-width="1"/>
+<text text-anchor="middle" x="516.0" y="289.65" font-size="21" fill="white" font-weight="700">4</text>
+<text text-anchor="middle" x="516.0" y="318.65" font-size="21" fill="white" font-weight="700">丙</text>
+<rect x="562" y="257.65" width="92" height="76" rx="0" fill="#176c55" stroke="#d4e3d9" stroke-width="1"/>
+<text text-anchor="middle" x="608.0" y="289.65" font-size="21" fill="white" font-weight="700">5</text>
+<text text-anchor="middle" x="608.0" y="318.65" font-size="21" fill="white" font-weight="700">标签</text>
+<rect x="26" y="333.65" width="168" height="76" rx="0" fill="#edf4ef" stroke="#d4e3d9" stroke-width="1"/>
+<text text-anchor="middle" x="110.0" y="365.65" font-size="23" fill="#193a30" font-weight="400">Input</text>
+<text text-anchor="middle" x="110.0" y="394.65" font-size="23" fill="#193a30" font-weight="400">A-GFP</text>
+<rect x="194" y="333.65" width="92" height="76" rx="0" fill="#edf4ef" stroke="#d4e3d9" stroke-width="1"/>
+<text text-anchor="middle" x="240.0" y="380.15" font-size="23" fill="#193a30" font-weight="400">100</text>
+<rect x="286" y="333.65" width="92" height="76" rx="0" fill="#edf4ef" stroke="#d4e3d9" stroke-width="1"/>
+<text text-anchor="middle" x="332.0" y="380.15" font-size="23" fill="#193a30" font-weight="400">100</text>
+<rect x="378" y="333.65" width="92" height="76" rx="0" fill="#edf4ef" stroke="#d4e3d9" stroke-width="1"/>
+<text text-anchor="middle" x="424.0" y="380.15" font-size="23" fill="#193a30" font-weight="400">100</text>
+<rect x="470" y="333.65" width="92" height="76" rx="0" fill="#edf4ef" stroke="#d4e3d9" stroke-width="1"/>
+<text text-anchor="middle" x="516.0" y="380.15" font-size="23" fill="#193a30" font-weight="400">100</text>
+<rect x="562" y="333.65" width="92" height="76" rx="0" fill="#edf4ef" stroke="#d4e3d9" stroke-width="1"/>
+<text text-anchor="middle" x="608.0" y="380.15" font-size="23" fill="#193a30" font-weight="400">—</text>
+<rect x="26" y="409.65" width="168" height="76" rx="0" fill="#fff" stroke="#d4e3d9" stroke-width="1"/>
+<text text-anchor="middle" x="110.0" y="441.65" font-size="23" fill="#193a30" font-weight="400">Input</text>
+<text text-anchor="middle" x="110.0" y="470.65" font-size="23" fill="#193a30" font-weight="400">B-HA</text>
+<rect x="194" y="409.65" width="92" height="76" rx="0" fill="#fff" stroke="#d4e3d9" stroke-width="1"/>
+<text text-anchor="middle" x="240.0" y="456.15" font-size="23" fill="#193a30" font-weight="400">100</text>
+<rect x="286" y="409.65" width="92" height="76" rx="0" fill="#fff" stroke="#d4e3d9" stroke-width="1"/>
+<text text-anchor="middle" x="332.0" y="456.15" font-size="23" fill="#193a30" font-weight="400">100</text>
+<rect x="378" y="409.65" width="92" height="76" rx="0" fill="#fff" stroke="#d4e3d9" stroke-width="1"/>
+<text text-anchor="middle" x="424.0" y="456.15" font-size="23" fill="#193a30" font-weight="400">100</text>
+<rect x="470" y="409.65" width="92" height="76" rx="0" fill="#fff" stroke="#d4e3d9" stroke-width="1"/>
+<text text-anchor="middle" x="516.0" y="456.15" font-size="23" fill="#193a30" font-weight="400">200</text>
+<rect x="562" y="409.65" width="92" height="76" rx="0" fill="#fff" stroke="#d4e3d9" stroke-width="1"/>
+<text text-anchor="middle" x="608.0" y="456.15" font-size="23" fill="#193a30" font-weight="400">100</text>
+<rect x="26" y="485.65" width="168" height="76" rx="0" fill="#edf4ef" stroke="#d4e3d9" stroke-width="1"/>
+<text text-anchor="middle" x="110.0" y="517.65" font-size="23" fill="#193a30" font-weight="400">IP</text>
+<text text-anchor="middle" x="110.0" y="546.65" font-size="23" fill="#193a30" font-weight="400">A-GFP</text>
+<rect x="194" y="485.65" width="92" height="76" rx="0" fill="#edf4ef" stroke="#d4e3d9" stroke-width="1"/>
+<text text-anchor="middle" x="240.0" y="532.15" font-size="23" fill="#193a30" font-weight="400">20</text>
+<rect x="286" y="485.65" width="92" height="76" rx="0" fill="#edf4ef" stroke="#d4e3d9" stroke-width="1"/>
+<text text-anchor="middle" x="332.0" y="532.15" font-size="23" fill="#193a30" font-weight="400">20</text>
+<rect x="378" y="485.65" width="92" height="76" rx="0" fill="#edf4ef" stroke="#d4e3d9" stroke-width="1"/>
+<text text-anchor="middle" x="424.0" y="532.15" font-size="23" fill="#193a30" font-weight="400">40</text>
+<rect x="470" y="485.65" width="92" height="76" rx="0" fill="#edf4ef" stroke="#d4e3d9" stroke-width="1"/>
+<text text-anchor="middle" x="516.0" y="532.15" font-size="23" fill="#193a30" font-weight="400">20</text>
+<rect x="562" y="485.65" width="92" height="76" rx="0" fill="#edf4ef" stroke="#d4e3d9" stroke-width="1"/>
+<text text-anchor="middle" x="608.0" y="532.15" font-size="23" fill="#193a30" font-weight="400">—</text>
+<rect x="26" y="561.65" width="168" height="76" rx="0" fill="#fff" stroke="#d4e3d9" stroke-width="1"/>
+<text text-anchor="middle" x="110.0" y="593.65" font-size="23" fill="#193a30" font-weight="400">IP</text>
+<text text-anchor="middle" x="110.0" y="622.65" font-size="23" fill="#193a30" font-weight="400">B-HA</text>
+<rect x="194" y="561.65" width="92" height="76" rx="0" fill="#fff" stroke="#d4e3d9" stroke-width="1"/>
+<text text-anchor="middle" x="240.0" y="608.15" font-size="23" fill="#193a30" font-weight="400">10</text>
+<rect x="286" y="561.65" width="92" height="76" rx="0" fill="#fff" stroke="#d4e3d9" stroke-width="1"/>
+<text text-anchor="middle" x="332.0" y="608.15" font-size="23" fill="#193a30" font-weight="400">30</text>
+<rect x="378" y="561.65" width="92" height="76" rx="0" fill="#fff" stroke="#d4e3d9" stroke-width="1"/>
+<text text-anchor="middle" x="424.0" y="608.15" font-size="23" fill="#193a30" font-weight="400">20</text>
+<rect x="470" y="561.65" width="92" height="76" rx="0" fill="#fff" stroke="#d4e3d9" stroke-width="1"/>
+<text text-anchor="middle" x="516.0" y="608.15" font-size="23" fill="#193a30" font-weight="400">20</text>
+<rect x="562" y="561.65" width="92" height="76" rx="0" fill="#fff" stroke="#d4e3d9" stroke-width="1"/>
+<text text-anchor="middle" x="608.0" y="608.15" font-size="23" fill="#193a30" font-weight="400">1</text>
+<rect x="26" y="665.65" width="628" height="125" rx="15" fill="#ffffff" stroke="#d4e3d9" stroke-width="2"/>
+<text x="47" y="702.65" font-size="26" fill="#176c55" font-weight="700">甲：输入与捕获近似，B共沉淀更多</text>
+<text x="47" y="745.65" font-size="24" fill="#193a30" font-weight="400">支持关联读数发生变化，仍不能从条带确定亲和力。</text>
+<rect x="26" y="812.65" width="628" height="160" rx="15" fill="#ffffff" stroke="#d4e3d9" stroke-width="2"/>
+<text x="47" y="849.65" font-size="26" fill="#315f91" font-weight="700">乙与丙：另有同步变化</text>
+<text x="47" y="892.65" font-size="24" fill="#193a30" font-weight="400">乙捕获到更多A；丙起始样本中的B更多。</text>
+<text x="47" y="927.65" font-size="24" fill="#193a30" font-weight="400">二者的IP B增量都不能单独归于结合增强。</text>
+<text x="32" y="1008.65" font-size="22" fill="#52685f" font-weight="400">第5泳道只有游离GFP，没有A-GFP；游离GFP在Input和IP中</text>
+<text x="32" y="1040.55" font-size="22" fill="#52685f" font-weight="400">均可检出。“—”不是零值。不能用跨行原始信号换算分子比例。</text>
+<text x="32" y="1104.45" font-size="22" fill="#52685f" font-weight="400">原创教学示意；具体来源与适用范围见本章图注。</text>
+</svg>

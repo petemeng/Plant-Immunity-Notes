@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="1140" viewBox="0 0 680 1140" role="img" aria-labelledby="title desc"><title id="title">22.2 RT-qPCR：先计算，再解释倍数</title><desc id="desc">目标Cq提前并不自动等于相对丰度升高；基准和A均为一倍，B四倍，C四分之一。</desc><style>text{font-family:"Microsoft YaHei","Noto Sans CJK SC",sans-serif}</style><rect width="680" height="1140" fill="#f8faf6"/>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8" fill="#718d7d"/></marker></defs>
+<text x="30" y="45" font-size="30" fill="#193a30" font-weight="700">22.2 RT-qPCR：先计算，再解释倍数</text>
+<text x="30" y="100.5" font-size="23" fill="#52685f" font-weight="400">虚构算术例；效率及参照假设见正文</text>
+<rect x="26" y="161.85" width="628" height="195" rx="15" fill="#ffffff" stroke="#d4e3d9" stroke-width="2"/>
+<text x="47" y="198.85" font-size="26" fill="#176c55" font-weight="700">统一计算关系</text>
+<text x="47" y="241.85" font-size="24" fill="#193a30" font-weight="400">ΔCq = 目标Cq − 参照Cq</text>
+<text x="47" y="276.85" font-size="24" fill="#193a30" font-weight="400">ΔΔCq = 比较组ΔCq − 基准组ΔCq</text>
+<text x="47" y="311.85" font-size="24" fill="#193a30" font-weight="400">相对倍数 = 2的负ΔΔCq次方</text>
+<rect x="26" y="378.85" width="90" height="76" rx="0" fill="#176c55" stroke="#d4e3d9" stroke-width="1"/>
+<text text-anchor="middle" x="71.0" y="425.35" font-size="21" fill="white" font-weight="700">组别</text>
+<rect x="116" y="378.85" width="166" height="76" rx="0" fill="#176c55" stroke="#d4e3d9" stroke-width="1"/>
+<text text-anchor="middle" x="199.0" y="410.85" font-size="21" fill="white" font-weight="700">目标/</text>
+<text text-anchor="middle" x="199.0" y="439.85" font-size="21" fill="white" font-weight="700">参照Cq</text>
+<rect x="282" y="378.85" width="112" height="76" rx="0" fill="#176c55" stroke="#d4e3d9" stroke-width="1"/>
+<text text-anchor="middle" x="338.0" y="425.35" font-size="21" fill="white" font-weight="700">ΔCq</text>
+<rect x="394" y="378.85" width="130" height="76" rx="0" fill="#176c55" stroke="#d4e3d9" stroke-width="1"/>
+<text text-anchor="middle" x="459.0" y="425.35" font-size="21" fill="white" font-weight="700">ΔΔCq</text>
+<rect x="524" y="378.85" width="130" height="76" rx="0" fill="#176c55" stroke="#d4e3d9" stroke-width="1"/>
+<text text-anchor="middle" x="589.0" y="410.85" font-size="21" fill="white" font-weight="700">相对</text>
+<text text-anchor="middle" x="589.0" y="439.85" font-size="21" fill="white" font-weight="700">倍数</text>
+<rect x="26" y="454.85" width="90" height="76" rx="0" fill="#edf4ef" stroke="#d4e3d9" stroke-width="1"/>
+<text text-anchor="middle" x="71.0" y="501.35" font-size="23" fill="#193a30" font-weight="400">基准</text>
+<rect x="116" y="454.85" width="166" height="76" rx="0" fill="#edf4ef" stroke="#d4e3d9" stroke-width="1"/>
+<text text-anchor="middle" x="199.0" y="501.35" font-size="23" fill="#193a30" font-weight="400">26 / 20</text>
+<rect x="282" y="454.85" width="112" height="76" rx="0" fill="#edf4ef" stroke="#d4e3d9" stroke-width="1"/>
+<text text-anchor="middle" x="338.0" y="501.35" font-size="23" fill="#193a30" font-weight="400">6</text>
+<rect x="394" y="454.85" width="130" height="76" rx="0" fill="#edf4ef" stroke="#d4e3d9" stroke-width="1"/>
+<text text-anchor="middle" x="459.0" y="501.35" font-size="23" fill="#193a30" font-weight="400">0</text>
+<rect x="524" y="454.85" width="130" height="76" rx="0" fill="#edf4ef" stroke="#d4e3d9" stroke-width="1"/>
+<text text-anchor="middle" x="589.0" y="501.35" font-size="23" fill="#193a30" font-weight="400">1</text>
+<rect x="26" y="530.85" width="90" height="76" rx="0" fill="#fff" stroke="#d4e3d9" stroke-width="1"/>
+<text text-anchor="middle" x="71.0" y="577.35" font-size="23" fill="#193a30" font-weight="400">A</text>
+<rect x="116" y="530.85" width="166" height="76" rx="0" fill="#fff" stroke="#d4e3d9" stroke-width="1"/>
+<text text-anchor="middle" x="199.0" y="577.35" font-size="23" fill="#193a30" font-weight="400">24 / 18</text>
+<rect x="282" y="530.85" width="112" height="76" rx="0" fill="#fff" stroke="#d4e3d9" stroke-width="1"/>
+<text text-anchor="middle" x="338.0" y="577.35" font-size="23" fill="#193a30" font-weight="400">6</text>
+<rect x="394" y="530.85" width="130" height="76" rx="0" fill="#fff" stroke="#d4e3d9" stroke-width="1"/>
+<text text-anchor="middle" x="459.0" y="577.35" font-size="23" fill="#193a30" font-weight="400">0</text>
+<rect x="524" y="530.85" width="130" height="76" rx="0" fill="#fff" stroke="#d4e3d9" stroke-width="1"/>
+<text text-anchor="middle" x="589.0" y="577.35" font-size="23" fill="#193a30" font-weight="400">1</text>
+<rect x="26" y="606.85" width="90" height="76" rx="0" fill="#edf4ef" stroke="#d4e3d9" stroke-width="1"/>
+<text text-anchor="middle" x="71.0" y="653.35" font-size="23" fill="#193a30" font-weight="400">B</text>
+<rect x="116" y="606.85" width="166" height="76" rx="0" fill="#edf4ef" stroke="#d4e3d9" stroke-width="1"/>
+<text text-anchor="middle" x="199.0" y="653.35" font-size="23" fill="#193a30" font-weight="400">23 / 19</text>
+<rect x="282" y="606.85" width="112" height="76" rx="0" fill="#edf4ef" stroke="#d4e3d9" stroke-width="1"/>
+<text text-anchor="middle" x="338.0" y="653.35" font-size="23" fill="#193a30" font-weight="400">4</text>
+<rect x="394" y="606.85" width="130" height="76" rx="0" fill="#edf4ef" stroke="#d4e3d9" stroke-width="1"/>
+<text text-anchor="middle" x="459.0" y="653.35" font-size="23" fill="#193a30" font-weight="400">−2</text>
+<rect x="524" y="606.85" width="130" height="76" rx="0" fill="#edf4ef" stroke="#d4e3d9" stroke-width="1"/>
+<text text-anchor="middle" x="589.0" y="653.35" font-size="23" fill="#193a30" font-weight="400">4</text>
+<rect x="26" y="682.85" width="90" height="76" rx="0" fill="#fff" stroke="#d4e3d9" stroke-width="1"/>
+<text text-anchor="middle" x="71.0" y="729.35" font-size="23" fill="#193a30" font-weight="400">C</text>
+<rect x="116" y="682.85" width="166" height="76" rx="0" fill="#fff" stroke="#d4e3d9" stroke-width="1"/>
+<text text-anchor="middle" x="199.0" y="729.35" font-size="23" fill="#193a30" font-weight="400">25 / 17</text>
+<rect x="282" y="682.85" width="112" height="76" rx="0" fill="#fff" stroke="#d4e3d9" stroke-width="1"/>
+<text text-anchor="middle" x="338.0" y="729.35" font-size="23" fill="#193a30" font-weight="400">8</text>
+<rect x="394" y="682.85" width="130" height="76" rx="0" fill="#fff" stroke="#d4e3d9" stroke-width="1"/>
+<text text-anchor="middle" x="459.0" y="729.35" font-size="23" fill="#193a30" font-weight="400">+2</text>
+<rect x="524" y="682.85" width="130" height="76" rx="0" fill="#fff" stroke="#d4e3d9" stroke-width="1"/>
+<text text-anchor="middle" x="589.0" y="729.35" font-size="23" fill="#193a30" font-weight="400">0.25</text>
+<rect x="26" y="786.85" width="628" height="160" rx="15" fill="#ffffff" stroke="#d4e3d9" stroke-width="2"/>
+<text x="47" y="823.85" font-size="26" fill="#315f91" font-weight="700">C组：目标较早，却相对下降</text>
+<text x="47" y="866.85" font-size="24" fill="#193a30" font-weight="400">目标提前1个循环，参照提前3个循环。</text>
+<text x="47" y="901.85" font-size="24" fill="#193a30" font-weight="400">归一化后为基准的0.25倍，而不是升高。</text>
+<text x="32" y="982.85" font-size="22" fill="#52685f" font-weight="400">结果依赖扩增效率、参照稳定性及可比背景等假设。表中没有</text>
+<text x="32" y="1014.75" font-size="22" fill="#52685f" font-weight="400">生物学重复，不能用于显著性检验或推断蛋白与抗性倍数。</text>
+<text x="32" y="1078.65" font-size="22" fill="#52685f" font-weight="400">原创教学示意；具体来源与适用范围见本章图注。</text>
+</svg>

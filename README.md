@@ -12,6 +12,8 @@
 
 ## 当前结构
 
+研究技术篇新增[12个具体案例](https://petemeng.github.io/Plant-Immunity-Notes/part7-研究技术与实验逻辑/)，每例按问题、观察、对照、解释与结论展开，配7幅原创读图示意。第21—23章保留原有方法讲解和25道自测。
+
 - `docs/`: 成书内容（MkDocs 网站）
 - `素材库/`: 概念卡、文献笔记、实验方法、领域动态
 - `Templates/`: 统一模板（概念卡片、文献笔记）
@@ -60,6 +62,8 @@ python -X utf8 scripts/export_book.py
 研究史中的FLS2、ZAR1、EDS1、NPR1四幅原创教学图可用 `python -X utf8 scripts/render_history_figures.py` 重新生成，无需额外依赖。图示表达概念与证据层次，不是实验数据或原子结构。
 
 第24—27章的12幅原创教学图可用 `python -X utf8 scripts/render_microbiome_figures.py` 重新生成，无需额外依赖。丰度算例为明确标注的虚拟数据。
+
+技术案例的7幅原创图由 `python -X utf8 scripts/render_method_cases.py` 生成；该脚本使用项目内SVG辅助模块，并通过 `matplotlib` 绘制ROS虚拟曲线与互补散点图。
 
 ## 自动发布
 

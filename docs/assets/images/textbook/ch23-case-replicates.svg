@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="1179" viewBox="0 0 680 1179" role="img" aria-labelledby="title desc"><title id="title">23.3 重复层级：植物不等于细胞</title><desc id="desc">条件甲乙各三株独立植物，每株一百个细胞；每组独立植物数为三，而非三百。</desc><style>text{font-family:"Microsoft YaHei","Noto Sans CJK SC",sans-serif}</style><rect width="680" height="1179" fill="#f8faf6"/>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8" fill="#718d7d"/></marker></defs>
+<text x="30" y="45" font-size="30" fill="#193a30" font-weight="700">23.3 重复层级：植物不等于细胞</text>
+<text x="30" y="100.5" font-size="23" fill="#52685f" font-weight="400">虚构取样情境；比较单位需要与问题对应</text>
+<text x="32" y="186.85" font-size="27" fill="#176c55" font-weight="700">条件甲</text>
+<rect x="26" y="209.85" width="200" height="165" rx="15" fill="#edf4ef" stroke="#d4e3d9" stroke-width="2"/>
+<text x="50" y="249.85" font-size="24" fill="#176c55" font-weight="700">独立植株 1</text>
+<text x="50" y="297.85" font-size="23" fill="#193a30" font-weight="400">100个细胞</text>
+<text x="50" y="335.85" font-size="22" fill="#52685f" font-weight="400">共享一个来源</text>
+<rect x="240" y="209.85" width="200" height="165" rx="15" fill="#edf4ef" stroke="#d4e3d9" stroke-width="2"/>
+<text x="264" y="249.85" font-size="24" fill="#176c55" font-weight="700">独立植株 2</text>
+<text x="264" y="297.85" font-size="23" fill="#193a30" font-weight="400">100个细胞</text>
+<text x="264" y="335.85" font-size="22" fill="#52685f" font-weight="400">共享一个来源</text>
+<rect x="454" y="209.85" width="200" height="165" rx="15" fill="#edf4ef" stroke="#d4e3d9" stroke-width="2"/>
+<text x="478" y="249.85" font-size="24" fill="#176c55" font-weight="700">独立植株 3</text>
+<text x="478" y="297.85" font-size="23" fill="#193a30" font-weight="400">100个细胞</text>
+<text x="478" y="335.85" font-size="22" fill="#52685f" font-weight="400">共享一个来源</text>
+<text x="32" y="427.85" font-size="27" fill="#315f91" font-weight="700">条件乙</text>
+<rect x="26" y="450.85" width="200" height="165" rx="15" fill="#eef3f9" stroke="#d4e3d9" stroke-width="2"/>
+<text x="50" y="490.85" font-size="24" fill="#315f91" font-weight="700">独立植株 1</text>
+<text x="50" y="538.85" font-size="23" fill="#193a30" font-weight="400">100个细胞</text>
+<text x="50" y="576.85" font-size="22" fill="#52685f" font-weight="400">共享一个来源</text>
+<rect x="240" y="450.85" width="200" height="165" rx="15" fill="#eef3f9" stroke="#d4e3d9" stroke-width="2"/>
+<text x="264" y="490.85" font-size="24" fill="#315f91" font-weight="700">独立植株 2</text>
+<text x="264" y="538.85" font-size="23" fill="#193a30" font-weight="400">100个细胞</text>
+<text x="264" y="576.85" font-size="22" fill="#52685f" font-weight="400">共享一个来源</text>
+<rect x="454" y="450.85" width="200" height="165" rx="15" fill="#eef3f9" stroke="#d4e3d9" stroke-width="2"/>
+<text x="478" y="490.85" font-size="24" fill="#315f91" font-weight="700">独立植株 3</text>
+<text x="478" y="538.85" font-size="23" fill="#193a30" font-weight="400">100个细胞</text>
+<text x="478" y="576.85" font-size="22" fill="#52685f" font-weight="400">共享一个来源</text>
+<rect x="26" y="643.85" width="628" height="160" rx="15" fill="#ffffff" stroke="#d4e3d9" stroke-width="2"/>
+<text x="47" y="680.85" font-size="26" fill="#176c55" font-weight="700">用于植株层面的组间比较</text>
+<text x="47" y="723.85" font-size="24" fill="#193a30" font-weight="400">每组n = 3株；每组共观察300个细胞。</text>
+<text x="47" y="758.85" font-size="24" fill="#193a30" font-weight="400">全部样本：6株植物，600个细胞。</text>
+<rect x="26" y="825.85" width="628" height="160" rx="15" fill="#ffffff" stroke="#d4e3d9" stroke-width="2"/>
+<text x="47" y="862.85" font-size="26" fill="#315f91" font-weight="700">细胞提供另一层信息</text>
+<text x="47" y="905.85" font-size="24" fill="#193a30" font-weight="400">更多细胞帮助描述同一植株内部差异。</text>
+<text x="47" y="940.85" font-size="24" fill="#193a30" font-weight="400">不能把同株细胞当作300份独立植株来源。</text>
+<text x="32" y="1021.85" font-size="22" fill="#52685f" font-weight="400">需要保留嵌套关系；若土壤、批次或其他处理单位另有共享因</text>
+<text x="32" y="1053.75" font-size="22" fill="#52685f" font-weight="400">素，还应按实际设计解释独立性。</text>
+<text x="32" y="1117.65" font-size="22" fill="#52685f" font-weight="400">原创教学示意；具体来源与适用范围见本章图注。</text>
+</svg>

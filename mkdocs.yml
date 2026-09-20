@@ -44,7 +44,7 @@ extra_javascript:
   - https://unpkg.com/mermaid@10/dist/mermaid.min.js
 
 extra:
-  book_revision: '2026 年 9 月 19 日'
+  book_revision: '2026 年 9 月 20 日'
 
 nav:
   - 从这里开始:
@@ -81,6 +81,7 @@ nav:
       - ch19 根部免疫与共生边界: part6-专题与研读/ch19-根部免疫与共生边界.md
       - ch20 如何阅读植物免疫证据: part6-专题与研读/ch20-如何阅读植物免疫证据.md
   - Part 7 研究技术与实验逻辑:
+      - 从12个具体案例开始: part7-研究技术与实验逻辑/index.md
       - ch21 蛋白质相互作用：Co-IP、Y2H等: part7-研究技术与实验逻辑/ch21-蛋白质相互作用研究技术.md
       - ch22 表达、定位与转录调控: part7-研究技术与实验逻辑/ch22-表达定位与转录调控研究技术.md
       - ch23 遗传学与免疫表型: part7-研究技术与实验逻辑/ch23-遗传学与免疫表型研究技术.md

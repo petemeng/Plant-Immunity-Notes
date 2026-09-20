@@ -6,6 +6,7 @@ on:
     paths:
       - "docs/**"
       - "mkdocs.yml"
+      - "scripts/check_paper_figures.py"
       - "CLAUDE.md"
       - "Templates/**"
       - "素材库/**"
@@ -38,7 +39,9 @@ jobs:
           pip install "mkdocs<2" "mkdocs-material>=9,<10"
 
       - name: Build site
-        run: mkdocs build --strict
+        run: |
+          python scripts/check_paper_figures.py
+          mkdocs build --strict
 
       - name: Setup Pages
         uses: actions/configure-pages@v5

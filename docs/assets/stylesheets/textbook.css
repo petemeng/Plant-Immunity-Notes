@@ -12,6 +12,18 @@
 .md-typeset details { border: 1px solid #cad7c9; border-radius: 6px; padding: .7rem 1rem; margin: .7rem 0 1rem; background: #fafcf9; }
 .md-typeset summary { cursor: pointer; font-family: var(--font-sans); font-weight: 600; color: #31543b; }
 .md-typeset img { max-width: 100%; height: auto; }
+.md-typeset .paper-figure-open { display: block; width: 100%; margin: 1rem 0; padding: .5rem; border: 1px solid #cad7c9; border-radius: 6px; background: white; cursor: zoom-in; text-align: center; }
+.md-typeset .paper-figure-open:focus-visible { outline: 3px solid #31543b; outline-offset: 3px; }
+.paper-viewer { width: min(1400px, 96vw); max-width: 96vw; height: 94vh; max-height: 94vh; padding: 0; border: 1px solid #7d9c82; border-radius: 8px; color: #24382b; background: white; }
+.paper-viewer[open] { display: flex; flex-direction: column; }
+.paper-viewer::backdrop { background: #102218c9; }
+.paper-viewer-toolbar { display: flex; gap: .4rem; align-items: center; flex-wrap: wrap; flex-shrink: 0; padding: .6rem; background: #edf3eb; font: 14px/1.5 "Microsoft YaHei", sans-serif; }
+.paper-viewer-toolbar button { padding: .4rem .6rem; border: 1px solid #7d9c82; border-radius: 4px; background: white; cursor: pointer; color: #24382b; font: inherit; }
+.paper-viewer-toolbar button:focus-visible { outline: 3px solid #31543b; }
+.paper-viewer-toolbar [data-action="close"] { margin-left: auto; }
+.paper-viewer-caption { flex-shrink: 0; margin: 0; padding: .5rem .8rem; font: 13px/1.6 "Microsoft YaHei", sans-serif; }
+.paper-viewer-canvas { flex: 1; min-height: 0; overflow: auto; padding: 12px; background: #f1f2f0; overscroll-behavior: contain; }
+.paper-viewer-canvas img { display: block; max-width: none; height: auto; background: white; }
 .md-typeset .history-tools { background: #edf3eb; border: 1px solid #cad7c9; border-radius: 8px; padding: 1rem; margin: 1.5rem 0; }
 .md-typeset .history-tools label { display: block; font-weight: 600; margin-bottom: .4rem; }
 .md-typeset .history-tools input { width: 100%; padding: .6rem .7rem; background: white; color: #24382b; border: 1px solid #7d9c82; border-radius: 5px; font: inherit; }
@@ -24,6 +36,8 @@
   .md-typeset .learning-guide { padding: .8rem; }
 }
 @media print {
+  .paper-viewer { display: none !important; }
+  .md-typeset .paper-figure-open { border: 0; padding: 0; }
   .history-tools { display: none !important; }
   .md-typeset tr[hidden] { display: table-row !important; }
   .md-header, .md-tabs, .md-sidebar, .md-footer, .md-top, .md-content__button { display: none !important; }

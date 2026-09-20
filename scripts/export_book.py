@@ -165,10 +165,12 @@ aside a{display:block;padding:6px 0;text-decoration:none}aside h2{font-size:20px
     gene_count = sum(source.startswith("history/genes/") and Path(source).name != "index.md" for _, source in pages)
     lab_count = sum(source.startswith("history/labs/") and Path(source).name != "index.md" for _, source in pages)
     revision = escape(config.get("extra", {}).get("book_revision", "持续修订版"))
+    paper_viewer = (ROOT / "docs/assets/javascripts/paper-figures.js").read_text(encoding="utf-8")
     html = f'''<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>植物免疫学 · 完整书稿</title><style>{css}</style></head><body>
 <aside id="book-navigation" aria-label="全书目录"><h2>植物免疫学</h2><input id="filter" type="search" aria-label="筛选章节" placeholder="筛选章节"><nav id="toc">{toc}</nav></aside><a class="back-to-toc" href="#book-navigation" aria-label="返回全书目录">目录 ↑</a>
 <main class="md-typeset"><header class="cover"><p>从基础概念到机制与证据</p><h1>植物免疫学</h1><p>{chapter_count} 章 · {gene_count} 篇基因研究史 · {lab_count} 篇课题组研究脉络</p><p>学习路线 · 机制图解 · 研究技术 · 自测讲解 · 文献研读</p><p>{revision}　教材扩充与科学校订稿</p><div class="controls"><button onclick="window.print()">打印 / 保存为 PDF</button><button id="answers">收起所有答案</button></div><p class="printnote">本文件内嵌正文与插图，可离线阅读；外部论文链接需联网。教学示意不代表实测结果，证据边界见版本说明。</p></header>{''.join(articles)}</main>
 <script>document.getElementById('filter').addEventListener('input',function(){{let q=this.value.toLowerCase();document.querySelectorAll('#toc a').forEach(a=>a.hidden=!a.textContent.toLowerCase().includes(q))}});document.getElementById('answers').addEventListener('click',function(){{let open=this.textContent.includes('展开');document.querySelectorAll('details').forEach(d=>d.open=open);this.textContent=open?'收起所有答案':'展开所有答案'}});window.addEventListener('beforeprint',()=>document.querySelectorAll('details').forEach(d=>d.open=true));</script></body></html>'''
+    html = html.replace("</body></html>", f"<script>{paper_viewer}</script></body></html>")
     final = BeautifulSoup(html,"html.parser")
     ids = Counter(x["id"] for x in final.select("[id]"))
     if any(n>1 for n in ids.values()):

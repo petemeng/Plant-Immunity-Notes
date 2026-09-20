@@ -12,7 +12,7 @@
 
 ## 当前结构
 
-研究技术篇新增[12个具体案例](https://petemeng.github.io/Plant-Immunity-Notes/part7-研究技术与实验逻辑/)，每例按问题、观察、对照、解释与结论展开，配7幅原创读图示意。第21—23章保留原有方法讲解和25道自测。
+研究技术篇提供[真实论文原图研读](https://petemeng.github.io/Plant-Immunity-Notes/part7-研究技术与实验逻辑/)，12个案例按问题、原图面板、观察、对照与结论展开。直接展示经核对许可的出版原图，可点击放大；每张附作者、年份、原图号、论文入口和转载许可。第21—23章保留原有方法讲解和25道自测。
 
 - `docs/`: 成书内容（MkDocs 网站）
 - `素材库/`: 概念卡、文献笔记、实验方法、领域动态
@@ -63,7 +63,7 @@ python -X utf8 scripts/export_book.py
 
 第24—27章的12幅原创教学图可用 `python -X utf8 scripts/render_microbiome_figures.py` 重新生成，无需额外依赖。丰度算例为明确标注的虚拟数据。
 
-技术案例的7幅原创图由 `python -X utf8 scripts/render_method_cases.py` 生成；该脚本使用项目内SVG辅助模块，并通过 `matplotlib` 绘制ROS虚拟曲线与互补散点图。
+技术篇的论文原图及来源清单位于 `docs/assets/images/papers/`；运行 `python -X utf8 scripts/check_paper_figures.py` 核验文件与来源记录。图片保留下载时的原始文件，不经绘图脚本生成。网页与离线版均支持点击放大。旧版虚拟案例的生成脚本 `scripts/render_method_cases.py` 留作历史资料，当前原图案例不使用其图片。
 
 ## 自动发布
 

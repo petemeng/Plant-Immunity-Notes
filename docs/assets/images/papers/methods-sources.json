@@ -1,5 +1,5 @@
 {
-  "scope": "The ten figures newly used in Part 7 methods cases. Earlier figures elsewhere in this directory are outside this audit.",
+  "scope": "Thirteen figures used in Part 7 methods chapters and the calcium/cell-death companion. Earlier figures elsewhere in this directory are outside this audit.",
   "verified_date": "2026-09-20",
   "figures": [
     {
@@ -266,6 +266,82 @@
       "chapter": "part7-研究技术与实验逻辑/ch23-遗传学与免疫表型研究技术.md",
       "modifications": "none; complete published figure, original downloaded file bytes retained",
       "verified_date": "2026-09-20"
+    },
+    {
+      "file": "matsumura2022-fig4.png",
+      "article_title": "Mechanosensory trichome cells evoke a mechanical stimuli–induced immune response in Arabidopsis thaliana",
+      "authors": "Matsumura M, Nomoto M, Itaya T et al.",
+      "year": 2022,
+      "doi": "10.1038/s41467-022-28813-8",
+      "article_url": "https://www.nature.com/articles/s41467-022-28813-8",
+      "figure": "Figure 4 a–g",
+      "source_url": "https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fs41467-022-28813-8/MediaObjects/41467_2022_28813_Fig4_HTML.png",
+      "license_evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8904797/",
+      "verification": "Complete downloaded figure visually inspected and compared with full-text XML caption. a–c WRKY33 promoter YFP; d–g GCaMP3; d minutes, e seconds; e numbered locations map to f, not independent replicates. Mechanical input, not flg22. Three independent experiments do not make the displayed spatial traces a mean with error bars.",
+      "chapter": "part7-研究技术与实验逻辑/钙信号与细胞死亡原图研读.md",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "verified_date": "2026-11-25",
+      "modifications": "none; complete published figure, original downloaded file bytes retained",
+      "sha256": "4aa5f5616d9b54d6553a478bf6185f22fe834aa2b146185b43899d10062ac302",
+      "dimensions": [
+        1999,
+        2171
+      ],
+      "bytes": 3704746,
+      "third_party_exclusion": "No figure-specific third-party exclusion found in checked caption and credit.",
+      "visually_checked": true
+    },
+    {
+      "file": "madhuprakash2024-fig2.jpg",
+      "article_title": "A disease resistance protein triggers oligomerization of its NLR helper into a hexameric resistosome to mediate innate immunity",
+      "authors": "Madhuprakash J, Toghani A, Contreras MP et al.",
+      "year": 2024,
+      "doi": "10.1126/sciadv.adr2594",
+      "article_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11540030/",
+      "figure": "Figure 2 A–F",
+      "source_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/1b1f/11540030/4cea8f72e269/sciadv.adr2594-f2.jpg",
+      "license_evidence_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11540030/",
+      "verification": "Complete downloaded figure visually inspected and compared with XML and PMC caption. A–D interfaces; E representative leaf HR; F native PAGE oligomerization, red asterisk not statistical significance. Exact hexamer architecture from original Figure 1 rather than native mobility arithmetic. Expression checks in supplements, not presumed to be in F. No operational engineering or pathogen propagation instructions.",
+      "chapter": "part7-研究技术与实验逻辑/钙信号与细胞死亡原图研读.md",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "verified_date": "2026-11-25",
+      "modifications": "none; complete published figure, original downloaded file bytes retained",
+      "sha256": "3d5d3f083cb1edea364d45cef9fd49748dbdaa7a122c6d649398d4529c58d91f",
+      "dimensions": [
+        798,
+        755
+      ],
+      "bytes": 205603,
+      "third_party_exclusion": "No figure-specific third-party exclusion found in checked caption and credit.",
+      "visually_checked": true
+    },
+    {
+      "file": "zhu2018-pgen1007628-fig5.png",
+      "article_title": "Modulation of ACD6 dependent hyperimmunity by natural alleles of an Arabidopsis thaliana NLR resistance gene",
+      "authors": "Zhu W, Zaidem M, Van de Weyer A-L et al.",
+      "year": 2018,
+      "doi": "10.1371/journal.pgen.1007628",
+      "article_url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1007628",
+      "figure": "Figure 5 A–B",
+      "source_url": "https://journals.plos.org/plosgenetics/article/figure/image?download&size=large&id=10.1371/journal.pgen.1007628.g005",
+      "license_evidence_url": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1007628",
+      "verification": "Complete downloaded figure visually inspected and compared with official caption and methods. A Arabidopsis phenotype counts with unequal totals; B Nb conductivity ratio and photo, six independent plants; GFP background nonzero. C1/C2 ratio does not count dead cells. Caption and methods differ on sampling day; photo is another time point. No invented error-bar definition or raw numerical values.",
+      "chapter": "part7-研究技术与实验逻辑/钙信号与细胞死亡原图研读.md",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "verified_date": "2026-11-25",
+      "modifications": "none; complete published figure, original downloaded file bytes retained",
+      "sha256": "833870f7b82ea6479cf51e71679fce158225ca75720957cee85f9508077f8075",
+      "dimensions": [
+        1300,
+        1014
+      ],
+      "bytes": 509769,
+      "third_party_exclusion": "No figure-specific third-party exclusion found in checked caption and credit.",
+      "visually_checked": true
     }
-  ]
+  ],
+  "last_extended": "2026-11-25"
 }

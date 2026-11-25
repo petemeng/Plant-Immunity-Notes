@@ -299,6 +299,16 @@
     2026 年的结构研究进一步把 helper NLR 从“下游执行器”推进到“可聚合的信号平台”。Ge et al. (2026) 发现，CNL 型 sensor NLR SUMM2 激活后，可以诱导 EDS1-PAD4 与 ADR1-L1 组装成 helper NLR 抗病小体簇，而不是一条简单的线性通路。这个结果提示：helper NLR 的寡聚状态可能决定输出阈值、细胞死亡强度和防御基因激活比例，是未来解耦“有效防御”与“组织损伤”的关键调控层。
   </p>
 
+  <h3 id="nrc-hexamer">NRC2 六聚体：辅助受体也有自己的组装架构</h3>
+  <p>“CNL”按结构与谱系特征分类，并不规定激活后必须由五个亚基组成。Madhuprakash 等（2024）解析了感知受体激活的本氏烟草 NbNRC2，观察到<strong>同源六聚体</strong>抗病小体。这为本章“不能把所有 CNL 都定义为五聚体钙通道”的提醒提供了具体反例，也把辅助受体从功能名称推进到可比较的结构对象。<a href="https://doi.org/10.1126/sciadv.adr2594">原始研究</a></p>
+  <table><thead><tr><th>已解析实例</th><th>激活复合体的结构结果</th><th>学习时应保留的区别</th></tr></thead><tbody>
+  <tr><td>ZAR1</td><td>五聚体</td><td>2019年结构与2021年通道功能分别提供证据</td></tr>
+  <tr><td>RPP1、ROQ1等TNL</td><td>已解析实例为四聚体</td><td>TIR酶产物与下游执行通道属于不同层次</td></tr>
+  <tr><td>NbNRC2辅助CNL</td><td>感知受体激活后形成六聚体</td><td>感知者与辅助执行者分工，不能照搬单体型受体的全部逻辑</td></tr>
+  </tbody></table>
+  <p>这项研究还把亚基接触、组装读数和HR相关组织输出联系起来。结构显示“由几个亚基组成”，非变性电泳显示“是否检测到高阶组装”，叶片照片显示“出现什么组织表型”；三者不能互相替代。该论文也讨论从静息二聚体转为六聚体的可能路径，具体经过哪些中间态仍需证据，不能只因六等于三个二，就认定已拍到三个二聚体直接合并。</p>
+  <p>可对照<a href="../../part7-研究技术与实验逻辑/钙信号与细胞死亡原图研读/#case-hr-assembly">原文Figure 2的逐面板解读</a>，练习分开结构、组装与细胞死亡；不要从一张六聚体图自动推出离子选择性、完整抗病效果或全部NRC成员的装配数目。</p>
+
   <!-- 4.7 HR -->
   <h2><span class="section-num">4.8</span>过敏性坏死反应 (HR) 的分子基础</h2>
 
@@ -433,7 +443,7 @@
           Reconstitution and structure of a plant NLR resistosome conferring immunity.
           <span class="journal"><em>Science</em>, 2019, 364(6435): eaav5870.</span>
         </div>
-        <div class="reading-reason">首个完整的植物 NLR 激活态结构，确立了抗病小体概念，揭示 CNL 作为钙离子通道的机制。不读此文无法理解本章核心内容。</div>
+        <div class="reading-reason">解析ZAR1激活态组装并确立抗病小体概念，为随后2021年的通道功能验证提供结构线索。阅读时分清结构与功能的证据分工。</div>
       </div>
 
       <div class="reading-item">
@@ -534,6 +544,7 @@
     <li>Kroj T, Chanclud E, Michel-Romiti C, et al. Integration of decoy domains derived from protein targets of pathogen effectors into plant immune receptors is widespread. <em>New Phytol</em>, 2016, 210: 618–626.</li>
     <li>Lapin D, Bhandari DD, Parker JE. Origins and immunity networking functions of EDS1 family proteins. <em>Annu Rev Phytopathol</em>, 2022, 60: 253–276.</li>
     <li>Le Roux C, Huet G, Jauneau A, et al. A receptor pair with an integrated decoy converts pathogen disabling of transcription factors to immunity. <em>Cell</em>, 2015, 161: 1074–1088.</li>
+    <li>Madhuprakash J, Toghani A, Contreras MP, et al. A disease resistance protein triggers oligomerization of its NLR helper into a hexameric resistosome to mediate innate immunity. <em>Science Advances</em>, 2024, 10: eadr2594. <a href="https://doi.org/10.1126/sciadv.adr2594">DOI</a>.</li>
     <li>Maqbool A, Saitoh H, Franceschetti M, et al. Structural basis of pathogen recognition by an integrated HMA domain in a plant NLR immune receptor. <em>eLife</em>, 2015, 4: e08709.</li>
     <li>Sarris PF, Cevik V, Dagdas G, et al. Comparative analysis of plant immune receptor architectures uncovers host proteins likely targeted by pathogens. <em>BMC Biol</em>, 2016, 14: 8.</li>
     <li>Sarris PF, Duxbury Z, Huh SU, et al. A plant immune receptor detects pathogen effectors that target WRKY transcription factors. <em>Cell</em>, 2015, 161: 1089–1100.</li>

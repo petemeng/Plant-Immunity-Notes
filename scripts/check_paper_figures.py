@@ -30,7 +30,7 @@ def main():
         assert f"../assets/images/papers/{file.name}" in source, f"Unused figure: {file.name}"
         assert record["doi"] in source, f"Missing article DOI in {chapter.name}"
     used = set()
-    for chapter in (ROOT / "docs/part7-研究技术与实验逻辑").glob("ch*.md"):
+    for chapter in (ROOT / "docs/part7-研究技术与实验逻辑").glob("*.md"):
         used.update(re.findall(r"!\[[^\]]*\]\(\.\./assets/images/papers/([^\)]+)\)", chapter.read_text(encoding="utf-8")))
     assert seen == used, f"Manifest and chapter images differ: {seen ^ used}"
     print(f"Verified {len(records)} paper figures: complete provenance, unchanged bytes, chapter references.")

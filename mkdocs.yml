@@ -45,12 +45,15 @@ extra_javascript:
   - https://unpkg.com/mermaid@10/dist/mermaid.min.js
 
 extra:
-  book_revision: '2026 年 9 月 20 日'
+  book_revision: '2026 年 11 月 25 日'
 
 nav:
   - 从这里开始:
       - 前言与全书导览: index.md
       - 学习路线与知识地图: learning/学习路线与知识地图.md
+      - 病理基础与侵染循环: learning/病理基础与侵染循环.md
+      - 拟南芥模式系统贯穿案例: learning/拟南芥模式系统贯穿案例.md
+      - 教材、综述与公开课导读: learning/教材综述与公开课导读.md
       - 研究史系列导览: history/index.md
       - 跨主题发现年表: history/timeline.md
       - 研究史资料与署名: history/sources-and-attribution.md
@@ -86,6 +89,7 @@ nav:
       - ch21 蛋白质相互作用：Co-IP、Y2H等: part7-研究技术与实验逻辑/ch21-蛋白质相互作用研究技术.md
       - ch22 表达、定位与转录调控: part7-研究技术与实验逻辑/ch22-表达定位与转录调控研究技术.md
       - ch23 遗传学与免疫表型: part7-研究技术与实验逻辑/ch23-遗传学与免疫表型研究技术.md
+      - 钙信号、HR与电解质渗漏原图: part7-研究技术与实验逻辑/钙信号与细胞死亡原图研读.md
       - 原图来源与使用说明: part7-研究技术与实验逻辑/原图来源与使用说明.md
   - Part 8 免疫与微生物:
       - 专题导览: part8-免疫与微生物/index.md

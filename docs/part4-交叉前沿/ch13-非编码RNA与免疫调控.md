@@ -34,12 +34,18 @@
 
   <h3>认知演变</h3>
   <div class="box box-cognition"><div class="box-title">认知修正</div>
-  <p><strong>过去：</strong>RNA 沉默最初被视为实验室中的基因工具或转座子控制机制，与免疫关系不大。<br><strong>转折：</strong>2000年代初，多项研究证明 RNA 沉默是植物抗病毒免疫的主要机制——许多植物病毒具有 RNA 沉默抑制子（VSR）的观察，从反面证明了沉默路径的防御重要性。<br><strong>现在：</strong>RNA 沉默被认为是与 PTI/ETI 平行的第三大免疫层——尤其对 RNA 病毒，它比 NLR 介导的免疫更为普遍和基础。</p></div>
+  <p><strong>过去：</strong>RNA 沉默研究的重要入口包括转基因沉默和内源基因调控。<br><strong>转折：</strong>2000年代的研究将宿主小RNA加工与病毒限制联系起来；病毒沉默抑制子提供了另一条研究线索。<br><strong>现在：</strong>RNA沉默是抗病毒防御的重要机制，也调节宿主免疫网络。它与受体介导防御可以相互联系，不能仅凭“三套雷达”的类比推定三者完全独立。</p></div>
 
   <h3>抗病毒 RNA 沉默的分子机制</h3>
-  <p>当 RNA 病毒在宿主细胞中复制时，其 RNA 依赖的 RNA 聚合酶（RdRP）产生的双链 RNA（dsRNA）复制中间体被宿主 Dicer-like（DCL）蛋白识别并切割为21-24 nt 的小干扰 RNA（virus-derived siRNA, vsiRNA）。这些 vsiRNA 被装载入 Argonaute（AGO）蛋白，形成 RNA 诱导沉默复合体（RISC），通过碱基互补配对靶向降解病毒 RNA (Ding & Voinnet, 2007)。</p>
+  <p>病毒复制及相关RNA加工可产生适合Dicer-like（DCL）蛋白处理的双链RNA（dsRNA）。由此形成的病毒来源小干扰RNA（virus-derived siRNA，vsiRNA）可以装载Argonaute（AGO），以序列互补帮助定位靶RNA。应区分不同长度、来源与执行方式，不能把21—24 nt全部写成一种统一的“剪切病毒RNA”机制 (Blevins et al., 2006; Ding &amp; Voinnet, 2007)。</p>
+  <table><thead><tr><th>常见关系</th><th>入门时怎样理解</th><th>需要保留的范围</th></tr></thead><tbody>
+  <tr><td>DCL4与21 nt</td><td>在多种拟南芥RNA病毒体系中承担重要加工任务</td><td>受病毒、组织及其他沉默因子影响</td></tr>
+  <tr><td>DCL2与22 nt</td><td>可在部分体系中补充或联系其他小RNA防御过程</td><td>与DCL4的层级和协作不是所有植物通用的固定关系</td></tr>
+  <tr><td>DCL3与24 nt</td><td>涉及另一类小RNA加工；DNA病毒相关沉默还需要考虑核内模板与转录层次</td><td>检出某种长度，不能直接认定其全部功能或有效保护</td></tr>
+  <tr><td>AGO装载与执行</td><td>小RNA提供序列信息，AGO及伙伴完成相应功能</td><td>小RNA存在、被装载、靶标受作用和病害改变是不同观察</td></tr>
+  </tbody></table>
 
-  <p>这个系统的精妙之处在于其<strong>自放大特性</strong>：宿主的 RDR（RNA-Dependent RNA Polymerase，如 RDR6）以初级 siRNA 引导的切割产物为模板，合成新的 dsRNA，产生"次级 siRNA"——形成正反馈环路，大幅放大沉默信号。更重要的是，沉默信号可以通过胞间连丝在细胞间移动，并通过韧皮部实现全株性传播——为病毒还未到达的远端组织预先建立防御 (Melnyk et al., 2011)。</p>
+  <p>宿主RNA依赖的RNA聚合酶，如RDR6，可利用合适的RNA底物形成双链RNA，参与次级小RNA产生；这种放大并非所有病毒小RNA形成都必需，也不能把底物一律限定为某一种切割产物。沉默相关信息还可通过细胞间及长距离途径影响其他部位，但其移动形式、宿主依赖与保护结果需要按体系说明 (Blevins et al., 2006; Melnyk et al., 2011)。</p>
 
   <h3>病毒与 RNA 沉默的相互作用</h3>
   <p>许多植物病毒具有干扰宿主 RNA 沉默的蛋白功能，这反过来支持 RNA 沉默具有防御意义。阅读相关研究时，应区分小 RNA 积累、AGO 活性、局部沉默与系统信号等不同观察层次；一个层次变化并不能自动确定整株抗性的变化。病毒相关蛋白也可能有多重功能，其表型不能仅用单一作用解释。</p>
@@ -203,7 +209,7 @@
   </div>
 
   <!-- ======== 13.5 表观遗传学 ======== -->
-  <div class="box box-cognition"><div class="box-title">◆ 证据边界：胞外 RNA 不等于囊泡内部 RNA</div><p>Zand Karimi et al. (2022) 在拟南芥质外体发现位于囊泡之外的 RNA–蛋白复合物，提示胞外 RNA 有多种承载形态。它不自动否定特定体系中的囊泡运输，却要求我们在解释跨界 RNAi 时分别检验来源、空间位置、受体细胞内的功能与疾病贡献。混合组织测序或预测到互补序列，均不能单独完成这条证据链。<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9048913/">原始研究</a>。</p></div>
+  <div class="box box-cognition"><div class="box-title">◆ 证据边界：胞外 RNA 不等于囊泡内部 RNA</div><p>Zand Karimi et al. (2022) 在拟南芥质外体发现位于囊泡之外的 RNA–蛋白复合物，提示胞外 RNA 有多种承载形态。它不自动否定特定体系中的囊泡运输，却要求我们在解释跨界 RNAi 时分别检验来源、空间位置、受体细胞内的功能与疾病贡献。混合组织测序或预测到互补序列，均不能单独完成这条证据链。<a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9048913/">原始研究</a>。</p><p>“胞外囊泡”（EV）是较宽的描述，不能在没有发生来源证据时都称为内体来源的“外泌体”（exosome）。与囊泡共同检出、位于囊泡内部、进入另一生物及产生功能，也需要分别判断。一个植物—真菌体系的结果，不能自动推广到所有真菌、卵菌和运输载体。</p></div>
 
   <h2><span class="section-num">13.5</span>表观遗传学与免疫记忆</h2>
 
@@ -312,6 +318,7 @@
   <!-- ======== 参考文献 ======== -->
   <h2><span class="section-num">13.10</span>参考文献</h2>
   <ol class="references">
+    <li>Blevins T, Rajeswaran R, Shivaprasad PV, et al. Four plant Dicers mediate viral small RNA biogenesis and DNA virus induced silencing. <em>Nucleic Acids Res</em>, 2006, 34: 6233–6246. DOI: <a href="https://doi.org/10.1093/nar/gkl886">10.1093/nar/gkl886</a>.</li>
     <li>Boccara M, Sarazin A, Thiébeauld O, et al. The <em>Arabidopsis</em> miR472-RDR6 silencing pathway modulates PAMP- and effector-triggered immunity through the post-transcriptional control of disease resistance genes. <em>PLoS Pathog</em>, 2014, 10: e1003883.</li>
     <li>Borges F, Martienssen RA. The expanding world of small RNAs in plants. <em>Nat Rev Mol Cell Biol</em>, 2015, 16: 727–741.</li>
     <li>Cai Q, Qiao L, Wang M, et al. Plants send small RNAs in extracellular vesicles to fungal pathogen to silence virulence genes. <em>Science</em>, 2018, 360: 1126–1129.</li>

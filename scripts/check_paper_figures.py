@@ -1,4 +1,4 @@
-"""Check provenance and integrity of the new methods chapter paper figures."""
+"""Check registered paper figures in methods and framework companion pages."""
 from pathlib import Path
 from urllib.parse import urlparse
 import hashlib
@@ -10,7 +10,10 @@ ASSETS = ROOT / "docs/assets/images/papers"
 
 
 def main():
-    records = json.loads((ASSETS / "methods-sources.json").read_text(encoding="utf-8"))["figures"]
+    manifests = sorted(ASSETS.glob("*-sources.json"))
+    assert manifests, "No paper figure manifests found"
+    records = [record for manifest in manifests
+               for record in json.loads(manifest.read_text(encoding="utf-8"))["figures"]]
     required = ("file", "article_title", "authors", "year", "doi", "article_url",
                 "figure", "source_url", "license", "license_url", "license_evidence_url",
                 "sha256", "chapter", "modifications")
@@ -30,7 +33,7 @@ def main():
         assert f"../assets/images/papers/{file.name}" in source, f"Unused figure: {file.name}"
         assert record["doi"] in source, f"Missing article DOI in {chapter.name}"
     used = set()
-    for chapter in (ROOT / "docs/part7-研究技术与实验逻辑").glob("*.md"):
+    for chapter in (ROOT / "docs").rglob("*.md"):
         used.update(re.findall(r"!\[[^\]]*\]\(\.\./assets/images/papers/([^\)]+)\)", chapter.read_text(encoding="utf-8")))
     assert seen == used, f"Manifest and chapter images differ: {seen ^ used}"
     print(f"Verified {len(records)} paper figures: complete provenance, unchanged bytes, chapter references.")
